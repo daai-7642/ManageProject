@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e8aa68b2b064a06a43899db28df709d" Name="Diagram1">
+        <EntityTypeShape EntityType="SuperDBModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.Function" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.FunctionGroup" Width="1.5" PointX="5.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.MyRoles" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.MyUsers" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.UserClaim" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.UserLogin" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuperDBModel.UserRole" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="SuperDBModel.FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="SuperDBModel.FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="SuperDBModel.FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="SuperDBModel.FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
