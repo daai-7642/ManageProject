@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -41,8 +42,41 @@ namespace ViewModel
         public FunctionViewModel EntityToViewModel(Function entity)
         {
             FunctionViewModel viewModel = new FunctionViewModel();
-            //viewModel.FunctionID
+            PropertyInfo[] funField = typeof(Function).GetProperties();
+            PropertyInfo[] vfunField = typeof(FunctionViewModel).GetProperties();
+            
+            for (int i = 0; i < funField.Length; i++)
+            {
+                PropertyInfo t = vfunField.Where(a => a.Name == funField[i].Name).FirstOrDefault();
+                if (t != null)
+                {
+                    for (int j = 0; j < vfunField.Length; j++)
+                    {
+                        t.SetValue(viewModel, vfunField[j], null);
+                    }
+                }
+            }
             return viewModel;
         }
+        public Function ViewModelToEntity(FunctionViewModel viewModel)
+        {
+            Function entity = new Function();
+            PropertyInfo[] funField = typeof(Function).GetProperties();
+            PropertyInfo[] vfunField = typeof(FunctionViewModel).GetProperties();
+
+            for (int i = 0; i < vfunField.Length; i++)
+            {
+                PropertyInfo t = funField.Where(a => a.Name == vfunField[i].Name).FirstOrDefault();
+                if (t != null)
+                {
+                    for (int j = 0; j < funField.Length; j++)
+                    {
+                        t.SetValue(entity, funField[j], null);
+                    }
+                }
+            }
+            return entity;
+        }
+
     }
 }

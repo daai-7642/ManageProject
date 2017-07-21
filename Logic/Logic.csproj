@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FunctionLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -47,9 +48,9 @@
       <Project>{33fa7422-b41e-4352-9142-e06114fa70f6}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Entity\Entity.csproj">
-      <Project>{b5278e82-3efb-420d-8f5b-9935e9b102f2}</Project>
-      <Name>Entity</Name>
+    <ProjectReference Include="..\ViewModel\ViewModel.csproj">
+      <Project>{ba0704e0-18fc-4d32-be5b-41962b562c70}</Project>
+      <Name>ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
