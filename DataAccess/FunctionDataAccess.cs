@@ -20,6 +20,17 @@ namespace DataAccess
         public List<FunctionViewModel> GetFunctionList()
         {
             List < FunctionViewModel > list= new List<FunctionViewModel>();
+            var db = new SuperDBEntities();
+            db.Function.Add(new Function() {
+                FunctionName="测试",
+                PageURL="www.baidu.com",
+                Description=""
+            });
+            db.FunctionGroup.Add(new FunctionGroup()
+            {
+                GroupName = "系统管理"
+            });
+            db.SaveChanges();
             var data=new SuperDBEntities().Function.ToList();
             foreach (var item in data)
             {

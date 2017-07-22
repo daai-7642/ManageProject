@@ -1,4 +1,4 @@
-﻿@using List<ViewModel.FunctionViewModel>
+﻿@model List<ViewModel.FunctionViewModel>
 @{
     Layout = null;
 }
@@ -12,6 +12,15 @@
 </head>
 <body>
     <div> 
+        <table>
+            @foreach (var item in @Model)
+            {
+                <tr>
+                    <td>@item.FunctionName</td>
+                </tr>
+            }
+        </table>
+        
     </div>
 </body>
 </html>

@@ -21,10 +21,10 @@
           </Key>
           <Property Name="FunctionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="GroupID" Type="int" Nullable="false" />
-          <Property Name="FunctionName" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="PageURL" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="FunctionName" Type="nvarchar" MaxLength="50" />
+          <Property Name="PageURL" Type="varchar" MaxLength="200" />
           <Property Name="OrderNo" Type="int" Nullable="false" />
-          <Property Name="Description" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="200" />
           <Property Name="Status" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="FunctionGroup">
@@ -32,12 +32,12 @@
             <PropertyRef Name="GroupID" />
           </Key>
           <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="GroupName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="GroupName" Type="varchar" MaxLength="50" />
           <Property Name="ParentID" Type="int" Nullable="false" />
-          <Property Name="GroupCode" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="GroupCode" Type="varchar" MaxLength="50" />
           <Property Name="OrderNo" Type="int" Nullable="false" />
           <Property Name="State" Type="smallint" Nullable="false" />
-          <Property Name="Description" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="MyRoles">
           <Key>
@@ -190,10 +190,10 @@
             </Documentation>
           </Property>
           <Property Name="GroupID" Type="Int32" Nullable="false" />
-          <Property Name="FunctionName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="PageURL" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FunctionName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PageURL" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="OrderNo" Type="Int32" Nullable="false" />
-          <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="Status" Type="Int32" Nullable="false" />
         </EntityType>
         <EntityType Name="FunctionGroup">
@@ -201,12 +201,12 @@
             <PropertyRef Name="GroupID" />
           </Key>
           <Property Name="GroupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="GroupName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GroupName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="ParentID" Type="Int32" Nullable="false" />
-          <Property Name="GroupCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GroupCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="OrderNo" Type="Int32" Nullable="false" />
           <Property Name="State" Type="Int16" Nullable="false" />
-          <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="MyRoles">
           <Key>
