@@ -1,0 +1,55 @@
+﻿@using Webdiyer.WebControls.Mvc;
+@using Entity;
+@model PagedList<MyRoles>
+
+<table class="table table-border table-bordered table-hover table-bg">
+    <thead>
+        <tr>
+            <th scope="col" colspan="6">角色管理</th>
+        </tr>
+        <tr class="text-c">
+            <th width="25"><input type="checkbox" value="" name=""></th>
+            <th width="40">ID</th>
+            <th width="200">角色名</th>
+            <th>用户列表</th>
+            <th width="300">描述</th>
+            <th width="70">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="text-c">
+                <td><input type="checkbox" value="" name=""></td>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td><a href="#">admin</a></td>
+                <td>@item.Description</td>
+                <td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑','admin-role-add.html','1')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+            </tr>
+        }
+
+
+    </tbody>
+
+</table>
+<div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">显示 1 到 2 ，共 2 条</div>
+
+@Ajax.Pager(Model, new PagerOptions
+{
+  
+    CssClass = "paginate_button",
+    FirstPageText = "首页",
+    LastPageText = "尾页",
+    NextPageText = "下一页",
+    PrevPageText = "上一页",
+    PageIndexParameterName = "pageIndex",
+    NumericPagerItemCount = 5,
+    //ContainerTagName = "ul",
+    CurrentPagerItemTemplate = " <a href=\"#\" class=\"current\">{0}</a> ",
+    DisabledPagerItemTemplate = "<li class=\"disabled\"><a>{0}</a></li>",
+    //PagerItemTemplate = "<li>{0}</li>",
+    
+    PageIndexBoxId = "pageIndexBox",
+}, new MvcAjaxOptions { UpdateTargetId = "content", HttpMethod = "get", DataFormId = "searchForm", EnableHistorySupport = false })
+

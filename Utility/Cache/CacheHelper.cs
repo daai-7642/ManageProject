@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Caching;
-namespace FMCG.Utility.Cache
+namespace Utility.Cache
 {
    
     /// <summary>

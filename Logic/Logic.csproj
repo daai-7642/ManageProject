@@ -42,11 +42,16 @@
   <ItemGroup>
     <Compile Include="FunctionLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{33fa7422-b41e-4352-9142-e06114fa70f6}</Project>
       <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{B5278E82-3EFB-420D-8F5B-9935E9B102F2}</Project>
+      <Name>Entity</Name>
     </ProjectReference>
     <ProjectReference Include="..\ViewModel\ViewModel.csproj">
       <Project>{ba0704e0-18fc-4d32-be5b-41962b562c70}</Project>

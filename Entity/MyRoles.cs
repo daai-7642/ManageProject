@@ -22,6 +22,8 @@ namespace Entity
     
         public string Id { get; set; }
         public string Name { get; set; }
+        public string Description { get; set; }
+        public int Status { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UserRole> UserRole { get; set; }
