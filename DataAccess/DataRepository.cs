@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -18,23 +19,29 @@ namespace DataAccess
                 return EFContextFactory.GetCurrentDbContext();
             }
         }
-        public static List<T> PageList<T,S>(int pageIndex, int pageSize, Expression<Func<T,S>> sort, Expression<Func<T, bool>> predicate, out int totalCount) where T : class
+        public static List<T> PageList<T, S>(int pageIndex, int pageSize, Expression<Func<T, S>> sort, bool IsAsc, Expression<Func<T, bool>> predicate, out int totalCount) where T : class
         {
 
             IQueryable<T> data = null;
             if (predicate != null)
             {
-                data = DB.Set<T>().OrderBy(sort).Where(predicate);
+                if (IsAsc)
+                    data = DB.Set<T>().OrderBy(sort).Where(predicate);
+                else
+                    data = DB.Set<T>().OrderByDescending(sort).Where(predicate);
             }
             else
             {
-                data= DB.Set<T>().OrderBy(sort);
+                if (IsAsc)
+                    data = DB.Set<T>().OrderBy(sort);
+                else
+                    data = DB.Set<T>().OrderByDescending(sort);
             }
-            
+
             totalCount = data.Count();
             return data.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
         }
-        public static int Add<T>(T t) where T: class
+        public static int Add<T>(T t) where T : class
         {
             try
             {
@@ -45,6 +52,51 @@ namespace DataAccess
             {
                 return 0;
             }
+        }
+        public static int Update<T>(T t, string Id) where T : class
+        {
+
+            if (Id != null)
+            {
+                try
+                {
+                    DbEntityEntry<T> entry = DB.Entry<T>(t);
+                    return DB.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    return 0;
+                }
+            }
+            else
+            {
+                return 0;
+            }
+        }
+        public static int UpdateEntityFields<T>(T entity, List<string> fileds) where T : class
+        {
+            if (entity != null && fileds != null)
+            {
+                try
+                {
+
+                    DB.Set<T>().Attach(entity);
+                    var SetEntry = ((IObjectContextAdapter)DB).ObjectContext.
+                        ObjectStateManager.GetObjectStateEntry(entity);
+                    foreach (var t in fileds)
+                    {
+                        SetEntry.SetModifiedProperty(t);
+                    }
+                    return DB.SaveChanges();
+
+                }
+                catch (Exception ex)
+                {
+
+                    return 0;
+                }
+            }
+            return 0;
         }
     }
 }

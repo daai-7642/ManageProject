@@ -11,12 +11,13 @@ namespace AdminWeb.Controllers
 {
     public class RolesController : Controller
     {
+        RoleLogic roleLogic = new RoleLogic();
         // GET: Roles
         public ActionResult Index(string roleName="", int pageIndex=1)
         {
             int totalCount = 0;
             int pageSize = OperateHelper.PageSize;
-            var list = new RoleLogic().GetRolesPageList(pageIndex,pageSize, a => a.Id, a=> roleName == "" ? true : a.Name.Contains(roleName), out totalCount);
+            var list = roleLogic.GetRolesPageList(pageIndex,pageSize, a => a.Id,false, a=> roleName == "" ? true : a.Name.Contains(roleName)&&a.Status==1, out totalCount);
             var pageList = new PagedList<MyRoles>(list,pageIndex,pageSize,totalCount);
             if(Request.IsAjaxRequest())
             {
@@ -34,7 +35,29 @@ namespace AdminWeb.Controllers
         {
             role.Status = 1;
             role.Id = DateTime.Now.ToString("yyyyMMddhhmmssff");
-            return Json(new RoleLogic().CreateRole(role));
+            return Json(roleLogic.CreateRole(role));
+        }
+        [HttpPost]
+        public ActionResult StartRole(string roleId)
+        {
+            MyRoles role = new MyRoles()
+            {
+                Id = roleId,
+                Status = 1
+            };
+            int result=roleLogic.UpdateRoleStatus(role) ;
+            return Json(result);
+        }
+        [HttpPost]
+        public ActionResult StopRole(string roleId)
+        {
+            MyRoles role = new MyRoles()
+            {
+                Id = roleId,
+                Status = 0
+            };
+            int result = roleLogic.UpdateRoleStatus(role);
+            return Json(result);
         }
     }
 }

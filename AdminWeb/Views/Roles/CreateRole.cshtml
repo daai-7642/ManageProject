@@ -21,32 +21,32 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-3">网站角色：</label>
             <div class="formControls col-xs-8 col-sm-9">
-               @foreach (var item in data.FunctionGroup)
-               {
-                <dl class="permission-list">
-                    <dt>
-                        <label>
-                            <input type="checkbox" value="" name="user-Character-0" id="user-Character-0">
-                            @item.GroupName
-                        </label>
-                    </dt>
-                    <dd>
-                        @foreach (var fun in data.Function.Where(a => a.GroupID == item.GroupID))
-                        {
-                            <dl class="cl permission-list2">
-                                <dt>
-                                    <label class="">
-                                        <input type="checkbox" value="" name="user-Character-0-0" id="user-Character-0-0">
-                                        @fun.FunctionName
-                                    </label>
-                                </dt>
-                            </dl>
+                @foreach (var item in data.FunctionGroup)
+                {
+                    <dl class="permission-list">
+                        <dt>
+                            <label>
+                                <input type="checkbox" value="" name="user-Character-0" id="user-Character-0">
+                                @item.GroupName
+                            </label>
+                        </dt>
+                        <dd>
+                            @foreach (var fun in data.Function.Where(a => a.GroupID == item.GroupID))
+                            {
+                                <dl class="cl permission-list2">
+                                    <dt>
+                                        <label class="">
+                                            <input type="checkbox" value="" name="user-Character-0-0" id="user-Character-0-0">
+                                            @fun.FunctionName
+                                        </label>
+                                    </dt>
+                                </dl>
 
-                        }
-                     </dd>
-                </dl>
-               }
-             </div>
+                            }
+                        </dd>
+                    </dl>
+                }
+            </div>
         </div>
         <div class="row cl">
             <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
@@ -79,19 +79,21 @@
 
     });
     $("#form-admin-role-add").submit(function () {
-       
-        
-        return false;
+
         $(this).ajaxSubmit(function (res) {
-            if (res == 1)
-            {
-                layer.msg('创建成功!', { icon: 1, time: 1000 });
-                
+            if (res == 1) {
+                layer.msg('创建成功!', { icon: 1, time: 1000 }, function (res) {
+
+                    refresh();
+
+                });
+
+
             } else {
                 alert("创建失败");
-            } 
+            }
         })
         //$(this)[0].onsubmit = false;
-         return false;
+        return false;
     })
 </script>

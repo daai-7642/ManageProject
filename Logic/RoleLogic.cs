@@ -19,13 +19,19 @@ namespace Logic
         /// <param name="pageSize"></param>
         /// <param name="predicate"></param>
         /// <returns></returns>
-        public List<MyRoles> GetRolesPageList(int pageIndex, int pageSize, Expression<Func<MyRoles,string >> sort,Expression<Func<MyRoles, bool>> predicate,out int totalCount)
+        public List<MyRoles> GetRolesPageList(int pageIndex, int pageSize, Expression<Func<MyRoles,string >> sort,bool isAsc,Expression<Func<MyRoles, bool>> predicate,out int totalCount)
         {
-            return DataRepository.PageList<MyRoles,string >(pageIndex, pageSize, sort, predicate, out totalCount);
+            return DataRepository.PageList<MyRoles,string >(pageIndex, pageSize, sort, isAsc, predicate, out totalCount);
         }
         public int CreateRole(MyRoles role)
         {
             return DataRepository.Add<MyRoles>(role);
+        }
+        public int UpdateRoleStatus(MyRoles role)
+        {
+            List<string> fileds = new List<string>();
+            fileds.Add("Status");
+            return DataRepository.UpdateEntityFields<MyRoles>(role, fileds);
         }
     }
 }
