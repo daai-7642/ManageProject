@@ -17,7 +17,7 @@ namespace AdminWeb.Controllers
         {
             int totalCount = 0;
             int pageSize = OperateHelper.PageSize;
-            var list = roleLogic.GetRolesPageList(pageIndex,pageSize, a => a.Id,false, a=> roleName == "" ? true : a.Name.Contains(roleName)&&a.Status==1, out totalCount);
+            var list = roleLogic.GetRolesPageList(pageIndex,pageSize, a => a.Id,false, a=> (roleName == "" ? true : a.Name.Contains(roleName)) &&a.Status==1, out totalCount);
             var pageList = new PagedList<MyRoles>(list,pageIndex,pageSize,totalCount);
             if(Request.IsAjaxRequest())
             {
@@ -38,26 +38,16 @@ namespace AdminWeb.Controllers
             return Json(roleLogic.CreateRole(role));
         }
         [HttpPost]
-        public ActionResult StartRole(string roleId)
-        {
-            MyRoles role = new MyRoles()
-            {
-                Id = roleId,
-                Status = 1
-            };
-            int result=roleLogic.UpdateRoleStatus(role) ;
-            return Json(result);
-        }
-        [HttpPost]
-        public ActionResult StopRole(string roleId)
+        public ActionResult DeleteRole(string roleId)
         {
             MyRoles role = new MyRoles()
             {
                 Id = roleId,
                 Status = 0
             };
-            int result = roleLogic.UpdateRoleStatus(role);
+            int result=roleLogic.UpdateRoleStatus(role) ;
             return Json(result);
         }
+ 
     }
 }
