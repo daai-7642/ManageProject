@@ -24,7 +24,7 @@ namespace DataAccess
             }
             
             totalCount = data.Count();
-            return data.Skip((pageIndex - 1) * 10).Take(pageSize).ToList();
+            return data.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
         }
     }
 }

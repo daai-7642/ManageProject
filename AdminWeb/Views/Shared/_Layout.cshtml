@@ -6,6 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <style>
+        .page li {
+            float: left;
+            margin-left: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 2px;
+            text-align: center;
+            text-decoration: none;
+            color: #666;
+            height: 26px;
+            line-height: 26px;
+            text-decoration: none;
+            margin: 0 0 6px 6px;
+            padding: 0 10px;
+            font-size: 14px;
+        }
+
+            .page li:hover {
+                background: #5a98de;
+                color: #fff;
+            }
+
+        .page .active {
+            background: #5a98de;
+            color: #fff;
+        }
+
+        .pageDiv {
+            float: right;
+        }
+    </style>
     <link rel="Bookmark" href="/favicon.ico">
     <link rel="Shortcut Icon" href="/favicon.ico" />
     <!--[if lt IE 9]>
@@ -17,6 +50,8 @@
     <link href="~/Content/iconfont.css" rel="stylesheet" />
     <link href="~/Skin/default/skin.css" rel="stylesheet" />
     <link href="~/Content/style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
     <!--[if IE 6]>
     <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
     <script>DD_belatedPNG.fix('*');</script>
@@ -26,15 +61,8 @@
     <meta name="description" content="">
 </head>
 <body>
-    @RenderBody();
-    <div class="contextMenu" id="Huiadminmenu">
-        <ul>
-            <li id="closethis">关闭当前 </li>
-            <li id="closeall">关闭全部 </li>
-        </ul>
-    </div>
+    @RenderBody()
     <!--_footer 作为公共模版分离出去-->
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Lib/layer/2.4/layer.js"></script>
     <script type="text/javascript" src="~/static/h-ui/js/H-ui.min.js"></script>
     <script type="text/javascript" src="~/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->

@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/22/2017 14:09:51
--- Generated from EDMX file: F:\项目\ManageProject\Entity\ManageModel.edmx
+-- Date Created: 07/24/2017 11:36:38
+-- Generated from EDMX file: d:\文档\visual studio 2015\Projects\ManageProject\Entity\ManageModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -76,10 +76,10 @@ GO
 CREATE TABLE [dbo].[Function] (
     [FunctionID] int IDENTITY(1,1) NOT NULL,
     [GroupID] int  NOT NULL,
-    [FunctionName] varchar(50)  NOT NULL,
-    [PageURL] varchar(200)  NOT NULL,
+    [FunctionName] nvarchar(50)  NULL,
+    [PageURL] varchar(200)  NULL,
     [OrderNo] int  NOT NULL,
-    [Description] varchar(200)  NOT NULL,
+    [Description] varchar(200)  NULL,
     [Status] int  NOT NULL
 );
 GO
@@ -87,19 +87,21 @@ GO
 -- Creating table 'FunctionGroup'
 CREATE TABLE [dbo].[FunctionGroup] (
     [GroupID] int IDENTITY(1,1) NOT NULL,
-    [GroupName] varchar(50)  NOT NULL,
+    [GroupName] varchar(50)  NULL,
     [ParentID] int  NOT NULL,
-    [GroupCode] varchar(50)  NOT NULL,
+    [GroupCode] varchar(50)  NULL,
     [OrderNo] int  NOT NULL,
     [State] smallint  NOT NULL,
-    [Description] varchar(100)  NOT NULL
+    [Description] varchar(100)  NULL
 );
 GO
 
 -- Creating table 'MyRoles'
 CREATE TABLE [dbo].[MyRoles] (
     [Id] nvarchar(128)  NOT NULL,
-    [Name] nvarchar(max)  NULL
+    [Name] nvarchar(50)  NULL,
+    [Description] varchar(200)  NULL,
+    [Status] int  NOT NULL
 );
 GO
 

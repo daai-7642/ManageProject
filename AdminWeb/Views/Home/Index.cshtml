@@ -27,7 +27,7 @@
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li><a href="javascript:;" onClick="myselfinfo()">个人信息</a></li>
                             @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
-                            {
+                            {   @Html.AntiForgeryToken()
                                 <li><a href="javascript:document.getElementById('logoutForm').submit()">切换账户</a></li>
                                     <li><a href="javascript:document.getElementById('logoutForm').submit()">退出</a></li>
                             }
@@ -91,3 +91,9 @@
         </div>
     </div>
 </section>
+<div class="contextMenu" id="Huiadminmenu">
+    <ul>
+        <li id="closethis">关闭当前 </li>
+        <li id="closeall">关闭全部 </li>
+    </ul>
+</div>

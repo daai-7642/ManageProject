@@ -194,10 +194,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SuperDB.mdf" />
-    <Content Include="App_Data\SuperDB_log.ldf">
-      <DependentUpon>SuperDB.mdf</DependentUpon>
-    </Content>
     <Content Include="Config\DataBaseSettings.config" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -1329,6 +1325,9 @@
     <Content Include="HTML\_meta.html" />
     <Content Include="HTML\【开发必读】文档目录.txt" />
     <Content Include="Images\acrossTab\acrossTab-2.png" />
+    <Content Include="Images\acrossTab\acrossTab-bg.png" />
+    <Content Include="Images\acrossTab\acrossTab-close.png" />
+    <Content Include="Images\acrossTab\acrossTab.png" />
     <Content Include="Images\loading.gif" />
     <Content Include="Lib\datatables\1.10.0\jquery.dataTables.min.js" />
     <Content Include="Lib\DD_belatedPNG_0.0.8a-min.js" />
@@ -2434,8 +2433,11 @@
     <Content Include="Views\Function\Index.cshtml" />
     <Content Include="Views\Roles\Index.cshtml" />
     <Content Include="Views\Roles\RolePage.cshtml" />
+    <Content Include="Views\Roles\CreateRole.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

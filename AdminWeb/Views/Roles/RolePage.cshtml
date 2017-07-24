@@ -33,23 +33,23 @@
     </tbody>
 
 </table>
-<div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">显示 1 到 2 ，共 2 条</div>
+<div class="dataTables_info" role="status" aria-live="polite">显示 1 到 @Model.TotalItemCount ，共 @Model.TotalItemCount 条</div>
 
-@Ajax.Pager(Model, new PagerOptions
+<div class="pageDiv">
+    @Ajax.Pager(Model, new PagerOptions
 {
-  
-    CssClass = "paginate_button",
+    CssClass = "page",
     FirstPageText = "首页",
     LastPageText = "尾页",
     NextPageText = "下一页",
     PrevPageText = "上一页",
     PageIndexParameterName = "pageIndex",
     NumericPagerItemCount = 5,
-    //ContainerTagName = "ul",
-    CurrentPagerItemTemplate = " <a href=\"#\" class=\"current\">{0}</a> ",
+    ContainerTagName = "ul",
+    CurrentPagerItemTemplate = "<li class=\"active\"><a href=\"#\">{0}</a></li>",
     DisabledPagerItemTemplate = "<li class=\"disabled\"><a>{0}</a></li>",
-    //PagerItemTemplate = "<li>{0}</li>",
-    
+    PagerItemTemplate = "<li>{0}</li>",
     PageIndexBoxId = "pageIndexBox",
 }, new MvcAjaxOptions { UpdateTargetId = "content", HttpMethod = "get", DataFormId = "searchForm", EnableHistorySupport = false })
 
+</div>

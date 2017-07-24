@@ -141,6 +141,7 @@
       <DependentUpon>ManageModel.edmx</DependentUpon>
       <LastGenOutput>ManageModel.Context.cs</LastGenOutput>
     </Content>
+    <Content Include="ManageModel.edmx.sql" />
     <Content Include="ManageModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ManageModel.edmx</DependentUpon>
