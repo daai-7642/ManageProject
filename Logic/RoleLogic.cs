@@ -23,5 +23,9 @@ namespace Logic
         {
             return DataRepository.PageList<MyRoles,string >(pageIndex, pageSize, sort, predicate, out totalCount);
         }
+        public int CreateRole(MyRoles role)
+        {
+            return DataRepository.Add<MyRoles>(role);
+        }
     }
 }

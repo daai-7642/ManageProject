@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Utility;
 using ViewModel;
 
 namespace DataAccess
@@ -37,6 +38,19 @@ namespace DataAccess
                 list.Add(new FunctionViewModel().EntityToViewModel(item));
             }
             return list;
+        }
+        /// <summary>
+        /// 获取所有的分组，功能
+        /// </summary>
+        /// <returns></returns>
+        public FunctionGroupDataViewModel GetFunctionGroupList()
+        {
+            FunctionGroupDataViewModel Data = new FunctionGroupDataViewModel();
+            var functionGroupData = EFContextFactory.GetCurrentDbContext().Set<FunctionGroup>();
+            var functionData = EFContextFactory.GetCurrentDbContext().Set<Function>();
+            Data.FunctionGroup = functionGroupData.ToList();
+            Data.Function = functionData.ToList();
+            return Data;
         }
     }
 }

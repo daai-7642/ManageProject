@@ -1,4 +1,5 @@
 ﻿using DataAccess;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,14 @@ namespace Logic
         public List<FunctionViewModel> GetFunctionList()
         {
             return functionDataAccess.GetFunctionList();
+        }
+        /// <summary>
+        /// 获取所有的分组，功能
+        /// </summary>
+        /// <returns></returns>
+        public FunctionGroupDataViewModel GetFunctionGroupList()
+        {
+            return functionDataAccess.GetFunctionGroupList();
         }
     }
 }

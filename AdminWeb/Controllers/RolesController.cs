@@ -32,7 +32,9 @@ namespace AdminWeb.Controllers
         [HttpPost]
         public ActionResult CreateRole(MyRoles role)
         {
-            return View();
+            role.Status = 1;
+            role.Id = DateTime.Now.ToString("yyyyMMddhhmmssff");
+            return Json(new RoleLogic().CreateRole(role));
         }
     }
 }
