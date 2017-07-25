@@ -194,7 +194,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\script.sql" />
+    <Content Include="App_Data\dbo.sql" />
     <Content Include="Config\DataBaseSettings.config" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -2148,6 +2148,7 @@
     <Content Include="Content\iconfont.ttf" />
     <Content Include="Content\iconfont.woff" />
     <Content Include="Config\AppSettings.config" />
+    <Content Include="Config\log4net.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataOperate.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

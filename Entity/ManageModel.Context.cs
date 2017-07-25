@@ -33,5 +33,7 @@ namespace Entity
         public virtual DbSet<UserClaim> UserClaim { get; set; }
         public virtual DbSet<UserLogin> UserLogin { get; set; }
         public virtual DbSet<UserRole> UserRole { get; set; }
+        public virtual DbSet<C__MigrationHistory1> C__MigrationHistory1Set { get; set; }
+        public virtual DbSet<MyLogger> MyLogger { get; set; }
     }
 }

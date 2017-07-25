@@ -1,4 +1,5 @@
 ﻿using AdminWeb.Models;
+using Log4net;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,21 @@ namespace AdminWeb
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+        protected void Application_Error()
+        {
+            Exception err = HttpContext.Current.Error;
+
+            ErrorLogHelper.WriteLog(new LogContent()
+            {
+                UserName = User.Identity.Name,
+                EventCategory = "ERROR",
+                Description = err.StackTrace,
+                Source=err.Message,
+                SourceUrl=Request.Url.AbsoluteUri,
+                ComputerName = UserHelper.GetUserIp(),
+                Mac_Address=Utility.OperateHelper.GetMacAddress()
+            });
         }
     }
 }

@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Management;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -161,6 +162,39 @@ namespace Utility
                 return "/Areas" + AreaName;
             }
         }
+        public static string GetMacAddress()
+        {
+            string mac = "";
+            try
+            {
+                //获取网卡硬件地址 
+                ManagementClass mc = new ManagementClass("Win32_NetworkAdapterConfiguration");
+                ManagementObjectCollection moc = mc.GetInstances();
+
+                List<string> list = new List<string>();
+
+                foreach (ManagementObject mo in moc)
+                {
+                    if ((bool)mo["IPEnabled"] == true)
+                    {
+                        mac = mo["MacAddress"].ToString();
+
+                        list.Add(mac);
+                    }
+                }
+                moc = null;
+                mc = null;
+
+                mac = list[list.Count - 1];
+
+                return mac;
+            }
+            catch
+            {
+                return "unknow";
+            }
+        }
+
     }
 
 }

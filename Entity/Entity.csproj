@@ -69,6 +69,9 @@
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="C__MigrationHistory1.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Function.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
@@ -89,6 +92,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ManageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MyLogger.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
     <Compile Include="MyRoles.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>

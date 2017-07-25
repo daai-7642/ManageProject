@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Log4net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,14 @@ namespace AdminWeb.Controllers
     {
         public ActionResult Index()
         {
+            LogHelper.WriteLog(new LogContent()
+            {
+                UserName = "admin",
+                EventCategory = "测试日志",
+                Description = "测试内容",
+                ComputerName = "127.0.0.1",
+
+            });
             return View();
         }
 
