@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Utility;
 
 namespace AdminWeb
 {
@@ -20,10 +21,9 @@ namespace AdminWeb
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
-        protected void Application_Error()
+        protected void Application_Error(object sender, EventArgs e)
         {
             Exception err = HttpContext.Current.Error;
-
             ErrorLogHelper.WriteLog(new LogContent()
             {
                 UserName = User.Identity.Name,

@@ -16,9 +16,5 @@ namespace Entity
     {
         public int FunctionID { get; set; }
         public string RoleID { get; set; }
-        public int FunctionGroupID { get; set; }
-    
-        public virtual FunctionGroup FunctionGroup { get; set; }
-        public virtual Function Function { get; set; }
     }
 }

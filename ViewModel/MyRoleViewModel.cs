@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -14,6 +15,18 @@ namespace ViewModel
         public string Name { get; set; }
         public string Description { get; set; }
         public int Status { get; set; }
-
+        /// <summary>
+        /// 功能组id
+        /// </summary>
+        public int GroupID { get; set; }
+        public static MyRoles ViewModelToEntity(MyRoleViewModel viewmdoel)
+        {
+            MyRoles role = new MyRoles();
+            role.Id = viewmdoel.Id;
+            role.Name = viewmdoel.Name;
+            role.Status = viewmdoel.Status;
+            role.Description = viewmdoel.Description;
+            return role;
+        }
     }
 }

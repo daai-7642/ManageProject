@@ -6,6 +6,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Utility;
+using ViewModel;
 
 namespace Logic
 {
@@ -26,6 +28,10 @@ namespace Logic
         public int CreateRole(MyRoles role)
         {
             return DataRepository.Add<MyRoles>(role);
+        }
+        public int CreateRole(MyRoles role,int[] function)
+        {
+            return roleDataAccess.CreateRole(role,function);
         }
         public int UpdateRoleStatus(MyRoles role)
         {

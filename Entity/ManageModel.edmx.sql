@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/25/2017 17:21:36
--- Generated from EDMX file: d:\文档\visual studio 2015\Projects\ManageProject\Entity\ManageModel.edmx
+-- Date Created: 07/25/2017 22:21:50
+-- Generated from EDMX file: F:\项目\ManageProject\Entity\ManageModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -17,26 +17,29 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id];
+GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserClaim] DROP CONSTRAINT [FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id];
 GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserLogin] DROP CONSTRAINT [FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id];
 GO
-IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id];
-GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id];
+GO
+IF OBJECT_ID(N'[dbo].[FK_FunctionGroupRoleFunction]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[RoleFunction] DROP CONSTRAINT [FK_FunctionGroupRoleFunction];
+GO
+IF OBJECT_ID(N'[dbo].[FK_FunctionRoleFunction]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[RoleFunction] DROP CONSTRAINT [FK_FunctionRoleFunction];
 GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[__MigrationHistory]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[__MigrationHistory];
-GO
 IF OBJECT_ID(N'[dbo].[C__MigrationHistory]', 'U') IS NOT NULL
     DROP TABLE [dbo].[C__MigrationHistory];
 GO
@@ -45,9 +48,6 @@ IF OBJECT_ID(N'[dbo].[Function]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[FunctionGroup]', 'U') IS NOT NULL
     DROP TABLE [dbo].[FunctionGroup];
-GO
-IF OBJECT_ID(N'[dbo].[MyLogger]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[MyLogger];
 GO
 IF OBJECT_ID(N'[dbo].[MyRoles]', 'U') IS NOT NULL
     DROP TABLE [dbo].[MyRoles];
@@ -64,8 +64,14 @@ GO
 IF OBJECT_ID(N'[dbo].[UserRole]', 'U') IS NOT NULL
     DROP TABLE [dbo].[UserRole];
 GO
-IF OBJECT_ID(N'[SuperDBModelStoreContainer].[RoleFunction]', 'U') IS NOT NULL
-    DROP TABLE [SuperDBModelStoreContainer].[RoleFunction];
+IF OBJECT_ID(N'[dbo].[C__MigrationHistory1Set]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[C__MigrationHistory1Set];
+GO
+IF OBJECT_ID(N'[dbo].[MyLogger]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MyLogger];
+GO
+IF OBJECT_ID(N'[dbo].[RoleFunction]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[RoleFunction];
 GO
 
 -- --------------------------------------------------

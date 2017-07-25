@@ -69,9 +69,6 @@
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="C__MigrationHistory1.cs">
-      <DependentUpon>ManageModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Function.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>

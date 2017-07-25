@@ -14,12 +14,6 @@ namespace Entity
     
     public partial class Function
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Function()
-        {
-            this.RoleFunction = new HashSet<RoleFunction>();
-        }
-    
         public int FunctionID { get; set; }
         public int GroupID { get; set; }
         public string FunctionName { get; set; }
@@ -27,8 +21,5 @@ namespace Entity
         public int OrderNo { get; set; }
         public string Description { get; set; }
         public int Status { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<RoleFunction> RoleFunction { get; set; }
     }
 }

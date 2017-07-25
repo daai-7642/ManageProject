@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Log4net;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
@@ -46,10 +47,14 @@ namespace DataAccess
             try
             {
                 DB.Set<T>().Add(t);
-                return DB.SaveChanges();
+                int result= DB.SaveChanges();
+               
+                LogHelper.WriteLog("add"+t.GetType(),result.ToString()+t.ObjectToJson());
+                return result;
             }
             catch (Exception ex)
             {
+                ErrorLogHelper.WriteLog(ex);
                 return 0;
             }
         }

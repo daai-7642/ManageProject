@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6e8aa68b2b064a06a43899db28df709d" Name="Diagram1" ZoomLevel="63">
+      <Diagram DiagramId="6e8aa68b2b064a06a43899db28df709d" Name="Diagram1" ZoomLevel="71">
         <EntityTypeShape EntityType="SuperDBModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SuperDBModel.Function" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SuperDBModel.MyRoles" Width="1.5" PointX="4" PointY="0.75" IsExpanded="true" />
@@ -16,12 +16,9 @@
         <AssociationConnector Association="SuperDBModel.FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id" ManuallyRouted="false" />
         <AssociationConnector Association="SuperDBModel.FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id" ManuallyRouted="false" />
         <AssociationConnector Association="SuperDBModel.FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="SuperDBModel.C__MigrationHistory1" Width="1.5" PointX="0.75" PointY="8.75" />
         <EntityTypeShape EntityType="SuperDBModel.MyLogger" Width="1.5" PointX="2.75" PointY="8.75" />
         <EntityTypeShape EntityType="SuperDBModel.RoleFunction" Width="1.5" PointX="10.375" PointY="1.75" />
         <EntityTypeShape EntityType="SuperDBModel.FunctionGroup" Width="1.5" PointX="12.75" PointY="1" />
-        <AssociationConnector Association="SuperDBModel.FunctionGroupRoleFunction" />
-        <AssociationConnector Association="SuperDBModel.FunctionRoleFunction" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Utility;
+using ViewModel;
 using Webdiyer.WebControls.Mvc;
 namespace AdminWeb.Controllers
 {
@@ -35,7 +36,7 @@ namespace AdminWeb.Controllers
         {
             role.Status = 1;
             role.Id = DateTime.Now.ToString("yyyyMMddhhmmssff");
-            return Json(roleLogic.CreateRole(role));
+            return Json(roleLogic.CreateRole(role,Function));
         }
         [HttpPost]
         public ActionResult DeleteRole(string roleId)

@@ -36,7 +36,19 @@ namespace Log4net
                 loginfo.Info(info);
             }
         }
-
+        public static void WriteLog(string message,string info)
+        {
+            WriteLog(new LogContent()
+            {
+                UserName = HttpContext.Current.User.Identity.Name,
+                EventCategory = "INFO",
+                Description = info,
+                Source = message,
+                SourceUrl = HttpContext.Current.Request.Url.AbsoluteUri,
+                ComputerName = UserHelper.GetUserIp(),
+                Mac_Address = Utility.OperateHelper.GetMacAddress()
+            });
+        }
         /// <summary>
         /// 记录日志
         /// </summary>
@@ -49,10 +61,10 @@ namespace Log4net
                 IsLoadConfig = true;
             }
             loginfo.Info(info);
-            //if (loginfo.IsInfoEnabled)
-            //{
-            //    loginfo.Info(info);
-            //}
+            if (loginfo.IsInfoEnabled)
+            {
+                loginfo.Info(info);
+            }
         }
 
         /// <summary>
