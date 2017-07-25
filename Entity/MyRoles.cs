@@ -27,5 +27,7 @@ namespace Entity
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UserRole> UserRole { get; set; }
+        public virtual ICollection<RoleFunction> RoleFunction { get; set; }
+
     }
 }

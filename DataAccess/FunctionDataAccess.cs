@@ -46,8 +46,8 @@ namespace DataAccess
         public FunctionGroupDataViewModel GetFunctionGroupList()
         {
             FunctionGroupDataViewModel Data = new FunctionGroupDataViewModel();
-            var functionGroupData = EFContextFactory.GetCurrentDbContext().Set<FunctionGroup>();
-            var functionData = EFContextFactory.GetCurrentDbContext().Set<Function>();
+            var functionGroupData = EFContextFactory.GetCurrentDbContext().Set<FunctionGroup>().Where(a=>a.State==1);
+            var functionData = EFContextFactory.GetCurrentDbContext().Set<Function>().Where(a=>a.Status==1);
             Data.FunctionGroup = functionGroupData.ToList();
             Data.Function = functionData.ToList();
             return Data;

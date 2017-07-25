@@ -103,6 +103,9 @@
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleFunction.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="UserClaim.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>

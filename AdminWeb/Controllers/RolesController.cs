@@ -31,7 +31,7 @@ namespace AdminWeb.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult CreateRole(MyRoles role)
+        public ActionResult CreateRole(MyRoles role,int[] Function)
         {
             role.Status = 1;
             role.Id = DateTime.Now.ToString("yyyyMMddhhmmssff");

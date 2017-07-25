@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/24/2017 11:36:38
+-- Date Created: 07/25/2017 17:21:36
 -- Generated from EDMX file: d:\文档\visual studio 2015\Projects\ManageProject\Entity\ManageModel.edmx
 -- --------------------------------------------------
 
@@ -17,14 +17,14 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id];
-GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserClaim] DROP CONSTRAINT [FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id];
 GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserLogin] DROP CONSTRAINT [FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id];
+GO
+IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id];
 GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id];
@@ -34,6 +34,9 @@ GO
 -- Dropping existing tables
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[__MigrationHistory]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[__MigrationHistory];
+GO
 IF OBJECT_ID(N'[dbo].[C__MigrationHistory]', 'U') IS NOT NULL
     DROP TABLE [dbo].[C__MigrationHistory];
 GO
@@ -42,6 +45,9 @@ IF OBJECT_ID(N'[dbo].[Function]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[FunctionGroup]', 'U') IS NOT NULL
     DROP TABLE [dbo].[FunctionGroup];
+GO
+IF OBJECT_ID(N'[dbo].[MyLogger]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MyLogger];
 GO
 IF OBJECT_ID(N'[dbo].[MyRoles]', 'U') IS NOT NULL
     DROP TABLE [dbo].[MyRoles];
@@ -57,6 +63,9 @@ IF OBJECT_ID(N'[dbo].[UserLogin]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[UserRole]', 'U') IS NOT NULL
     DROP TABLE [dbo].[UserRole];
+GO
+IF OBJECT_ID(N'[SuperDBModelStoreContainer].[RoleFunction]', 'U') IS NOT NULL
+    DROP TABLE [SuperDBModelStoreContainer].[RoleFunction];
 GO
 
 -- --------------------------------------------------
@@ -77,9 +86,9 @@ CREATE TABLE [dbo].[Function] (
     [FunctionID] int IDENTITY(1,1) NOT NULL,
     [GroupID] int  NOT NULL,
     [FunctionName] nvarchar(50)  NULL,
-    [PageURL] varchar(200)  NULL,
+    [PageURL] nvarchar(200)  NULL,
     [OrderNo] int  NOT NULL,
-    [Description] varchar(200)  NULL,
+    [Description] nvarchar(200)  NULL,
     [Status] int  NOT NULL
 );
 GO
@@ -87,12 +96,12 @@ GO
 -- Creating table 'FunctionGroup'
 CREATE TABLE [dbo].[FunctionGroup] (
     [GroupID] int IDENTITY(1,1) NOT NULL,
-    [GroupName] varchar(50)  NULL,
+    [GroupName] nvarchar(50)  NULL,
     [ParentID] int  NOT NULL,
-    [GroupCode] varchar(50)  NULL,
+    [GroupCode] nvarchar(50)  NULL,
     [OrderNo] int  NOT NULL,
     [State] smallint  NOT NULL,
-    [Description] varchar(100)  NULL
+    [Description] nvarchar(100)  NULL
 );
 GO
 
@@ -100,7 +109,7 @@ GO
 CREATE TABLE [dbo].[MyRoles] (
     [Id] nvarchar(128)  NOT NULL,
     [Name] nvarchar(50)  NULL,
-    [Description] varchar(200)  NULL,
+    [Description] nvarchar(200)  NULL,
     [Status] int  NOT NULL
 );
 GO
@@ -148,6 +157,42 @@ CREATE TABLE [dbo].[UserRole] (
     [RoleId] nvarchar(max)  NULL,
     [IdentityRole_Id] nvarchar(128)  NULL,
     [IdentityUser_Id] nvarchar(128)  NULL
+);
+GO
+
+-- Creating table 'C__MigrationHistory1Set'
+CREATE TABLE [dbo].[C__MigrationHistory1Set] (
+    [MigrationId] nvarchar(150)  NOT NULL,
+    [ContextKey] nvarchar(300)  NOT NULL,
+    [Model] varbinary(max)  NOT NULL,
+    [ProductVersion] nvarchar(32)  NOT NULL
+);
+GO
+
+-- Creating table 'MyLogger'
+CREATE TABLE [dbo].[MyLogger] (
+    [LogId] int IDENTITY(1,1) NOT NULL,
+    [Event_Type] int  NULL,
+    [TIMESTAMP] nvarchar(50)  NULL,
+    [EventCategory] nvarchar(50)  NULL,
+    [Event_ID] int  NULL,
+    [ComputerName] nvarchar(50)  NULL,
+    [Mac_Address] nvarchar(50)  NULL,
+    [UserName] nvarchar(50)  NULL,
+    [SourceUrl] nvarchar(100)  NULL,
+    [Source] nvarchar(50)  NULL,
+    [Description] nvarchar(max)  NULL,
+    [CollectDate] datetime  NULL
+);
+GO
+
+-- Creating table 'RoleFunction'
+CREATE TABLE [dbo].[RoleFunction] (
+    [FunctionID] int  NOT NULL,
+    [RoleID] varchar(36)  NOT NULL,
+    [FunctionGroupID] int  NOT NULL,
+    [FunctionGroup_GroupID] int  NOT NULL,
+    [Function_FunctionID] int  NOT NULL
 );
 GO
 
@@ -201,6 +246,24 @@ GO
 ALTER TABLE [dbo].[UserRole]
 ADD CONSTRAINT [PK_UserRole]
     PRIMARY KEY CLUSTERED ([UserId] ASC);
+GO
+
+-- Creating primary key on [MigrationId], [ContextKey] in table 'C__MigrationHistory1Set'
+ALTER TABLE [dbo].[C__MigrationHistory1Set]
+ADD CONSTRAINT [PK_C__MigrationHistory1Set]
+    PRIMARY KEY CLUSTERED ([MigrationId], [ContextKey] ASC);
+GO
+
+-- Creating primary key on [LogId] in table 'MyLogger'
+ALTER TABLE [dbo].[MyLogger]
+ADD CONSTRAINT [PK_MyLogger]
+    PRIMARY KEY CLUSTERED ([LogId] ASC);
+GO
+
+-- Creating primary key on [FunctionID], [RoleID], [FunctionGroupID] in table 'RoleFunction'
+ALTER TABLE [dbo].[RoleFunction]
+ADD CONSTRAINT [PK_RoleFunction]
+    PRIMARY KEY CLUSTERED ([FunctionID], [RoleID], [FunctionGroupID] ASC);
 GO
 
 -- --------------------------------------------------
@@ -265,6 +328,36 @@ GO
 CREATE INDEX [IX_FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id]
 ON [dbo].[UserRole]
     ([IdentityUser_Id]);
+GO
+
+-- Creating foreign key on [FunctionGroup_GroupID] in table 'RoleFunction'
+ALTER TABLE [dbo].[RoleFunction]
+ADD CONSTRAINT [FK_FunctionGroupRoleFunction]
+    FOREIGN KEY ([FunctionGroup_GroupID])
+    REFERENCES [dbo].[FunctionGroup]
+        ([GroupID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_FunctionGroupRoleFunction'
+CREATE INDEX [IX_FK_FunctionGroupRoleFunction]
+ON [dbo].[RoleFunction]
+    ([FunctionGroup_GroupID]);
+GO
+
+-- Creating foreign key on [Function_FunctionID] in table 'RoleFunction'
+ALTER TABLE [dbo].[RoleFunction]
+ADD CONSTRAINT [FK_FunctionRoleFunction]
+    FOREIGN KEY ([Function_FunctionID])
+    REFERENCES [dbo].[Function]
+        ([FunctionID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_FunctionRoleFunction'
+CREATE INDEX [IX_FK_FunctionRoleFunction]
+ON [dbo].[RoleFunction]
+    ([Function_FunctionID]);
 GO
 
 -- --------------------------------------------------

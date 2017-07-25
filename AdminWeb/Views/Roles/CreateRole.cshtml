@@ -36,7 +36,7 @@
                                 <dl class="cl permission-list2">
                                     <dt>
                                         <label class="">
-                                            <input type="checkbox" value="" name="user-Character-0-0" id="user-Character-0-0">
+                                            <input type="checkbox" value="@fun.FunctionID" name="user-Character-0-0" id="user-Character-0-0">
                                             @fun.FunctionName
                                         </label>
                                     </dt>
@@ -53,6 +53,7 @@
                 <button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save"><i class="icon-ok"></i> 确定</button>
             </div>
         </div>
+        <input name="Function" />
     </form>
 </article>
 <script type="text/javascript">
@@ -79,18 +80,27 @@
 
     });
     $("#form-admin-role-add").submit(function () {
+        var val = [];
+        $.each($("dl input:checked"), function (index, value) {
+            console.log(value.value);
+            val.push(value.value);
+        })
+       
+        //return false;
+        $(this).ajaxSubmit({
+            data: { Function: val },
+            success: function (res) {
+                if (res == 1) {
+                    layer.msg('创建成功!', { icon: 1, time: 1000 }, function (res) {
 
-        $(this).ajaxSubmit(function (res) {
-            if (res == 1) {
-                layer.msg('创建成功!', { icon: 1, time: 1000 }, function (res) {
+                        refresh();
 
-                    refresh();
-
-                });
+                    });
 
 
-            } else {
-                alert("创建失败");
+                } else {
+                    alert("创建失败");
+                }
             }
         })
         //$(this)[0].onsubmit = false;
