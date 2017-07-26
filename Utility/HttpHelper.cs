@@ -23,7 +23,7 @@ namespace Utility
             }
             catch (Exception ex)
             {
-                Log4net.LogHelper.WriteLog("链接请求错误:"+url,ex);
+                Log4net.ErrorLogHelper.WriteLog(url,ex);
                 return "err";
             }
         }
