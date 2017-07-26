@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using Utility;
 using Utility.Cache;
+using ViewModel;
 
 namespace AdminWeb.Controllers
 {
@@ -40,6 +41,8 @@ namespace AdminWeb.Controllers
                 obj = lstImg;
             }
             string html = HttpHelper.Get(url);
+            if (html == "err")
+                throw new Exception();
             Regex reg = new Regex("<tr class='(.*?)'>(.*?)</tr>", RegexOptions.IgnoreCase);
             MatchCollection matches = reg.Matches(html);
             foreach (Match match in matches)
@@ -48,18 +51,16 @@ namespace AdminWeb.Controllers
                 Regex hrefReg = new Regex("<a href='(.*?)'>");
                 Regex phrefReg = new Regex("<a href='(.*?)'>(.*?)</a>");
                 MatchCollection hrefs = phrefReg.Matches(match.Value);
-                if (match.Value.IndexOf("provincetr")>-1)
+                if (match.Value.IndexOf(EnumEntity.AddressType.provincetr.ToString()) >-1)
                 {
-                    
                     foreach (Match hrefm in hrefs)
                     {
                         //(obj as List<string>).Add(hrefm.Value);
-                        AddressBase address = new Entity.AddressBase();
+                        Address_Province address = new Entity.Address_Province();
                         string[] hrefarr = hrefm.Value.Replace("<a href='", "").Replace("'>", ";").Replace("<br/></a>", "").Split(';');
-                        address.Code = hrefarr[0];
-                        address.Text = hrefarr[1];
-                        address.Type = match.Value.Substring("<tr class='".Length,match.Value.IndexOf("'>")- "<tr class='".Length);
-                        new AddressLogic().AddDbAddress(address);
+                        address.ProvinceCode = hrefarr[0];
+                        address.ProvinceName = hrefarr[1];
+                        addressLogic.AddDbProvince(address);
                         if (!string.IsNullOrWhiteSpace(hrefm.Value))
                         {
                             GetHtml(url.Substring(0, url.LastIndexOf('/') + 1) + hrefarr[0]);

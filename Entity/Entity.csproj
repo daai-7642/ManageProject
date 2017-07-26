@@ -69,6 +69,21 @@
     <Compile Include="AddressBase.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Address_City.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address_County.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address_Province.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address_Town.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address_Village.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>

@@ -20,6 +20,11 @@
         <EntityTypeShape EntityType="SuperDBModel.RoleFunction" Width="1.5" PointX="10.375" PointY="1.75" />
         <EntityTypeShape EntityType="SuperDBModel.FunctionGroup" Width="1.5" PointX="12.75" PointY="1" />
         <EntityTypeShape EntityType="SuperDBModel.AddressBase" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SuperDBModel.Address_City" Width="1.5" PointX="5.75" PointY="9.625" />
+        <EntityTypeShape EntityType="SuperDBModel.Address_County" Width="1.5" PointX="7.75" PointY="9.625" />
+        <EntityTypeShape EntityType="SuperDBModel.Address_Province" Width="1.5" PointX="7" PointY="7.625" />
+        <EntityTypeShape EntityType="SuperDBModel.Address_Town" Width="1.5" PointX="9.75" PointY="9.625" />
+        <EntityTypeShape EntityType="SuperDBModel.Address_Village" Width="1.5" PointX="9" PointY="7.625" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

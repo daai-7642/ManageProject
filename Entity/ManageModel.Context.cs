@@ -36,5 +36,10 @@ namespace Entity
         public virtual DbSet<MyLogger> MyLogger { get; set; }
         public virtual DbSet<RoleFunction> RoleFunction { get; set; }
         public virtual DbSet<AddressBase> AddressBase { get; set; }
+        public virtual DbSet<Address_City> Address_City { get; set; }
+        public virtual DbSet<Address_County> Address_County { get; set; }
+        public virtual DbSet<Address_Province> Address_Province { get; set; }
+        public virtual DbSet<Address_Town> Address_Town { get; set; }
+        public virtual DbSet<Address_Village> Address_Village { get; set; }
     }
 }

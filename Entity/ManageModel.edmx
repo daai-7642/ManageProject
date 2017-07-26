@@ -5,6 +5,45 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="SuperDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Address_City">
+          <Key>
+            <PropertyRef Name="CityCode" />
+          </Key>
+          <Property Name="CityCode" Type="char" MaxLength="12" Nullable="false" />
+          <Property Name="CityName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ProvinceCode" Type="char" MaxLength="12" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Address_County">
+          <Key>
+            <PropertyRef Name="CountyCode" />
+          </Key>
+          <Property Name="CountyCode" Type="char" MaxLength="12" Nullable="false" />
+          <Property Name="CountyNaem" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CityCode" Type="char" MaxLength="12" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Address_Province">
+          <Key>
+            <PropertyRef Name="ProvinceCode" />
+          </Key>
+          <Property Name="ProvinceCode" Type="char" MaxLength="12" Nullable="false" />
+          <Property Name="ProvinceName" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Address_Town">
+          <Key>
+            <PropertyRef Name="TownCode" />
+          </Key>
+          <Property Name="TownCode" Type="char" MaxLength="12" Nullable="false" />
+          <Property Name="TownName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CountyCode" Type="char" MaxLength="12" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Address_Village">
+          <Key>
+            <PropertyRef Name="VillageCode" />
+          </Key>
+          <Property Name="VillageCode" Type="char" MaxLength="12" Nullable="false" />
+          <Property Name="VillageName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Town" Type="char" MaxLength="12" Nullable="false" />
+        </EntityType>
         <EntityType Name="AddressBase">
           <Key>
             <PropertyRef Name="Code" />
@@ -192,6 +231,11 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="SuperDBModelStoreContainer">
+          <EntitySet Name="Address_City" EntityType="Self.Address_City" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Address_County" EntityType="Self.Address_County" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Address_Province" EntityType="Self.Address_Province" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Address_Town" EntityType="Self.Address_Town" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Address_Village" EntityType="Self.Address_Village" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="AddressBase" EntityType="Self.AddressBase" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MyRoles" EntityType="Self.MyRoles" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MyUsers" EntityType="Self.MyUsers" Schema="dbo" store:Type="Tables" />
@@ -443,6 +487,11 @@
           <EntitySet Name="MyLogger" EntityType="SuperDBModel.MyLogger" />
           <EntitySet Name="RoleFunction" EntityType="SuperDBModel.RoleFunction" />
           <EntitySet Name="AddressBase" EntityType="SuperDBModel.AddressBase" />
+          <EntitySet Name="Address_City" EntityType="SuperDBModel.Address_City" />
+          <EntitySet Name="Address_County" EntityType="SuperDBModel.Address_County" />
+          <EntitySet Name="Address_Province" EntityType="SuperDBModel.Address_Province" />
+          <EntitySet Name="Address_Town" EntityType="SuperDBModel.Address_Town" />
+          <EntitySet Name="Address_Village" EntityType="SuperDBModel.Address_Village" />
         </EntityContainer>
         <EntityType Name="MyLogger">
           <Key>
@@ -476,6 +525,45 @@
           <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Address_City">
+          <Key>
+            <PropertyRef Name="CityCode" />
+          </Key>
+          <Property Name="CityCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+          <Property Name="CityName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ProvinceCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Address_County">
+          <Key>
+            <PropertyRef Name="CountyCode" />
+          </Key>
+          <Property Name="CountyCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+          <Property Name="CountyNaem" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CityCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Address_Province">
+          <Key>
+            <PropertyRef Name="ProvinceCode" />
+          </Key>
+          <Property Name="ProvinceCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+          <Property Name="ProvinceName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Address_Town">
+          <Key>
+            <PropertyRef Name="TownCode" />
+          </Key>
+          <Property Name="TownCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+          <Property Name="TownName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CountyCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Address_Village">
+          <Key>
+            <PropertyRef Name="VillageCode" />
+          </Key>
+          <Property Name="VillageCode" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
+          <Property Name="VillageName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Town" Type="String" Nullable="false" MaxLength="12" FixedLength="true" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -611,6 +699,50 @@
                 <ScalarProperty Name="Type" ColumnName="Type" />
                 <ScalarProperty Name="Text" ColumnName="Text" />
                 <ScalarProperty Name="Code" ColumnName="Code" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Address_City">
+            <EntityTypeMapping TypeName="SuperDBModel.Address_City">
+              <MappingFragment StoreEntitySet="Address_City">
+                <ScalarProperty Name="ProvinceCode" ColumnName="ProvinceCode" />
+                <ScalarProperty Name="CityName" ColumnName="CityName" />
+                <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Address_County">
+            <EntityTypeMapping TypeName="SuperDBModel.Address_County">
+              <MappingFragment StoreEntitySet="Address_County">
+                <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+                <ScalarProperty Name="CountyNaem" ColumnName="CountyNaem" />
+                <ScalarProperty Name="CountyCode" ColumnName="CountyCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Address_Province">
+            <EntityTypeMapping TypeName="SuperDBModel.Address_Province">
+              <MappingFragment StoreEntitySet="Address_Province">
+                <ScalarProperty Name="ProvinceName" ColumnName="ProvinceName" />
+                <ScalarProperty Name="ProvinceCode" ColumnName="ProvinceCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Address_Town">
+            <EntityTypeMapping TypeName="SuperDBModel.Address_Town">
+              <MappingFragment StoreEntitySet="Address_Town">
+                <ScalarProperty Name="CountyCode" ColumnName="CountyCode" />
+                <ScalarProperty Name="TownName" ColumnName="TownName" />
+                <ScalarProperty Name="TownCode" ColumnName="TownCode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Address_Village">
+            <EntityTypeMapping TypeName="SuperDBModel.Address_Village">
+              <MappingFragment StoreEntitySet="Address_Village">
+                <ScalarProperty Name="Town" ColumnName="Town" />
+                <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+                <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
