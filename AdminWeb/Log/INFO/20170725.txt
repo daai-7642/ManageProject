@@ -1,0 +1,351 @@
+记录时间：2017-07-25 22:20:17,449
+ 线程ID:[6]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:51)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 22:20:36,008
+ 线程ID:[6]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:54)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 22:21:15,312
+ 线程ID:[5]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:36)
+ 消息描述：
+ 异常：
+ 消息：哈哈哈
+
+
+ 记录时间：2017-07-25 22:23:41,223
+ 线程ID:[5]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:51)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 22:23:43,422
+ 线程ID:[6]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:36)
+ 消息描述：
+ 异常：
+ 消息：哈哈哈
+
+
+ 记录时间：2017-07-25 22:28:56,945
+ 线程ID:[5]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 22:28:57,144
+ 线程ID:[5]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 23:15:27,474
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 23:15:27,630
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：测试内容
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ 测试日志记录时间：2017-07-25 23:37:29,916
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"FunctionID":1,"RoleID":"2017072511365099"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:37:30,045
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"FunctionID":1,"RoleID":"2017072511365099"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:37:44,838
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"Id":"2017072511365099","Name":"测试","Description":"测试","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:37:44,933
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"Id":"2017072511365099","Name":"测试","Description":"测试","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:38:01,567
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"Id":"2017072511365099","Name":"测试","Description":"测试","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:38:01,582
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"Id":"2017072511365099","Name":"测试","Description":"测试","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:08,037
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"FunctionID":0,"RoleID":"2017072511390775"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:08,096
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"FunctionID":0,"RoleID":"2017072511390775"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:08,437
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"FunctionID":1,"RoleID":"2017072511390775"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:08,467
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"FunctionID":1,"RoleID":"2017072511390775"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:08,987
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"FunctionID":2,"RoleID":"2017072511390775"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:09,067
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"FunctionID":2,"RoleID":"2017072511390775"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:10,438
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"Id":"2017072511390775","Name":"超级管理员","Description":"恩","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:10,645
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"Id":"2017072511390775","Name":"超级管理员","Description":"恩","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:11,048
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:63)
+ 消息描述：1{"Id":"2017072511390775","Name":"超级管理员","Description":"恩","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-25 23:39:11,078
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.LogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\LogHelper.cs:66)
+ 消息描述：1{"Id":"2017072511390775","Name":"超级管理员","Description":"恩","Status":1,"UserRole":[]}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO
