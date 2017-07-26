@@ -1,0 +1,25 @@
+﻿@model List<string>  
+<div id="content">
+     <table>
+         @foreach (var item in Model)
+         {
+             @Html.Raw(item)
+         }
+     </table>
+</div>
+<script>
+    //console.log($(".countytr"));
+    var data = [];
+    $.each($(".countytr"), function (index, value) {
+        var adata = $(value).find("a");
+        var obj = {
+            Url: $(adata[0]).attr("href"),
+            Code: adata[0].innerText,
+            Text: adata[1].innerText
+        }
+        data.push(obj)
+        $.ajax()
+        console.log(JSON.stringify(obj));
+    })
+    
+</script>
