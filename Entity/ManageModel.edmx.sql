@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/26/2017 09:12:47
--- Generated from EDMX file: d:\文档\visual studio 2015\Projects\ManageProject\Entity\ManageModel.edmx
+-- Date Created: 07/26/2017 20:09:09
+-- Generated from EDMX file: F:\项目\ManageProject\Entity\ManageModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -34,17 +34,23 @@ GO
 -- Dropping existing tables
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[C__MigrationHistory]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[C__MigrationHistory];
+IF OBJECT_ID(N'[dbo].[Address_City]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Address_City];
 GO
-IF OBJECT_ID(N'[dbo].[Function]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[Function];
+IF OBJECT_ID(N'[dbo].[Address_County]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Address_County];
 GO
-IF OBJECT_ID(N'[dbo].[FunctionGroup]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[FunctionGroup];
+IF OBJECT_ID(N'[dbo].[Address_Province]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Address_Province];
 GO
-IF OBJECT_ID(N'[dbo].[MyLogger]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[MyLogger];
+IF OBJECT_ID(N'[dbo].[Address_Town]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Address_Town];
+GO
+IF OBJECT_ID(N'[dbo].[Address_Village]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Address_Village];
+GO
+IF OBJECT_ID(N'[dbo].[AddressBase]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AddressBase];
 GO
 IF OBJECT_ID(N'[dbo].[MyRoles]', 'U') IS NOT NULL
     DROP TABLE [dbo].[MyRoles];
@@ -63,6 +69,18 @@ IF OBJECT_ID(N'[dbo].[UserLogin]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[UserRole]', 'U') IS NOT NULL
     DROP TABLE [dbo].[UserRole];
+GO
+IF OBJECT_ID(N'[SuperDBModelStoreContainer].[C__MigrationHistory]', 'U') IS NOT NULL
+    DROP TABLE [SuperDBModelStoreContainer].[C__MigrationHistory];
+GO
+IF OBJECT_ID(N'[SuperDBModelStoreContainer].[Function]', 'U') IS NOT NULL
+    DROP TABLE [SuperDBModelStoreContainer].[Function];
+GO
+IF OBJECT_ID(N'[SuperDBModelStoreContainer].[FunctionGroup]', 'U') IS NOT NULL
+    DROP TABLE [SuperDBModelStoreContainer].[FunctionGroup];
+GO
+IF OBJECT_ID(N'[SuperDBModelStoreContainer].[MyLogger]', 'U') IS NOT NULL
+    DROP TABLE [SuperDBModelStoreContainer].[MyLogger];
 GO
 
 -- --------------------------------------------------
@@ -181,6 +199,53 @@ CREATE TABLE [dbo].[RoleFunction] (
 );
 GO
 
+-- Creating table 'AddressBase'
+CREATE TABLE [dbo].[AddressBase] (
+    [Code] varchar(50)  NOT NULL,
+    [Text] nvarchar(50)  NULL,
+    [Type] varchar(50)  NULL
+);
+GO
+
+-- Creating table 'Address_City'
+CREATE TABLE [dbo].[Address_City] (
+    [CityCode] char(12)  NOT NULL,
+    [CityName] nvarchar(50)  NOT NULL,
+    [ProvinceCode] char(12)  NOT NULL
+);
+GO
+
+-- Creating table 'Address_County'
+CREATE TABLE [dbo].[Address_County] (
+    [CountyCode] char(12)  NOT NULL,
+    [CountyNaem] nvarchar(50)  NOT NULL,
+    [CityCode] char(12)  NOT NULL
+);
+GO
+
+-- Creating table 'Address_Province'
+CREATE TABLE [dbo].[Address_Province] (
+    [ProvinceCode] char(12)  NOT NULL,
+    [ProvinceName] nvarchar(50)  NOT NULL
+);
+GO
+
+-- Creating table 'Address_Town'
+CREATE TABLE [dbo].[Address_Town] (
+    [TownCode] char(12)  NOT NULL,
+    [TownName] nvarchar(50)  NOT NULL,
+    [CountyCode] char(12)  NOT NULL
+);
+GO
+
+-- Creating table 'Address_Village'
+CREATE TABLE [dbo].[Address_Village] (
+    [VillageCode] char(12)  NOT NULL,
+    [VillageName] nvarchar(50)  NOT NULL,
+    [Town] char(12)  NOT NULL
+);
+GO
+
 -- --------------------------------------------------
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
@@ -243,6 +308,42 @@ GO
 ALTER TABLE [dbo].[RoleFunction]
 ADD CONSTRAINT [PK_RoleFunction]
     PRIMARY KEY CLUSTERED ([FunctionID], [RoleID] ASC);
+GO
+
+-- Creating primary key on [Code] in table 'AddressBase'
+ALTER TABLE [dbo].[AddressBase]
+ADD CONSTRAINT [PK_AddressBase]
+    PRIMARY KEY CLUSTERED ([Code] ASC);
+GO
+
+-- Creating primary key on [CityCode] in table 'Address_City'
+ALTER TABLE [dbo].[Address_City]
+ADD CONSTRAINT [PK_Address_City]
+    PRIMARY KEY CLUSTERED ([CityCode] ASC);
+GO
+
+-- Creating primary key on [CountyCode] in table 'Address_County'
+ALTER TABLE [dbo].[Address_County]
+ADD CONSTRAINT [PK_Address_County]
+    PRIMARY KEY CLUSTERED ([CountyCode] ASC);
+GO
+
+-- Creating primary key on [ProvinceCode] in table 'Address_Province'
+ALTER TABLE [dbo].[Address_Province]
+ADD CONSTRAINT [PK_Address_Province]
+    PRIMARY KEY CLUSTERED ([ProvinceCode] ASC);
+GO
+
+-- Creating primary key on [TownCode] in table 'Address_Town'
+ALTER TABLE [dbo].[Address_Town]
+ADD CONSTRAINT [PK_Address_Town]
+    PRIMARY KEY CLUSTERED ([TownCode] ASC);
+GO
+
+-- Creating primary key on [VillageCode] in table 'Address_Village'
+ALTER TABLE [dbo].[Address_Village]
+ADD CONSTRAINT [PK_Address_Village]
+    PRIMARY KEY CLUSTERED ([VillageCode] ASC);
 GO
 
 -- --------------------------------------------------

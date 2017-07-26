@@ -15,7 +15,7 @@ namespace Entity
     public partial class Address_County
     {
         public string CountyCode { get; set; }
-        public string CountyNaem { get; set; }
         public string CityCode { get; set; }
+        public string CountyName { get; set; }
     }
 }

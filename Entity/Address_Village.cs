@@ -16,6 +16,6 @@ namespace Entity
     {
         public string VillageCode { get; set; }
         public string VillageName { get; set; }
-        public string Town { get; set; }
+        public string TownCode { get; set; }
     }
 }

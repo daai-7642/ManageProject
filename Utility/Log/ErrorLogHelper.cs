@@ -28,6 +28,19 @@ namespace Log4net
             });
             
         }
+        public static void WriteLog(object obj,Exception err)
+        {
+            WriteLog(new LogContent()
+            {
+                UserName = HttpContext.Current.User.Identity.Name,
+                EventCategory = "ERROR",
+                Description ="错误:"+ Newtonsoft.Json.JsonConvert.SerializeObject(obj)+";\r\n"+ err.StackTrace,
+                Source = err.Message,
+                SourceUrl = HttpContext.Current.Request.Url.AbsoluteUri,
+                ComputerName = UserHelper.GetUserIp(),
+                Mac_Address = Utility.OperateHelper.GetMacAddress()
+            });
 
+        }
     }
 }

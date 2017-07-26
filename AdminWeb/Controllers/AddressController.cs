@@ -42,12 +42,19 @@ namespace AdminWeb.Controllers
             }
             string html = HttpHelper.Get(url);
             if (html == "err")
-                throw new Exception();
+            {
+                html = HttpHelper.Get(url);
+                if(html=="err")
+                {
+                    throw new Exception();
+                }
+            }
+             
             Regex reg = new Regex("<tr class='(.*?)'>(.*?)</tr>", RegexOptions.IgnoreCase);
             MatchCollection matches = reg.Matches(html);
             foreach (Match match in matches)
             {
-                
+                string entityCode= url.Substring(url.LastIndexOf('/') + 1, url.Length - url.LastIndexOf('/') - 6).PadRight(12, '0'); 
                 Regex hrefReg = new Regex("<a href='(.*?)'>");
                 Regex phrefReg = new Regex("<a href='(.*?)'>(.*?)</a>");
                 MatchCollection hrefs = phrefReg.Matches(match.Value);
@@ -58,14 +65,14 @@ namespace AdminWeb.Controllers
                         //(obj as List<string>).Add(hrefm.Value);
                         Address_Province address = new Entity.Address_Province();
                         string[] hrefarr = hrefm.Value.Replace("<a href='", "").Replace("'>", ";").Replace("<br/></a>", "").Split(';');
-                        address.ProvinceCode = hrefarr[0];
+                        address.ProvinceCode = hrefarr[0].Substring(hrefarr[0].LastIndexOf('/') + 1, hrefarr[0].Length - hrefarr[0].LastIndexOf('/') - 6).PadRight(12, '0');
                         address.ProvinceName = hrefarr[1];
                         addressLogic.AddDbProvince(address);
                         if (!string.IsNullOrWhiteSpace(hrefm.Value))
                         {
-                            GetHtml(url.Substring(0, url.LastIndexOf('/') + 1) + hrefarr[0]);
+                            GetHtml(url.Substring(0, url.LastIndexOf('/') + 1) + hrefarr[0].Substring(0,2)+".html");
                             int result = addressLogic.SaveDbAddress();
-                            Log4net.LogHelper.WriteLog("地址采集入库", result, address);
+                            Log4net.LogHelper.WriteLog("地址采集入库", url + ";共计:" + result.ToString());
                         }
                     }
                 }
@@ -78,31 +85,50 @@ namespace AdminWeb.Controllers
                     hrefarr[0] = hmatchs[0].Value.Substring("<td>".Length,12);
                     hrefarr[1] = hmatchs[2].Value.Substring("<td>".Length, hmatchs[2].Value.IndexOf("</td>")- "<td>".Length);
 
-                    AddressBase address = new Entity.AddressBase();
-                    address.Code = hrefarr[0];
-                    address.Text = hrefarr[1];
-                    address.Type = match.Value.Substring("<tr class='".Length, match.Value.IndexOf("'>") - "<tr class='".Length);
-                    addressLogic.AddDbAddress(address);
+                    Address_Village address = new Address_Village();
+                    address.VillageCode = hrefarr[0];
+                    address.VillageName = hrefarr[1];
+                    address.TownCode = entityCode;
+                    addressLogic.AddDbVillage(address);
                 }
                 else
                 {
                     if(hrefs.Count!=0)
                     {
+                        string type=match.Value.Substring("<tr class='".Length, match.Value.IndexOf("'>") - "<tr class='".Length);
                         string[] hrefarr = new string[2];
                         hrefarr[0] = hrefs[0].Value.Replace("<a href='", "").Replace("'>", ";").Replace("</a>", "").Split(';')[1];
                         hrefarr[1] = hrefs[1].Value.Replace("<a href='", "").Replace("'>", ";").Replace("</a>", "").Split(';')[1];
                         Match hmatch = hrefReg.Match(match.Value);
-                        AddressBase address = new Entity.AddressBase();
-                        address.Code = hrefarr[0];
-                        address.Text = hrefarr[1];
-                        address.Type = match.Value.Substring("<tr class='".Length, match.Value.IndexOf("'>") - "<tr class='".Length);
-                        addressLogic.AddDbAddress(address);
+                        if(type == EnumEntity.AddressType.citytr.ToString())
+                        {
+                            Address_City address = new Entity.Address_City();
+                            address.CityCode = hrefarr[0];
+                            address.CityName = hrefarr[1];
+                            address.ProvinceCode = entityCode;
+                            addressLogic.AddDbCity(address);
+                        }else if(type == EnumEntity.AddressType.countytr.ToString())
+                        {
+                            Address_County address = new Entity.Address_County();
+                            address.CountyCode = hrefarr[0];
+                            address.CountyName = hrefarr[1];
+                            address.CityCode = entityCode;
+                            addressLogic.AddDbCounty(address);
+                        }else if(type==EnumEntity.AddressType.towntr.ToString())
+                        {
+                            Address_Town address = new Entity.Address_Town();
+                            address.TownCode = hrefarr[0];
+                            address.TownName = hrefarr[1];
+                            address.CountyCode = entityCode;
+                            addressLogic.AddDbTown(address);
+                        }
+                        
                        
                         if (!string.IsNullOrWhiteSpace(hmatch.Value))
                         {
                             GetHtml(url.Substring(0, url.LastIndexOf('/') + 1) + hmatch.Value.Replace("<a href='", "").ToString().Replace("'>", ""));
                             int result=addressLogic.SaveDbAddress();
-                            Log4net.LogHelper.WriteLog("地址采集入库", result, address);
+                            Log4net.LogHelper.WriteLog("地址采集入库",url+";共计:"+ result.ToString());
                         }
                     }
                     
