@@ -49,6 +49,15 @@ namespace Log4net
                 Mac_Address = Utility.OperateHelper.GetMacAddress()
             });
         }
+
+        public static void WriteLog(string v, object p)
+        {
+            throw new NotImplementedException();
+        }
+        public static void WriteLog(string message, object result,object obj)
+        {
+            WriteLog(message,"返回值"+result.ToString()+"\r\n;"+Newtonsoft.Json.JsonConvert.SerializeObject(obj));
+        }
         /// <summary>
         /// 记录日志
         /// </summary>
@@ -60,7 +69,7 @@ namespace Log4net
                 SetConfig();
                 IsLoadConfig = true;
             }
-            loginfo.Info(info);
+           
             if (loginfo.IsInfoEnabled)
             {
                 loginfo.Info(info);

@@ -5,19 +5,36 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="SuperDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AddressBase">
+          <Key>
+            <PropertyRef Name="Code" />
+          </Key>
+          <Property Name="Code" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" MaxLength="50" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“SuperDB.dbo.C__MigrationHistory”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
         <EntityType Name="C__MigrationHistory">
           <Key>
             <PropertyRef Name="MigrationId" />
             <PropertyRef Name="ContextKey" />
+            
+            
           </Key>
           <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
           <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
           <Property Name="Model" Type="varbinary(max)" Nullable="false" />
           <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
         </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“SuperDB.dbo.Function”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
         <EntityType Name="Function">
           <Key>
             <PropertyRef Name="FunctionID" />
+            
+            
+            
           </Key>
           <Property Name="FunctionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="GroupID" Type="int" Nullable="false" />
@@ -27,9 +44,14 @@
           <Property Name="Description" Type="nvarchar" MaxLength="200" />
           <Property Name="Status" Type="int" Nullable="false" />
         </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“SuperDB.dbo.FunctionGroup”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
         <EntityType Name="FunctionGroup">
           <Key>
             <PropertyRef Name="GroupID" />
+            
+            
+            
           </Key>
           <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="GroupName" Type="nvarchar" MaxLength="50" />
@@ -39,6 +61,8 @@
           <Property Name="State" Type="smallint" Nullable="false" />
           <Property Name="Description" Type="nvarchar" MaxLength="100" />
         </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“SuperDB.dbo.MyLogger”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
         <EntityType Name="MyLogger">
           <Key>
             <PropertyRef Name="LogId" />
@@ -168,16 +192,59 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="SuperDBModelStoreContainer">
-          <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Function" EntityType="Self.Function" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="FunctionGroup" EntityType="Self.FunctionGroup" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="MyLogger" EntityType="Self.MyLogger" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AddressBase" EntityType="Self.AddressBase" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MyRoles" EntityType="Self.MyRoles" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MyUsers" EntityType="Self.MyUsers" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="RoleFunction" EntityType="Self.RoleFunction" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UserClaim" EntityType="Self.UserClaim" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UserLogin" EntityType="Self.UserLogin" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UserRole" EntityType="Self.UserRole" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [C__MigrationHistory].[MigrationId] AS [MigrationId], 
+    [C__MigrationHistory].[ContextKey] AS [ContextKey], 
+    [C__MigrationHistory].[Model] AS [Model], 
+    [C__MigrationHistory].[ProductVersion] AS [ProductVersion]
+    FROM [dbo].[C__MigrationHistory] AS [C__MigrationHistory]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Function" EntityType="Self.Function" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Function].[FunctionID] AS [FunctionID], 
+    [Function].[GroupID] AS [GroupID], 
+    [Function].[FunctionName] AS [FunctionName], 
+    [Function].[PageURL] AS [PageURL], 
+    [Function].[OrderNo] AS [OrderNo], 
+    [Function].[Description] AS [Description], 
+    [Function].[Status] AS [Status]
+    FROM [dbo].[Function] AS [Function]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="FunctionGroup" EntityType="Self.FunctionGroup" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [FunctionGroup].[GroupID] AS [GroupID], 
+    [FunctionGroup].[GroupName] AS [GroupName], 
+    [FunctionGroup].[ParentID] AS [ParentID], 
+    [FunctionGroup].[GroupCode] AS [GroupCode], 
+    [FunctionGroup].[OrderNo] AS [OrderNo], 
+    [FunctionGroup].[State] AS [State], 
+    [FunctionGroup].[Description] AS [Description]
+    FROM [dbo].[FunctionGroup] AS [FunctionGroup]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MyLogger" EntityType="Self.MyLogger" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MyLogger].[LogId] AS [LogId], 
+    [MyLogger].[Event_Type] AS [Event_Type], 
+    [MyLogger].[TIMESTAMP] AS [TIMESTAMP], 
+    [MyLogger].[EventCategory] AS [EventCategory], 
+    [MyLogger].[Event_ID] AS [Event_ID], 
+    [MyLogger].[ComputerName] AS [ComputerName], 
+    [MyLogger].[Mac_Address] AS [Mac_Address], 
+    [MyLogger].[UserName] AS [UserName], 
+    [MyLogger].[SourceUrl] AS [SourceUrl], 
+    [MyLogger].[Source] AS [Source], 
+    [MyLogger].[Description] AS [Description], 
+    [MyLogger].[CollectDate] AS [CollectDate]
+    FROM [dbo].[MyLogger] AS [MyLogger]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id" Association="Self.FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id">
             <End Role="MyUsers" EntitySet="MyUsers" />
             <End Role="UserClaim" EntitySet="UserClaim" />
@@ -375,6 +442,7 @@
           </AssociationSet>
           <EntitySet Name="MyLogger" EntityType="SuperDBModel.MyLogger" />
           <EntitySet Name="RoleFunction" EntityType="SuperDBModel.RoleFunction" />
+          <EntitySet Name="AddressBase" EntityType="SuperDBModel.AddressBase" />
         </EntityContainer>
         <EntityType Name="MyLogger">
           <Key>
@@ -400,6 +468,14 @@
           </Key>
           <Property Name="FunctionID" Type="Int32" Nullable="false" />
           <Property Name="RoleID" Type="String" Nullable="false" MaxLength="36" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="AddressBase">
+          <Key>
+            <PropertyRef Name="Code" />
+          </Key>
+          <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -529,6 +605,15 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+          <EntitySetMapping Name="AddressBase">
+            <EntityTypeMapping TypeName="SuperDBModel.AddressBase">
+              <MappingFragment StoreEntitySet="AddressBase">
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping></edmx:Mappings>
   </edmx:Runtime>

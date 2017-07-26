@@ -35,5 +35,6 @@ namespace Entity
         public virtual DbSet<UserRole> UserRole { get; set; }
         public virtual DbSet<MyLogger> MyLogger { get; set; }
         public virtual DbSet<RoleFunction> RoleFunction { get; set; }
+        public virtual DbSet<AddressBase> AddressBase { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace DataAccess
 {
     public static class DataRepository
     {
-        private static DbContext DB
+        public static DbContext DB
         {
             get
             {

@@ -52,8 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cache\CacheHelper.cs" />
-    <Compile Include="Log\ErrorLogHelper.cs" />
+    <Compile Include="HttpHelper.cs" />
     <Compile Include="JsonHelper.cs" />
+    <Compile Include="Log\ErrorLogHelper.cs" />
     <Compile Include="Log\LogContent.cs" />
     <Compile Include="Log\LogHelper.cs" />
     <Compile Include="Log\MyLayout.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="OperateHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadXmlHelper.cs" />
+    <Compile Include="XHtmlElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
