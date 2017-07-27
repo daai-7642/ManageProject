@@ -4,259 +4,251 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="SuperDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="Address_City">
-          <Key>
-            <PropertyRef Name="CityCode" />
-          </Key>
-          <Property Name="CityCode" Type="char" MaxLength="12" Nullable="false" />
-          <Property Name="CityName" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="ProvinceCode" Type="char" MaxLength="12" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Address_County">
-          <Key>
-            <PropertyRef Name="CountyCode" />
-          </Key>
-          <Property Name="CountyCode" Type="char" MaxLength="12" Nullable="false" />
-          <Property Name="CountyName" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="CityCode" Type="char" MaxLength="12" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Address_Province">
-          <Key>
-            <PropertyRef Name="ProvinceCode" />
-          </Key>
-          <Property Name="ProvinceCode" Type="char" MaxLength="12" Nullable="false" />
-          <Property Name="ProvinceName" Type="nvarchar" MaxLength="50" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Address_Town">
-          <Key>
-            <PropertyRef Name="TownCode" />
-          </Key>
-          <Property Name="TownCode" Type="char" MaxLength="12" Nullable="false" />
-          <Property Name="TownName" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="CountyCode" Type="char" MaxLength="12" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Address_Village">
-          <Key>
-            <PropertyRef Name="VillageCode" />
-          </Key>
-          <Property Name="VillageCode" Type="char" MaxLength="12" Nullable="false" />
-          <Property Name="VillageName" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="TownCode" Type="char" MaxLength="12" Nullable="false" />
-        </EntityType>
-        <!--生成过程中发现错误:
-警告 6002: 表/视图“SuperDB.dbo.AddressBase”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
-        <EntityType Name="AddressBase">
-          <Key>
-            <PropertyRef Name="Code" />
-          </Key>
-          <Property Name="Code" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Text" Type="nvarchar" MaxLength="50" />
-          <Property Name="Type" Type="varchar" MaxLength="50" />
-        </EntityType>
-        <EntityType Name="C__MigrationHistory">
-          <Key>
-            <PropertyRef Name="MigrationId" />
-            <PropertyRef Name="ContextKey" />
-          </Key>
-          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
-          <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
-          <Property Name="Model" Type="varbinary(max)" Nullable="false" />
-          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Function">
-          <Key>
-            <PropertyRef Name="FunctionID" />
-          </Key>
-          <Property Name="FunctionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="GroupID" Type="int" Nullable="false" />
-          <Property Name="FunctionName" Type="nvarchar" MaxLength="50" />
-          <Property Name="PageURL" Type="nvarchar" MaxLength="200" />
-          <Property Name="OrderNo" Type="int" Nullable="false" />
-          <Property Name="Description" Type="nvarchar" MaxLength="200" />
-          <Property Name="Status" Type="int" Nullable="false" />
-        </EntityType>
-        <EntityType Name="FunctionGroup">
-          <Key>
-            <PropertyRef Name="GroupID" />
-          </Key>
-          <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="GroupName" Type="nvarchar" MaxLength="50" />
-          <Property Name="ParentID" Type="int" Nullable="false" />
-          <Property Name="GroupCode" Type="nvarchar" MaxLength="50" />
-          <Property Name="OrderNo" Type="int" Nullable="false" />
-          <Property Name="State" Type="smallint" Nullable="false" />
-          <Property Name="Description" Type="nvarchar" MaxLength="100" />
-        </EntityType>
-        <EntityType Name="MyLogger">
-          <Key>
-            <PropertyRef Name="LogId" />
-          </Key>
-          <Property Name="LogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Event_Type" Type="int" />
-          <Property Name="TIMESTAMP" Type="nvarchar" MaxLength="50" />
-          <Property Name="EventCategory" Type="nvarchar" MaxLength="50" />
-          <Property Name="Event_ID" Type="int" />
-          <Property Name="ComputerName" Type="nvarchar" MaxLength="50" />
-          <Property Name="Mac_Address" Type="nvarchar" MaxLength="50" />
-          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
-          <Property Name="SourceUrl" Type="nvarchar" MaxLength="100" />
-          <Property Name="Source" Type="nvarchar" MaxLength="50" />
-          <Property Name="Description" Type="nvarchar(max)" />
-          <Property Name="CollectDate" Type="datetime" />
-        </EntityType>
-        <EntityType Name="MyRoles">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="Name" Type="nvarchar" MaxLength="50" />
-          <Property Name="Description" Type="nvarchar" MaxLength="200" />
-          <Property Name="Status" Type="int" Nullable="false" />
-        </EntityType>
-        <EntityType Name="MyUsers">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="Email" Type="nvarchar(max)" />
-          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
-          <Property Name="PasswordHash" Type="nvarchar(max)" />
-          <Property Name="SecurityStamp" Type="nvarchar(max)" />
-          <Property Name="PhoneNumber" Type="nvarchar(max)" />
-          <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
-          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
-          <Property Name="LockoutEndDateUtc" Type="datetime" />
-          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
-          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
-          <Property Name="UserName" Type="nvarchar(max)" />
-          <Property Name="Discriminator" Type="nvarchar" MaxLength="128" Nullable="false" />
-        </EntityType>
-        <EntityType Name="RoleFunction">
-          <Key>
-            <PropertyRef Name="FunctionID" />
-            <PropertyRef Name="RoleID" />
-          </Key>
-          <Property Name="FunctionID" Type="int" Nullable="false" />
-          <Property Name="RoleID" Type="varchar" MaxLength="36" Nullable="false" />
-        </EntityType>
-        <EntityType Name="UserClaim">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="UserId" Type="nvarchar(max)" />
-          <Property Name="ClaimType" Type="nvarchar(max)" />
-          <Property Name="ClaimValue" Type="nvarchar(max)" />
-          <Property Name="IdentityUser_Id" Type="nvarchar" MaxLength="128" />
-        </EntityType>
-        <EntityType Name="UserLogin">
-          <Key>
-            <PropertyRef Name="UserId" />
-          </Key>
-          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="LoginProvider" Type="nvarchar(max)" />
-          <Property Name="ProviderKey" Type="nvarchar(max)" />
-          <Property Name="IdentityUser_Id" Type="nvarchar" MaxLength="128" />
-        </EntityType>
-        <EntityType Name="UserRole">
-          <Key>
-            <PropertyRef Name="UserId" />
-          </Key>
-          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="RoleId" Type="nvarchar(max)" />
-          <Property Name="IdentityRole_Id" Type="nvarchar" MaxLength="128" />
-          <Property Name="IdentityUser_Id" Type="nvarchar" MaxLength="128" />
-        </EntityType>
-        <Association Name="FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id">
-          <End Role="MyUsers" Type="Self.MyUsers" Multiplicity="0..1" />
-          <End Role="UserClaim" Type="Self.UserClaim" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="MyUsers">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="UserClaim">
-              <PropertyRef Name="IdentityUser_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id">
-          <End Role="MyUsers" Type="Self.MyUsers" Multiplicity="0..1" />
-          <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="MyUsers">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="UserLogin">
-              <PropertyRef Name="IdentityUser_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id">
-          <End Role="MyRoles" Type="Self.MyRoles" Multiplicity="0..1" />
-          <End Role="UserRole" Type="Self.UserRole" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="MyRoles">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="UserRole">
-              <PropertyRef Name="IdentityRole_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id">
-          <End Role="MyUsers" Type="Self.MyUsers" Multiplicity="0..1" />
-          <End Role="UserRole" Type="Self.UserRole" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="MyUsers">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="UserRole">
-              <PropertyRef Name="IdentityUser_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <EntityContainer Name="SuperDBModelStoreContainer">
-          <EntitySet Name="Address_City" EntityType="Self.Address_City" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Address_County" EntityType="Self.Address_County" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Address_Province" EntityType="Self.Address_Province" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Address_Town" EntityType="Self.Address_Town" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Address_Village" EntityType="Self.Address_Village" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Function" EntityType="Self.Function" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="FunctionGroup" EntityType="Self.FunctionGroup" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="MyLogger" EntityType="Self.MyLogger" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="MyRoles" EntityType="Self.MyRoles" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="MyUsers" EntityType="Self.MyUsers" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="RoleFunction" EntityType="Self.RoleFunction" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="UserClaim" EntityType="Self.UserClaim" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="UserLogin" EntityType="Self.UserLogin" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="UserRole" EntityType="Self.UserRole" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="AddressBase" EntityType="Self.AddressBase" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [AddressBase].[Code] AS [Code], 
-    [AddressBase].[Text] AS [Text], 
-    [AddressBase].[Type] AS [Type]
-    FROM [dbo].[AddressBase] AS [AddressBase]</DefiningQuery>
-          </EntitySet>
-          <AssociationSet Name="FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id" Association="Self.FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id">
-            <End Role="MyUsers" EntitySet="MyUsers" />
-            <End Role="UserClaim" EntitySet="UserClaim" />
-          </AssociationSet>
-          <AssociationSet Name="FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id" Association="Self.FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id">
-            <End Role="MyUsers" EntitySet="MyUsers" />
-            <End Role="UserLogin" EntitySet="UserLogin" />
-          </AssociationSet>
-          <AssociationSet Name="FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id" Association="Self.FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id">
-            <End Role="MyRoles" EntitySet="MyRoles" />
-            <End Role="UserRole" EntitySet="UserRole" />
-          </AssociationSet>
-          <AssociationSet Name="FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id" Association="Self.FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id">
-            <End Role="MyUsers" EntitySet="MyUsers" />
-            <End Role="UserRole" EntitySet="UserRole" />
-          </AssociationSet>
-        </EntityContainer>
-      </Schema></edmx:StorageModels>
+    <Schema Namespace="SuperDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SuperDBModelStoreContainer">
+    <EntitySet Name="C__MigrationHistory" EntityType="SuperDBModel.Store.C__MigrationHistory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Function" EntityType="SuperDBModel.Store.Function" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FunctionGroup" EntityType="SuperDBModel.Store.FunctionGroup" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MyRoles" EntityType="SuperDBModel.Store.MyRoles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MyUsers" EntityType="SuperDBModel.Store.MyUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserClaim" EntityType="SuperDBModel.Store.UserClaim" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserLogin" EntityType="SuperDBModel.Store.UserLogin" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserRole" EntityType="SuperDBModel.Store.UserRole" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MyLogger" EntityType="SuperDBModel.Store.MyLogger" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RoleFunction" EntityType="SuperDBModel.Store.RoleFunction" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AddressBase" EntityType="SuperDBModel.Store.AddressBase" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Address_City" EntityType="SuperDBModel.Store.Address_City" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Address_County" EntityType="SuperDBModel.Store.Address_County" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Address_Province" EntityType="SuperDBModel.Store.Address_Province" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Address_Town" EntityType="SuperDBModel.Store.Address_Town" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Address_Village" EntityType="SuperDBModel.Store.Address_Village" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id" Association="SuperDBModel.Store.FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id">
+      <End Role="MyRoles" EntitySet="MyRoles" />
+      <End Role="UserRole" EntitySet="UserRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id" Association="SuperDBModel.Store.FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id">
+      <End Role="MyUsers" EntitySet="MyUsers" />
+      <End Role="UserClaim" EntitySet="UserClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id" Association="SuperDBModel.Store.FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id">
+      <End Role="MyUsers" EntitySet="MyUsers" />
+      <End Role="UserLogin" EntitySet="UserLogin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id" Association="SuperDBModel.Store.FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id">
+      <End Role="MyUsers" EntitySet="MyUsers" />
+      <End Role="UserRole" EntitySet="UserRole" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="ContextKey" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Function">
+    <Key>
+      <PropertyRef Name="FunctionID" />
+    </Key>
+    <Property Name="FunctionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupID" Type="int" Nullable="false" />
+    <Property Name="FunctionName" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="PageURL" Type="nvarchar" Nullable="true" MaxLength="200" />
+    <Property Name="OrderNo" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" Nullable="true" MaxLength="200" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FunctionGroup">
+    <Key>
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="GroupID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupName" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="ParentID" Type="int" Nullable="false" />
+    <Property Name="GroupCode" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="OrderNo" Type="int" Nullable="false" />
+    <Property Name="State" Type="smallint" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" Nullable="true" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="MyRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" Nullable="true" MaxLength="200" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" Nullable="true" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Discriminator" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="UserClaim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="ClaimType" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="IdentityUser_Id" Type="nvarchar" Nullable="true" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="LoginProvider" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="ProviderKey" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="IdentityUser_Id" Type="nvarchar" Nullable="true" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="RoleId" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="IdentityRole_Id" Type="nvarchar" Nullable="true" MaxLength="128" />
+    <Property Name="IdentityUser_Id" Type="nvarchar" Nullable="true" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="MyLogger">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Event_Type" Type="int" Nullable="true" />
+    <Property Name="TIMESTAMP" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="EventCategory" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Event_ID" Type="int" Nullable="true" />
+    <Property Name="ComputerName" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Mac_Address" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="UserName" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="SourceUrl" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="Source" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="CollectDate" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="RoleFunction">
+    <Key>
+      <PropertyRef Name="FunctionID" />
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="FunctionID" Type="int" Nullable="false" />
+    <Property Name="RoleID" Type="varchar" Nullable="false" MaxLength="36" />
+  </EntityType>
+  <EntityType Name="AddressBase">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Text" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Type" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Address_City">
+    <Key>
+      <PropertyRef Name="CityCode" />
+    </Key>
+    <Property Name="CityCode" Type="char" Nullable="false" MaxLength="12" />
+    <Property Name="CityName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProvinceCode" Type="char" Nullable="false" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="Address_County">
+    <Key>
+      <PropertyRef Name="CountyCode" />
+    </Key>
+    <Property Name="CountyCode" Type="char" Nullable="false" MaxLength="12" />
+    <Property Name="CityCode" Type="char" Nullable="false" MaxLength="12" />
+    <Property Name="CountyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Address_Province">
+    <Key>
+      <PropertyRef Name="ProvinceCode" />
+    </Key>
+    <Property Name="ProvinceCode" Type="char" Nullable="false" MaxLength="12" />
+    <Property Name="ProvinceName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Address_Town">
+    <Key>
+      <PropertyRef Name="TownCode" />
+    </Key>
+    <Property Name="TownCode" Type="char" Nullable="false" MaxLength="12" />
+    <Property Name="TownName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CountyCode" Type="char" Nullable="false" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="Address_Village">
+    <Key>
+      <PropertyRef Name="VillageCode" />
+    </Key>
+    <Property Name="VillageCode" Type="char" Nullable="false" MaxLength="12" />
+    <Property Name="VillageName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TownCode" Type="char" Nullable="false" MaxLength="12" />
+  </EntityType>
+  <Association Name="FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id">
+    <End Role="MyRoles" Type="SuperDBModel.Store.MyRoles" Multiplicity="0..1" />
+    <End Role="UserRole" Type="SuperDBModel.Store.UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="IdentityRole_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id">
+    <End Role="MyUsers" Type="SuperDBModel.Store.MyUsers" Multiplicity="0..1" />
+    <End Role="UserClaim" Type="SuperDBModel.Store.UserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserClaim">
+        <PropertyRef Name="IdentityUser_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id">
+    <End Role="MyUsers" Type="SuperDBModel.Store.MyUsers" Multiplicity="0..1" />
+    <End Role="UserLogin" Type="SuperDBModel.Store.UserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserLogin">
+        <PropertyRef Name="IdentityUser_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id">
+    <End Role="MyUsers" Type="SuperDBModel.Store.MyUsers" Multiplicity="0..1" />
+    <End Role="UserRole" Type="SuperDBModel.Store.UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="IdentityUser_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="SuperDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -664,9 +656,9 @@
     <EntitySetMapping Name="Address_County">
       <EntityTypeMapping TypeName="IsTypeOf(SuperDBModel.Address_County)">
         <MappingFragment StoreEntitySet="Address_County">
-          <ScalarProperty Name="CountyName" ColumnName="CountyName" />
-                <ScalarProperty Name="CountyCode" ColumnName="CountyCode" />
+          <ScalarProperty Name="CountyCode" ColumnName="CountyCode" />
           <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="CountyName" ColumnName="CountyName" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -690,9 +682,9 @@
     <EntitySetMapping Name="Address_Village">
       <EntityTypeMapping TypeName="IsTypeOf(SuperDBModel.Address_Village)">
         <MappingFragment StoreEntitySet="Address_Village">
-          <ScalarProperty Name="TownCode" ColumnName="TownCode" />
-                <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
+          <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
           <ScalarProperty Name="VillageName" ColumnName="VillageName" />
+          <ScalarProperty Name="TownCode" ColumnName="TownCode" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
