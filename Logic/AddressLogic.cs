@@ -19,6 +19,7 @@ namespace Logic
             }
             return -1;
         }
+      
         public void AddDbAddress(Entity.AddressBase address)
         {
             AddressBase result = Utility.EFContextFactory.GetCurrentDbContext().Set<AddressBase>().Find(address.Code);
