@@ -13,3 +13,10 @@ function refresh()
     //关闭弹出层
     parent.layer.close(index);
 }
+
+/*数据处理*/
+function JsonToJson(data) {
+    var reg = new RegExp('&quot;', 'g');
+    data = data.replace(reg, '"');
+    return JSON.parse('' + data + '');
+}

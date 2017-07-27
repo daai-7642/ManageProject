@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using Entity;
+using Log4net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,5 +40,53 @@ namespace Logic
             fileds.Add("Status");
             return DataRepository.UpdateEntityFields<MyRoles>(role, fileds);
         }
+        public MyRoleViewModel Find(string id)
+        {
+            MyRoleViewModel roleView = new MyRoleViewModel();
+            var role= DataRepository.DB.Set<MyRoles>().Find(id);
+            roleView.Id = role.Id;
+            roleView.Name = role.Name;
+            roleView.Description = role.Description;
+            List<Function>  data = (from f in DataRepository.DB.Set<Function>()
+                        join  d in DataRepository.DB.Set<RoleFunction>()
+                        on f.FunctionID equals d.FunctionID
+                        where d.RoleID == id
+                        select f).ToList();
+            roleView.Function = data;
+            return roleView;
+        }
+        public int EditRole(MyRoles role, int[] function)
+        {
+            using (var scope = EFContextFactory.GetCurrentDbContext().Database.BeginTransaction())
+            {
+                try
+                {
+                    DataRepository.DB.Database.ExecuteSqlCommand("delete from rolefunction where roleid='" + role.Id + "'");
+                    foreach (var item in function)
+                    {
+                        DataRepository.DB.Set<RoleFunction>().Add(new RoleFunction
+                        {
+                            RoleID = role.Id,
+                            FunctionID = item,
+                        });
+                    }
+                    List<string> fields = new List<string>();
+                    fields.Add("Description");
+                    fields.Add("Name");
+                    DataRepository.UpdateSetEntityFields<MyRoles>(role,fields);
+                    DataRepository.DB.SaveChanges();
+                    scope.Commit();
+                    LogHelper.WriteLog("修改角色及权限", "1", function + role.ObjectToJson());
+                    return 1;
+                }
+                catch (Exception ex)
+                {
+                    ErrorLogHelper.WriteLog(ex);
+                    scope.Rollback();
+                    return 0;
+                }
+            }
+        }
+
     }
 }

@@ -15,10 +15,7 @@ namespace ViewModel
         public string Name { get; set; }
         public string Description { get; set; }
         public int Status { get; set; }
-        /// <summary>
-        /// 功能组id
-        /// </summary>
-        public int GroupID { get; set; }
+        public List<Function> Function { get; set; }
         public static MyRoles ViewModelToEntity(MyRoleViewModel viewmdoel)
         {
             MyRoles role = new MyRoles();

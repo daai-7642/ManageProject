@@ -49,7 +49,7 @@ namespace DataAccess
                 DB.Set<T>().Add(t);
                 int result= DB.SaveChanges();
                
-                LogHelper.WriteLog("add"+t.GetType(),result.ToString()+t.ObjectToJson());
+                LogHelper.WriteLog("Add"+t.GetType(),result.ToString()+t.ObjectToJson());
                 return result;
             }
             catch (Exception ex)
@@ -58,6 +58,40 @@ namespace DataAccess
                 return 0;
             }
         }
+        public static int Delete<T>(T t) where T : class
+        {
+            try
+            {
+                DB.Set<T>().Remove(t);
+                int result = DB.SaveChanges();
+
+                LogHelper.WriteLog("Delete" + t.GetType(), result.ToString() + t.ObjectToJson());
+                return result;
+            }
+            catch (Exception ex)
+            {
+                ErrorLogHelper.WriteLog(ex);
+                return 0;
+            }
+        }
+        public static int DeleteRange<T>(IEnumerable<T> ts) where T : class
+        {
+            try
+            {
+                DB.Set<T>().RemoveRange(ts);
+                int result = DB.SaveChanges();
+
+                LogHelper.WriteLog("Delete" + ts.GetType(), result.ToString() + ts.ObjectToJson());
+                return result;
+            }
+            catch (Exception ex)
+            {
+                ErrorLogHelper.WriteLog(ex);
+                return 0;
+            }
+        }
+
+        
         public static int Update<T>(T t, string Id) where T : class
         {
 
@@ -97,11 +131,27 @@ namespace DataAccess
                 }
                 catch (Exception ex)
                 {
-
+              
                     return 0;
                 }
             }
             return 0;
         }
+        public static void UpdateSetEntityFields<T>(T entity, List<string> fileds) where T : class
+        {
+            if (entity != null && fileds != null)
+            {
+
+
+                DB.Set<T>().Attach(entity);
+                var SetEntry = ((IObjectContextAdapter)DB).ObjectContext.
+                    ObjectStateManager.GetObjectStateEntry(entity);
+                foreach (var t in fileds)
+                {
+                    SetEntry.SetModifiedProperty(t);
+                }
+            }
+        }
+
     }
 }

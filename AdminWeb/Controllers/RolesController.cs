@@ -49,6 +49,17 @@ namespace AdminWeb.Controllers
             int result=roleLogic.UpdateRoleStatus(role) ;
             return Json(result);
         }
+        public ActionResult EditRole(string id)
+        {
+            var data= roleLogic.Find(id);
+            return View(data);
+        }
+        [HttpPost]
+        public ActionResult EditRole(MyRoles role, int[] Function)
+        {
+            return Json(roleLogic.EditRole(role, Function));
+             
+        }
  
     }
 }
