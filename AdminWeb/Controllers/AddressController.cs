@@ -168,6 +168,10 @@ namespace AdminWeb.Controllers
                     throw new Exception();
                 }
             }
+            if (url.IndexOf("Html/Address") > -1)
+            {
+                url = "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016" + url.Substring(url.LastIndexOf("/"));
+            }
             Regex reg = new Regex("<tr class='(.*?)'>(.*?)</tr>", RegexOptions.IgnoreCase);
             MatchCollection matches = reg.Matches(html);
             
@@ -218,7 +222,7 @@ namespace AdminWeb.Controllers
             }
             int result = addressLogic.SaveDbAddress();
             count += result;
-            Log4net.LogHelper.WriteLog("地址统计:" , url + ";共计:" + result.ToString());
+            Log4net.LogHelper.WriteLog("地址统计:"+ count.ToString(), url + ";共计:" + result.ToString());
 
             return count;
         }
