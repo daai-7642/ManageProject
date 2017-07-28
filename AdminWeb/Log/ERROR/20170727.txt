@@ -1,0 +1,676 @@
+记录时间：2017-07-27 00:01:07,289
+ 线程ID:[18]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/15/05/02/150502001.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:12:24,323
+ 线程ID:[13]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/35/01/11/350111102.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:13:44,566
+ 线程ID:[12]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/37/01/12/370112015.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:20:00,583
+ 线程ID:[13]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/35/03/05/350305102.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:21:06,226
+ 线程ID:[17]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/41/02/22/410222105.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:30:00,913
+ 线程ID:[17]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/41/03/25/410325106.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:30:21,718
+ 线程ID:[22]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/42/05/420506.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:32:41,345
+ 线程ID:[10]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/36/07/360722.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 00:42:36,469
+ 线程ID:[13]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/35/06/23/350623202.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 01:21:41,454
+ 线程ID:[21]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/34/16/21/341621105.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 01:23:57,212
+ 线程ID:[17]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/41/08/11/410811003.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 01:30:30,592
+ 线程ID:[10]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/36/10/22/361022500.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 01:49:49,849
+ 线程ID:[11]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/44/01/17/440117001.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 01:59:59,043
+ 线程ID:[10]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/36/11/30/361130204.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 02:04:44,338
+ 线程ID:[17]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/41/11/22/411122100.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 03:16:29,461
+ 线程ID:[13]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/43/11/03/431103104.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 03:17:25,991
+ 线程ID:[12]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/37/13/21/371321001.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 03:25:19,448
+ 线程ID:[7]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/45/12/24/451224206.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 03:32:29,282
+ 线程ID:[3]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/50/02/33/500233106.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 03:51:08,258
+ 线程ID:[22]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/51/01/05/510105002.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 04:47:43,397
+ 线程ID:[12]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/37/15/371522.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 04:51:45,520
+ 线程ID:[22]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/51/07/22/510722206.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 04:52:12,733
+ 线程ID:[10]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/52/06/21/520621103.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 04:54:05,861
+ 线程ID:[10]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/52/06/23/520623001.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 04:55:51,903
+ 线程ID:[10]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：错误:"http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/52/06/23/520623203.html";
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Utility.HttpHelper.Get(String url) 位置 F:\项目\ManageProject\Utility\HttpHelper.cs:行号 17
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 07:19:00,997
+ 线程ID:[22]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbTransactionDispatcher.Commit(DbTransaction transaction, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityTransaction.Commit()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Logic.AddressLogic.SaveDbAddress() 位置 F:\项目\ManageProject\Logic\AddressLogic.cs:行号 92
+   在 AdminWeb.Controllers.AddressController.GetHtml(String url) 位置 F:\项目\ManageProject\AdminWeb\Controllers\AddressController.cs:行号 130
+   在 AdminWeb.Controllers.AddressController.GetHtml(String url) 位置 F:\项目\ManageProject\AdminWeb\Controllers\AddressController.cs:行号 129
+   在 AdminWeb.Controllers.AddressController.GetHtml(String url) 位置 F:\项目\ManageProject\AdminWeb\Controllers\AddressController.cs:行号 129
+   在 AdminWeb.Controllers.AddressController.Index(String url) 位置 F:\项目\ManageProject\AdminWeb\Controllers\AddressController.cs:行号 26
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 21:59:47,952
+ 线程ID:[35]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 Logic.RoleLogic.Find(String id) 位置 F:\项目\ManageProject\Logic\RoleLogic.cs:行号 46
+   在 AdminWeb.Controllers.RolesController.EditRole(String id) 位置 F:\项目\ManageProject\AdminWeb\Controllers\RolesController.cs:行号 54
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 22:26:59,383
+ 线程ID:[9]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 Logic.RoleLogic.Find(String id) 位置 F:\项目\ManageProject\Logic\RoleLogic.cs:行号 46
+   在 AdminWeb.Controllers.RolesController.EditRole(String id) 位置 F:\项目\ManageProject\AdminWeb\Controllers\RolesController.cs:行号 54
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 23:14:10,173
+ 线程ID:[11]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Logic.RoleLogic.EditRole(MyRoles role, Int32[] function)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 23:15:15,297
+ 线程ID:[23]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Logic.RoleLogic.EditRole(MyRoles role, Int32[] function)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 23:17:24,655
+ 线程ID:[17]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Logic.RoleLogic.EditRole(MyRoles role, Int32[] function)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 23:24:23,880
+ 线程ID:[9]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Logic.RoleLogic.EditRole(MyRoles role, Int32[] function) 位置 F:\项目\ManageProject\Logic\RoleLogic.cs:行号 78
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 23:31:14,401
+ 线程ID:[28]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2017-07-27 23:32:17,814
+ 线程ID:[11]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=MS-20161220TKFQ\Administrator, log4net:HostName=MS-20161220TKFQ}
+ 当前机器名及登录用户：MS-20161220TKFQ\Administrator
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(F:\项目\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR

@@ -35,7 +35,7 @@ namespace AdminWeb.Controllers
             
             List<string> lstImg = new List<string>();
             var obj=CacheHelper.Get("address");
-            if (obj==null)
+            if (obj==null) 
             {
                 CacheHelper.AddPermanent("address", lstImg);
                 obj = lstImg;

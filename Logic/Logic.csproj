@@ -54,6 +54,10 @@
       <Project>{B5278E82-3EFB-420D-8F5B-9935E9B102F2}</Project>
       <Name>Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{3C424CB1-CD02-4A46-BEED-C07B15CE72A9}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ViewModel\ViewModel.csproj">
       <Project>{ba0704e0-18fc-4d32-be5b-41962b562c70}</Project>
       <Name>ViewModel</Name>

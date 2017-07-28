@@ -2445,6 +2445,7 @@
     <Content Include="Views\Roles\RolePage.cshtml" />
     <Content Include="Views\Roles\CreateRole.cshtml" />
     <Content Include="Views\Address\Index.cshtml" />
+    <Content Include="Views\Roles\EditRole.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
