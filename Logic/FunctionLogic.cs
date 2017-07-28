@@ -31,5 +31,13 @@ namespace Logic
         {
             return functionDataAccess.GetFunctionGroupList();
         }
-    }
+        /// <summary>
+        /// 存储过程获取所有的权限
+        /// </summary>
+        /// <returns></returns>
+        public List<FunctionGroupTree> GetFunctionAndGroupList()
+        {
+            return functionDataAccess.GetFunctionAndGroupList();
+        }
+        }
 }

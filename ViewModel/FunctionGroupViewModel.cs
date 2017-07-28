@@ -24,5 +24,11 @@ namespace ViewModel
         public List<FunctionGroup> FunctionGroup { get; set; }
         public List<Function> Function { get; set; }
     }
+    public class FunctionGroupTree
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public int pId { get; set; }
+    }
 
 }

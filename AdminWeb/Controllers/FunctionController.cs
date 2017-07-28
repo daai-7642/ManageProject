@@ -9,10 +9,11 @@ namespace AdminWeb.Controllers
 {
     public class FunctionController : Controller
     {
+        FunctionLogic functionLogic = new FunctionLogic();
         // GET: Function
         public ActionResult Index()
         {
-            var list = new FunctionLogic().GetFunctionList();
+            var list = functionLogic.GetFunctionAndGroupList();
             return View(list);
         }
     }

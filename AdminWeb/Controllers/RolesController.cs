@@ -58,7 +58,6 @@ namespace AdminWeb.Controllers
         public ActionResult EditRole(MyRoles role, int[] Function)
         {
             return Json(roleLogic.EditRole(role, Function));
-             
         }
  
     }
