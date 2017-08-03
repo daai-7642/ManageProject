@@ -62,7 +62,7 @@ namespace DataAccess
                 RedisHelper.Set<List<FunctionGroupTree>>("GetFunctionAndGroupList",list);
                 obj = list;
             }
-            CacheFactory.Cache.InitCache();
+            //CacheFactory.Cache.InitCache();
 
             return obj as List<FunctionGroupTree>;
         }

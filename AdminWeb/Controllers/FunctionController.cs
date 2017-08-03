@@ -1,4 +1,6 @@
-﻿using Logic;
+﻿using Entity;
+using Logic;
+using Microsoft.Ajax.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,11 @@ namespace AdminWeb.Controllers
     {
         FunctionLogic functionLogic = new FunctionLogic();
         // GET: Function
-        public ActionResult Index()
+        public ActionResult Index(int pageIndex=1,string functionName="")
         {
-            var list = functionLogic.GetFunctionAndGroupList();
+            //Expression<Func<T, S>>
+
+            var list = functionLogic.GetFunctionAndGroupList();//.Where();
             return View(list);
         }
     }

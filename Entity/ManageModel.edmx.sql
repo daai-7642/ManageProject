@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/27/2017 09:39:39
--- Generated from EDMX file: D:\文档\Visual Studio 2015\Projects\ManageProject\Entity\ManageModel.edmx
+-- Date Created: 07/29/2017 16:21:43
+-- Generated from EDMX file: F:\项目\ManageProject\Entity\ManageModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -17,14 +17,14 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id];
+GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserClaim] DROP CONSTRAINT [FK_dbo_UserClaim_dbo_MyUsers_IdentityUser_Id];
 GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserLogin] DROP CONSTRAINT [FK_dbo_UserLogin_dbo_MyUsers_IdentityUser_Id];
-GO
-IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyRoles_IdentityRole_Id];
 GO
 IF OBJECT_ID(N'[dbo].[FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[UserRole] DROP CONSTRAINT [FK_dbo_UserRole_dbo_MyUsers_IdentityUser_Id];
@@ -34,6 +34,39 @@ GO
 -- Dropping existing tables
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[C__MigrationHistory]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[C__MigrationHistory];
+GO
+IF OBJECT_ID(N'[dbo].[Function]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Function];
+GO
+IF OBJECT_ID(N'[dbo].[FunctionGroup]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[FunctionGroup];
+GO
+IF OBJECT_ID(N'[dbo].[MyRoles]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MyRoles];
+GO
+IF OBJECT_ID(N'[dbo].[MyUsers]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MyUsers];
+GO
+IF OBJECT_ID(N'[dbo].[UserClaim]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[UserClaim];
+GO
+IF OBJECT_ID(N'[dbo].[UserLogin]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[UserLogin];
+GO
+IF OBJECT_ID(N'[dbo].[UserRole]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[UserRole];
+GO
+IF OBJECT_ID(N'[dbo].[MyLogger]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MyLogger];
+GO
+IF OBJECT_ID(N'[dbo].[RoleFunction]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[RoleFunction];
+GO
+IF OBJECT_ID(N'[dbo].[AddressBase]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AddressBase];
+GO
 IF OBJECT_ID(N'[dbo].[Address_City]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Address_City];
 GO
@@ -48,39 +81,6 @@ IF OBJECT_ID(N'[dbo].[Address_Town]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[Address_Village]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Address_Village];
-GO
-IF OBJECT_ID(N'[dbo].[C__MigrationHistory]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[C__MigrationHistory];
-GO
-IF OBJECT_ID(N'[dbo].[Function]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[Function];
-GO
-IF OBJECT_ID(N'[dbo].[FunctionGroup]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[FunctionGroup];
-GO
-IF OBJECT_ID(N'[dbo].[MyLogger]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[MyLogger];
-GO
-IF OBJECT_ID(N'[dbo].[MyRoles]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[MyRoles];
-GO
-IF OBJECT_ID(N'[dbo].[MyUsers]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[MyUsers];
-GO
-IF OBJECT_ID(N'[dbo].[RoleFunction]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[RoleFunction];
-GO
-IF OBJECT_ID(N'[dbo].[UserClaim]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[UserClaim];
-GO
-IF OBJECT_ID(N'[dbo].[UserLogin]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[UserLogin];
-GO
-IF OBJECT_ID(N'[dbo].[UserRole]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[UserRole];
-GO
-IF OBJECT_ID(N'[SuperDBModelStoreContainer].[AddressBase]', 'U') IS NOT NULL
-    DROP TABLE [SuperDBModelStoreContainer].[AddressBase];
 GO
 
 -- --------------------------------------------------

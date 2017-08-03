@@ -29,6 +29,8 @@ namespace ViewModel
         public int id { get; set; }
         public string name { get; set; }
         public int pId { get; set; }
+        public string  open { get; set; }
+        public int MyProperty { get; set; }
     }
 
 }
