@@ -2445,6 +2445,8 @@
     <Content Include="Views\Roles\CreateRole.cshtml" />
     <Content Include="Views\Address\Index.cshtml" />
     <Content Include="Views\Roles\EditRole.cshtml" />
+    <Content Include="Views\Function\FunctionPage.cshtml" />
+    <Content Include="Views\Function\CreateFunction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />
@@ -2490,7 +2492,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51832</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

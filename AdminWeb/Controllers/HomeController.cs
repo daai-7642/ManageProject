@@ -1,4 +1,5 @@
-﻿using Log4net;
+﻿using FMCG.Utility.RedisCache;
+using Log4net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,15 @@ namespace AdminWeb.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        public ActionResult ClearCache()
+        {
+            RedisHelper.FlushAll();
+            return Content("<script>alert('清除缓存')</script>");
+        }
+        public ActionResult Ajax(string url,string postDataStr)
+        {
+           return Content( Utility.HttpHelper.Post(url,postDataStr));
         }
     }
 }

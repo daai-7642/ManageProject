@@ -1,6 +1,6 @@
 ﻿@using Webdiyer.WebControls.Mvc;
 
-@model List<ViewModel.FunctionGroupTree>
+@model PagedList<Entity.Function>
  @{
       Layout = null;
          }
@@ -19,7 +19,49 @@
 
 
     <link rel="stylesheet" href="~/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <style>
+        .page li {
+            float: left;
+            margin-left: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 2px;
+            text-align: center;
+            text-decoration: none;
+            color: #666;
+            height: 26px;
+            line-height: 26px;
+            text-decoration: none;
+            margin: 0 0 6px 6px;
+            padding: 0 10px;
+            font-size: 14px;
+        }
 
+            .page li:hover {
+                background: #5a98de;
+                color: #fff;
+            }
+
+        .page .active {
+            background: #5a98de;
+            color: #fff;
+        }
+
+        .pageDiv {
+            float: right;
+            padding-top: 10px;
+            text-align: right;
+        }
+
+        .dataTables_info {
+            clear: both;
+            float: left;
+            padding-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/DataOperate.js"></script>
     <script src="~/Lib/zTree/v3/js/jquery.ztree.core-3.5.min.js"></script>
@@ -32,7 +74,8 @@
         <div class="text-c">
             <form id="searchForm">
                 <button onclick="removeIframe()" class="btn btn-primary radius">关闭选项卡</button>
-                <input type="text" name="roleName" placeholder="菜单名称" style="width:250px" class="input-text">
+                <input type="text" name="functionName" placeholder="菜单名称" style="width:250px" class="input-text">
+                <input name="groupID" hidden />
                 <button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜菜单</button>
 
             </form>
@@ -44,128 +87,25 @@
                     <i class="Hui-iconfont">&#xe600;</i> 添加菜单
                 </a>
             </span>
-            <span class="r">共有数据：<strong>11</strong> 条</span>
+            <span class="r">共有数据：<strong>@Model.TotalItemCount</strong> 条</span>
 
 
         </div>
         <div class="mt-20">
             <table class="table">
                 <tr>
-                    <td width="200" class="va-t"><ul id="treeDemo" class="ztree"></ul></td>
+                    <td width="200" class="va-t"><ul id="functionTree" class="ztree"></ul></td>
                     <td class="va-t"  id="content">
-                        <table class="table table-border table-bordered table-hover table-bg">
-                            <thead>
-                                <tr>
-                                    <th scope="col" colspan="6">菜单管理</th>
-                                </tr>
-                                <tr class="text-c">
-                                    <th width="25"><input type="checkbox" value="" name=""></th>
-                                    <th width="130">ID</th>
-                                    <th width="200">角色名</th>
-                                    <th>用户列表</th>
-                                    <th width="300">描述</th>
-                                    <th width="70">操作</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var item in Model)
-                                {
-                                    <tr class="text-c">
-                                        <td><input type="checkbox" value="" name=""></td>
-                                        <td>@item.id</td>
-                                        <td>@item.name</td>
-                                        <td><a href="#">admin</a></td>
-                                        <td>@item.pId</td>
-                                        <td class="td-manage">
-
-                                            <a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑', '/Roles/EditRole/@item.id', '1')" style="text-decoration:none">
-                                                <i class="Hui-iconfont">&#xe6df;</i>
-                                            </a>
-                                            <a title="删除" href="javascript:;" onclick="admin_role_del(this,'@item.id')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
-                                        </td>
-                                    </tr>
-                                }
-
-                               
-                            </tbody>
-
-                        </table>
-
+                        @Html.Partial("FunctionPage",Model)
                     </td>
                 </tr>
             </table>
 
         </div>
     </div>
-    
-    @*<div class="content_wrap">
-        <div class="zTreeDemoBackground left">
-            <ul id="treeDemo" class="ztree"></ul>
-        </div>
-        <div class="right">
+    <button onclick="scan()">扫码</button>
+  @{Html.RegisterMvcPagerScriptResource();}
 
-            <table class="table table-border table-bordered table-hover table-bg">
-                <thead>
-                    <tr>
-                        <th scope="col" colspan="6">角色管理</th>
-                    </tr>
-                    <tr class="text-c">
-                        <th width="25"><input type="checkbox" value="" name=""></th>
-                        <th width="130">ID</th>
-                        <th width="200">角色名</th>
-                        <th>用户列表</th>
-                        <th width="300">描述</th>
-                        <th width="70">操作</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr class="text-c">
-                            <td><input type="checkbox" value="" name=""></td>
-                            <td>@item.id</td>
-                            <td>@item.name</td>
-                            <td><a href="#">admin</a></td>
-                            <td>@item.pId</td>
-                            <td class="td-manage">
-
-                                <a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑', '/Roles/EditRole/@item.id', '1')" style="text-decoration:none">
-                                    <i class="Hui-iconfont">&#xe6df;</i>
-                                </a>
-                                <a title="删除" href="javascript:;" onclick="admin_role_del(this,'@item.id')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
-                            </td>
-                        </tr>
-                    }
-
-
-                </tbody>
-
-            </table>
-            @*<div class="dataTables_info" role="status" aria-live="polite">显示 1 到 @Model.TotalItemCount ，共 @Model.TotalItemCount 条</div>*@
-
-            @*<div class="pageDiv">
-                @Ajax.Pager(Model, new PagerOptions
-{
-    CssClass = "page",
-    FirstPageText = "首页",
-    LastPageText = "尾页",
-    NextPageText = "下一页",
-    PrevPageText = "上一页",
-    PageIndexParameterName = "pageIndex",
-    NumericPagerItemCount = 5,
-    ContainerTagName = "ul",
-    CurrentPagerItemTemplate = "<li class=\"active\"><a href=\"#\">{0}</a></li>",
-    DisabledPagerItemTemplate = "<li class=\"disabled\"><a>{0}</a></li>",
-    PagerItemTemplate = "<li>{0}</li>",
-    PageIndexBoxId = "pageIndexBox",
-}, new MvcAjaxOptions { UpdateTargetId = "content", HttpMethod = "get", DataFormId = "searchForm", EnableHistorySupport = false })
-
-            </div> 
-          
-
-        </div>
-    </div>*@
-     
 </body>
 </html>
 <script src="~/Scripts/jquery.form.js"></script>
@@ -175,19 +115,62 @@
 <script type="text/javascript" src="~/lib/jquery.contextmenu/jquery.contextmenu.r2.js"></script>
 <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
 <script>
-    var zNodes = JsonToJson('@Json.Encode(Model)');
+    function scan()
+    {
+        var data = {
+            QRCode: "01120011510130875771",
+            ScanDate: "2017-08-04 16:50:02",
+            StoreCode: "R093633",
+            SRCode: "SR01",
+            Type: 1,
+            apiKey: "FHeE95YN"
+        }
+        $.ajax({
+            url: "http://210.14.77.123:5003/OpenApi/QRSvc.asmx?op=GetQRCodeInfo&callback=?",
+            type: "post",
+            data:data ,
+            success: function (res) {
+                console.log(res);
+            }
+        })
+        return false;
+        $.ajax({
+            //url: "http://210.14.77.123:5003/OpenApi/QRSvc.asmx?op=GetQRCodeInfo&callback=?",
+            url:"/Home/Ajax",
+            type: "post",
+            data: {
+                url:"http://210.14.77.123:5003/OpenApi/QRSvc.asmx?op=GetQRCodeInfo",
+                postDataStr: JSON.stringify(data)
+            },
+            success: function (res) {
+                console.log(res);
+            }
+        })
+    }
+    var zNodes = JsonToJson('@Json.Encode(ViewBag.FunctionList)');
 
     var setting = {
         data: {
             simpleData: {
                 enable: true
             }
+        }, callback: { 
+            beforeClick: beforeClick,
         }
     };  
 
     
    
     $(document).ready(function () {
-        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+        $.fn.zTree.init($("#functionTree"), setting, zNodes);
     });
+    function beforeClick(treeId, treeNode, clickFlag) {
+        if (treeNode.pId == null)
+        {
+            $("#searchForm input[name='groupID']").val(treeNode.id);
+            $("#searchForm button[type='submit']").click();
+        }
+    
+    }
+
 </script>

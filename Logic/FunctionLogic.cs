@@ -3,6 +3,7 @@ using Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using ViewModel;
@@ -39,5 +40,9 @@ namespace Logic
         {
             return functionDataAccess.GetFunctionAndGroupList();
         }
+        public List<Function> GetFunctionPageList(int pageIndex,int pageSize, Expression<Func<Function, int>> sort, bool isAsc, Expression<Func<Function, bool>> predicate, out int totalCount)
+        {
+            return DataRepository.PageList<Function, int>(pageIndex, pageSize, sort, isAsc, predicate, out totalCount);
         }
+    }
 }
