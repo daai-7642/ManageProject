@@ -175,6 +175,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AddressController.cs" />
     <Compile Include="Controllers\DbOperateController.cs" />
+    <Compile Include="Controllers\ExportExcelChartController.cs" />
     <Compile Include="Controllers\FunctionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -197,11 +198,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\20170821script.sql" />
     <Content Include="App_Data\dbo.sql" />
     <Content Include="App_Data\script.sql" />
     <Content Include="Config\DataBaseSettings.config" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\echartsHome.css" />
     <Content Include="Content\H-ui.admin.css" />
     <Content Include="Content\H-ui.css" />
     <Content Include="Content\H-ui.ie.css" />
@@ -2156,6 +2159,8 @@
     <Content Include="Config\Redis.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataOperate.js" />
+    <Content Include="Scripts\echarts-all.js" />
+    <Content Include="Scripts\echarts.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -2447,9 +2452,11 @@
     <Content Include="Views\Roles\EditRole.cshtml" />
     <Content Include="Views\Function\FunctionPage.cshtml" />
     <Content Include="Views\Function\CreateFunction.cshtml" />
+    <Content Include="Views\ExportExcelChart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />
+    <Folder Include="FileContent\" />
     <Folder Include="Views\DbOperate\" />
   </ItemGroup>
   <ItemGroup>

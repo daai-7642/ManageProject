@@ -20,3 +20,18 @@ function JsonToJson(data) {
     data = data.replace(reg, '"');
     return JSON.parse('' + data + '');
 }
+function post(url, data) {
+    var temp = document.createElement("form");
+    temp.action = url;
+    temp.method = "post";
+    temp.style.display = "none";
+    for (var x in data) {
+        var opt = document.createElement("input");
+        opt.name = x;
+        opt.value = data[x] == null ? "" : data[x];
+        temp.appendChild(opt);
+    }
+    document.body.appendChild(temp);
+    temp.submit();
+    return temp;
+}

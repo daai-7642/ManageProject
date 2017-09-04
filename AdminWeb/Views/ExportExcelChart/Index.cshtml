@@ -1,0 +1,123 @@
+﻿@model List<AdminWeb.Controllers.ExportExcelChartController.Merchandise>
+ 
+<script src="~/Scripts/echarts-all.js"></script>
+ <a class="btn btn-defalut"  onclick="ExportExcelChart()">导出</a>
+@*<a class="btn btn-defalut" href="#" onclick="downloadImpByChart('main')">导出图表</a>*@
+
+<table class="tab" style="width:200px">
+    <tr>
+        <th >产品名称</th>
+        <th  >产品数量</th>
+    </tr>
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td  >
+                    @item.MerchandiseName
+                </td>
+                <td  >
+                    @item.MerchandiseNum
+                </td>
+            </tr>
+        }
+    }
+
+
+
+</table>
+
+
+<div id="main" style="height:400px"></div>
+<script>
+    var con = '@Json.Encode(@Model)';
+    var reg = new RegExp('&quot;', 'g');
+    con = con.replace(reg, '"')
+
+
+    var conlist = [];
+    var vallist = [];
+    for (var i = 0; i < eval(con).length; i++) {
+        conlist.push(eval(con)[i].MerchandiseName);
+        vallist.push(eval(con)[i].MerchandiseNum);
+    }
+    console.log(conlist);
+    // 基于准备好的dom，初始化echarts图表
+    var myChart = echarts.init(document.getElementById('main'));
+
+    var option = {
+        title: {
+            text: '各个品牌销售量',
+            subtext: '纯属虚构'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data: ['销售量']
+        },
+        toolbox: {
+            show: true,
+            feature: {
+                mark: { show: true },
+                dataView: { show: true, readOnly: false },
+                magicType: { show: true, type: ['line', 'bar'] },
+                restore: { show: true },
+                saveAsImage: { show: true }
+            }
+        },
+        calculable: true,
+        xAxis: [
+            {
+                type: 'category',
+                data: conlist//['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value'
+            }
+        ],
+        series: [
+            {
+                name: '销售量',
+                type: 'bar',
+                data: vallist,//[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3],
+                markPoint: {
+                    data: [
+                        { type: 'max', name: '最大值' },
+                        { type: 'min', name: '最小值' }
+                    ]
+                },
+                markLine: {
+                    data: [
+                        { type: 'average', name: '平均值' }
+                    ]
+                }
+            }
+        ]
+    };
+
+
+    // 为echarts对象加载数据
+    myChart.setOption(option);
+    
+    function ExportExcelChart()
+    {
+        post("/ExportExcelChart/Export", { image: downloadImpByChart ()});
+    }
+    //downloadImpByChart("main");
+    //传递图表容器id
+    function downloadImpByChart() {
+        var url = myChart.getConnectedDataURL({
+            pixelRatio: 1,　　//导出的图片分辨率比率,默认是1
+            backgroundColor: '#fff',　　//图表背景色
+            excludeComponents: [　　//保存图表时忽略的工具组件,默认忽略工具栏
+                'toolbox'
+            ],
+            type: 'png'　　//图片类型支持png和jpeg
+        });
+        return url;
+    };
+</script>

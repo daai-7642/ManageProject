@@ -210,3 +210,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/AdminWeb/App_Data/SuperDB.ldf
+/AdminWeb/App_Data/SuperDB.mdf
+*.ldf
+*.mdf
