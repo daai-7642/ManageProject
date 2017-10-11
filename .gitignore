@@ -214,3 +214,4 @@ ModelManifest.xml
 /AdminWeb/App_Data/SuperDB.mdf
 *.ldf
 *.mdf
+/AdminWeb/Config/AppSettings.config
