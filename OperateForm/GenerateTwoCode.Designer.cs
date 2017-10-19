@@ -80,6 +80,7 @@
             this.content.Location = new System.Drawing.Point(107, 48);
             this.content.Multiline = true;
             this.content.Name = "content";
+            this.content.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.content.Size = new System.Drawing.Size(295, 124);
             this.content.TabIndex = 3;
             this.content.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.content_KeyPress);

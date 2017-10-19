@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Caching;
 using System.Windows.Forms;
 using Utility;
 using Utility.Cache;
@@ -77,8 +78,9 @@ namespace OperateForm
             FolderBrowserDialog pathdlg = new FolderBrowserDialog();
             if (pathdlg.ShowDialog() == DialogResult.OK)
             {
-                cache.AddPermanent("SavePath", pathdlg.SelectedPath);
-            }
+                cache.Remove("SavePath");
+                 cache.AddPermanent("SavePath", pathdlg.SelectedPath);
+             }
         }
         //全选
         private void content_KeyPress(object sender, KeyPressEventArgs e)
