@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using log=Log4net;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,10 +36,20 @@ namespace WxToken.Controllers
                 string openidUrl = string.Format("https://api.weixin.qq.com/sns/oauth2/access_token?appid={0}&secret={1}&code={2}&grant_type=authorization_code ", WxConfig.AppId,WxConfig.Secret,code);
                 string baseResult=WxHelper.HttpGetRequest(openidUrl);
                 WxModel wxModel = JsonConvert.DeserializeObject<WxModel>(baseResult);
-                
-                
+                log.LogHelper.WriteLog("获取access_token",baseResult);
+                if(!string.IsNullOrWhiteSpace(wxModel.errcode))
+                {
+                    return Content("参数错误");
+                }
                 string userInfOUrl = string.Format("https://api.weixin.qq.com/sns/userinfo?access_token={0}&openid={1}&lang=zh_CN ", wxModel.access_token, wxModel.openid);
                 string userInfoResult = WxHelper.HttpGetRequest(userInfOUrl);
+                log.LogHelper.WriteLog("获取用户信息", userInfoResult);
+                
+                WxUserInfo wxUserInfo = JsonConvert.DeserializeObject<WxUserInfo>(baseResult);
+                if (!string.IsNullOrWhiteSpace(wxUserInfo.errcode))
+                {
+                    return Content("参数错误");
+                }
                 return Content(Request.Url.AbsoluteUri);
             }
         }

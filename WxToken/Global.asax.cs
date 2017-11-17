@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Log4net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,20 @@ namespace WxToken
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+        }
+        protected void Application_Error(object sender, EventArgs e)
+        {
+            Exception err = HttpContext.Current.Error;
+            ErrorLogHelper.WriteLog(new LogContent()
+            {
+                UserName = User.Identity.Name,
+                EventCategory = "ERROR",
+                Description = err.StackTrace,
+                Source = err.Message,
+                SourceUrl = Request.Url.AbsoluteUri,
+                ComputerName = UserHelper.GetUserIp(),
+                Mac_Address = Utility.OperateHelper.GetMacAddress()
+            });
         }
     }
 }

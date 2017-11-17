@@ -128,6 +128,10 @@
     <Content Include="Views\ScanCode\Index.cshtml" />
     <Content Include="Views\Home\CreateQrCode.cshtml" />
     <Content Include="Views\Authorization\Index.cshtml" />
+    <Content Include="Config\AppSettings.config" />
+    <Content Include="Config\DataBaseSettings.config" />
+    <Content Include="Config\log4net.config" />
+    <Content Include="Config\Redis.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -140,6 +144,20 @@
     <Folder Include="Qrcode\" />
     <Folder Include="Views\Menu\" />
     <Folder Include="Views\Message\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{b5278e82-3efb-420d-8f5b-9935e9b102f2}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{4085fe6f-0891-4ffb-aad1-b54735f46889}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{3c424cb1-cd02-4a46-beed-c07b15ce72a9}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

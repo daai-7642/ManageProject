@@ -19,20 +19,8 @@ namespace WxToken.Models
         public string expires_in { get; set; }
         public string refresh_token { get; set; }
         public string scope { get; set; }
+        public string errcode { get; set; }
+        public string errmsg { get; set; }
     }
-    public class WxUserInfo
-    {
-        //{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[]}
-
-        public string openid { get; set; }
-        public string nickname { get; set; }
-        public string sex { get; set; }
-        public string language { get; set; }
-        public string city { get; set; }
-        public string province { get; set; }
-        public string country { get; set; }
-        public string headimgurl { get; set; }
-        public string privilege { get; set; }
-        public string unionid { get; set; }
-    }
+    
 }
