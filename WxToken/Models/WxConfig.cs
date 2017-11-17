@@ -21,5 +21,9 @@ namespace WxToken.Models
             get { return ConfigurationManager.AppSettings["secret"]; }
 
         }
+        public static string CurrentHost
+        {
+            get { return ConfigurationManager.AppSettings["currentHost"]; }
+        }
     }
 }
