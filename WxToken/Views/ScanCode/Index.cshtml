@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+
+</head>
+<body>
+     <input type="button" onclick="ScanCode()" value="扫码" style="width:200px;height:200px" />
+</body>
+</html>
+<script>
+    var reg = new RegExp("&quot;", "g");
+
+    wx.config({
+        debug: false,
+        appId: "@Model.appId",
+        timestamp: "@Model.timestamp",
+        nonceStr: "@Model.nonceStr",
+        signature: "@Model.signature",
+        jsApiList: ["scanQRCode", "onMenuShareAppMessage", "onMenuShareTimeline", "onMenuShareQQ", "onMenuShareWeibo", "showMenuItems"]
+    })
+    function ScanCode() {
+        wx.scanQRCode({
+            desc: 'scanQRCode desc',
+            needResult: 1, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
+            scanType: ["qrCode"], //, "barCode"(一维码) 可以指定扫二维码还是一维码，默认二者都有
+            success: function (res) {
+                document.write(res);
+            },
+            error: function (res) {
+                alert(res);
+                if (res.errMsg.indexOf('function_not_exist') > 0) {
+                    alert('版本过低请升级')
+                }
+            }
+        });
+
+    }
+</script>
