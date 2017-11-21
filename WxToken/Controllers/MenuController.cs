@@ -22,7 +22,7 @@ namespace WxToken.Controllers
 
 
             string url = " https://api.weixin.qq.com/cgi-bin/menu/create?access_token="+ accessToken;
-            string postDataStr = "{\"button\":[{\"type\":\"click\",\"name\":\"今日歌曲\",\"key\":\"V1001_TODAY_MUSIC\"},{\"name\":\"菜单\",\"sub_button\":[{\"type\":\"view\",\"name\":\"扫一扫\",\"url\":\"http://1x687f9296.iok.la/ScanCode/Index\"},{\"type\":\"view\",\"name\":\"视频\",\"url\":\"http://v.qq.com/\"},{\"type\":\"click\",\"name\":\"赞一下我们\",\"key\":\"V1001_GOOD\"}]}]}";
+            string postDataStr = "{\"button\":[{\"type\":\"view\",\"name\":\"首页菜单\",\"url\":\"" + WxConfig.CurrentHost+ "/Home/HomeIndex\"},{\"name\":\"菜单\",\"sub_button\":[{\"type\":\"scancode_waitmsg\",\"name\":\"扫一扫\",   \"key\": \"rselfmenu_0_1\", \"sub_button\": [ ]},{\"type\":\"view\",\"name\":\"视频\",\"url\":\"http://v.qq.com/\"},{\"type\":\"click\",\"name\":\"赞一下我们\",\"key\":\"V1001_GOOD\"}]}]}";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "POST";

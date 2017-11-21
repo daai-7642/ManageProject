@@ -26,7 +26,7 @@ namespace WxToken.Controllers
 
                     string noncestr = OperateHelper.GenerateNonceStr();
                     string timestamp = OperateHelper.Timestamp();
-                    string url = Request.Url.AbsoluteUri.ToString();
+                    string url = WxConfig.CurrentHost+Request.Url.AbsolutePath;
                     string str = string.Format("jsapi_ticket={0}&noncestr={1}&timestamp={2}&url={3}", jsapi, noncestr, timestamp, url);
                     string sign = OperateHelper.SHA1(str).ToLower();
                     LogHelper.WriteFile(Server.MapPath("~/Logs/jsapi.txt"), str);

@@ -161,5 +161,10 @@ namespace WxToken.Controllers
             new System.Net.WebClient().DownloadFile(string.Format(WxUrl.ShowQrCodeUrl, qrCode.ticket), Server.MapPath("~/Qrcode") + fileName);
             return View("/QrCode"+fileName as object);
         }
+
+        public ActionResult HomeIndex()
+        {
+            return View();
+        }
     }
 }

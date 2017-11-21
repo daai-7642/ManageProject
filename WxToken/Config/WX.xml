@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WX>
+  <PushMsg>
+    {{
+    "touser":"{0}",
+
+    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",
+    "url":"http://weixin.qq.com/download",
+
+    "topcolor":"#FF0000",
+
+    "data":{{
+
+    "User": {{
+
+    "value":"黄先生",
+
+    "color":"#173177"
+
+    }},
+
+    "Date":{{
+
+    "value":"06月07日 19时24分",
+
+    "color":"#173177"
+
+    }},
+
+    "CardNumber": {{
+
+    "value":"0426",
+
+    "color":"#173177"
+
+    }},
+
+    "Type":{{
+
+    "value":"消费",
+
+    "color":"#173177"
+
+    }},
+
+    "Money":{{
+
+    "value":"人民币260.00元",
+
+    "color":"#173177"
+
+    }},
+
+    "DeadTime":{{
+
+    "value":"06月07日19时24分",
+
+    "color":"#173177"
+
+    }},
+
+    "Left":{{
+
+    "value":"6504.09",
+
+    "color":"#173177"
+
+    }}
+
+    }}
+
+    }}
+  </PushMsg>
+  <PushMsg1>
+    {{"touser":"{0}","template_id":"85FL6Fxjuv8h2yeQBwuHqjPY7OZt4JX88potK9a8KX4","url":"{1}","data":{{ "first": {{"value":"恭喜您通过微信分享获得汁味自提红包！","color":"#8E8E8E"}},"keyword1":{{"value":"{2}","color":"#C79F62"}},"keyword2": {{"value":"{3}元","color":"#C79F62"}},"remark":{{"value":"点击详情预订早餐吧，下单可选取红包奥~","color":"#173177"}}}}}}
+  </PushMsg1>
+</WX>

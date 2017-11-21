@@ -16,7 +16,7 @@ namespace WxToken.Common
         /// <param name="appid">APPIDy</param>
         /// <param name="secret">凭证</param>
         /// <returns></returns>
-        public  static string GetWXAccessToken(string appid, string secret)
+        public static string GetWXAccessToken(string appid, string secret)
         {
             string result = "";
             string access_token = "";
@@ -73,7 +73,7 @@ namespace WxToken.Common
                     Newtonsoft.Json.Linq.JObject remark = Newtonsoft.Json.Linq.JObject.Parse(result);
 
                     ticket = remark.GetValue("ticket").ToString();
-                    CacheHelper.Add(key, ticket, TimeSpan.FromSeconds(7000));  
+                    CacheHelper.Add(key, ticket, TimeSpan.FromSeconds(7000));
                     return ticket;
                 }
                 else
@@ -102,7 +102,7 @@ namespace WxToken.Common
             stream.Close();
             return result;
         }
-        public static string HttpPostRequest(string url,string postDataStr)
+        public static string HttpPostRequest(string url, string postDataStr)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "POST";
@@ -120,7 +120,34 @@ namespace WxToken.Common
             string retString = reader.ReadToEnd();
             reader.Close();
             stream.Close();
-            return   retString.ToString( );
+            return retString.ToString();
+        }
+
+        public static WxModel GetWXJsapi()
+        {
+            string accessToken = WxHelper.GetWXAccessToken(WxConfig.AppId, WxConfig.Secret);
+            if (accessToken != "err")
+            {
+                string jsapi = WxHelper.GetWXJsapi_Ticket(accessToken);
+                if (jsapi != "err")
+                {
+                    string noncestr = OperateHelper.GenerateNonceStr();
+                    string timestamp = OperateHelper.Timestamp();
+                    string url = WxConfig.CurrentHost + System.Web.HttpContext.Current.Request.Url.AbsolutePath;
+                    string str = string.Format("jsapi_ticket={0}&noncestr={1}&timestamp={2}&url={3}", jsapi, noncestr, timestamp, url);
+                    string sign = OperateHelper.SHA1(str).ToLower();
+
+                    WxModel wx = new WxModel()
+                    {
+                        appId = WxConfig.AppId,
+                        nonceStr = noncestr,
+                        timestamp = timestamp,
+                        signature = sign,
+                    };
+                    return wx;
+                }
+            }
+            return new WxModel();
         }
     }
 }

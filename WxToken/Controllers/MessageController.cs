@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Xml;
+using Utility;
 using WxToken.Common;
 using WxToken.Models;
 
@@ -35,6 +36,19 @@ namespace WxToken.Controllers
             //doc.LoadXml(postXmlStr);
             //string result = WeiXinXML.CreateTextMsg(doc, "给你推送一条消息");
             return View();
+        }
+        public ActionResult MassTextingPram()
+        {
+            string accessToken = WxHelper.GetWXAccessToken(WxConfig.AppId, WxConfig.Secret);
+            string msgUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" + accessToken;
+
+            string openid = "oQSqlxIdxzhOrxtxKI9z-KYGRAec";
+            string xmlMsg = ReadXmlHelper.GetXmlValue(Server.MapPath("/Config/WX.xml"), "PushMsg");
+            string pushMsg = string.Format(xmlMsg, openid);
+            //string pushMsg = string.Format(xmlMsg, openid, "", "", "");
+            string result =WxHelper.HttpPostRequest(msgUrl, pushMsg);
+
+            return Content(result);
         }
     }
 }

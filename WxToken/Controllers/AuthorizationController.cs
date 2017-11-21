@@ -45,12 +45,13 @@ namespace WxToken.Controllers
                 string userInfoResult = WxHelper.HttpGetRequest(userInfOUrl);
                 log.LogHelper.WriteLog("获取用户信息", userInfoResult);
                 
-                WxUserInfo wxUserInfo = JsonConvert.DeserializeObject<WxUserInfo>(baseResult);
+                WxUserInfo wxUserInfo = JsonConvert.DeserializeObject<WxUserInfo>(userInfoResult);
+                Session["UserInfo"] = wxUserInfo;
                 if (!string.IsNullOrWhiteSpace(wxUserInfo.errcode))
                 {
                     return Content("参数错误");
                 }
-                return Content(Request.Url.AbsoluteUri);
+                return Content(userInfoResult);
             }
         }
     }
