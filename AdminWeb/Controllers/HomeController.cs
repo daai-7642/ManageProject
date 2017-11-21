@@ -37,5 +37,10 @@ namespace AdminWeb.Controllers
         {
            return Content( Utility.HttpHelper.Post(url,postDataStr));
         }
+        public ActionResult Log()
+        {
+            Log4net.LogHelper.WriteLog("测试Log", "测试"+DateTime.Now.ToString());
+            return Content("ok");
+        }
     }
 }

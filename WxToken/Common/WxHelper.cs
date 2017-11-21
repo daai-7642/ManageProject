@@ -94,33 +94,51 @@ namespace WxToken.Common
         public static string HttpGetRequest(string url)
         {
             string result = "";
-            System.Net.HttpWebRequest xhr = (HttpWebRequest)HttpWebRequest.Create(url);
-            System.IO.Stream stream = xhr.GetResponse().GetResponseStream();
-            System.IO.StreamReader reader = new System.IO.StreamReader(stream);
-            result = reader.ReadToEnd();
-            reader.Close();
-            stream.Close();
+            try
+            {
+                System.Net.HttpWebRequest xhr = (HttpWebRequest)HttpWebRequest.Create(url);
+                System.IO.Stream stream = xhr.GetResponse().GetResponseStream();
+                System.IO.StreamReader reader = new System.IO.StreamReader(stream);
+                result = reader.ReadToEnd();
+                reader.Close();
+                stream.Close();
+                Log4net.LogHelper.WriteLog("GET提交","提交参数:" + url + ";\r\n 返回:" + result);
+            }
+            catch (Exception ex)
+            {
+                Log4net.ErrorLogHelper.WriteLog(ex);
+            }
             return result;
         }
         public static string HttpPostRequest(string url, string postDataStr)
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.Method = "POST";
-            request.ContentType = "application/x-www-form-urlencoded";
-            byte[] payload;
-            payload = System.Text.Encoding.UTF8.GetBytes(postDataStr);
-            request.ContentLength = payload.Length;
+            string retString = "";
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+                request.Method = "POST";
+                request.ContentType = "application/x-www-form-urlencoded";
+                byte[] payload;
+                payload = System.Text.Encoding.UTF8.GetBytes(postDataStr);
+                request.ContentLength = payload.Length;
 
-            Stream writer = request.GetRequestStream();
-            writer.Write(payload, 0, payload.Length);
-            writer.Close();
-            //var retString = request.GetResponse() as HttpWebResponse;
-            System.IO.Stream stream = request.GetResponse().GetResponseStream();
-            System.IO.StreamReader reader = new System.IO.StreamReader(stream);
-            string retString = reader.ReadToEnd();
-            reader.Close();
-            stream.Close();
-            return retString.ToString();
+                Stream writer = request.GetRequestStream();
+                writer.Write(payload, 0, payload.Length);
+                writer.Close();
+                //var retString = request.GetResponse() as HttpWebResponse;
+                System.IO.Stream stream = request.GetResponse().GetResponseStream();
+                System.IO.StreamReader reader = new System.IO.StreamReader(stream);
+                retString = reader.ReadToEnd();
+                reader.Close();
+                stream.Close();
+                Log4net.LogHelper.WriteLog("POST提交","提交参数:" + url + postDataStr + ";\r\n 返回:" + retString);
+            }
+            catch (Exception ex)
+            {
+                Log4net.ErrorLogHelper.WriteLog(ex);
+            }
+
+            return retString;
         }
 
         public static WxModel GetWXJsapi()

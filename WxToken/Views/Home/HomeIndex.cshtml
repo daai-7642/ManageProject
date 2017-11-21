@@ -72,7 +72,10 @@
 <script>
     $(function () {
         $.showLoading();
+        setTimeout(function () {
+            $.hideLoading();
 
+        }, 3000)
         wx.config({
             debug: false,
             appId: "@wxModel.appId",

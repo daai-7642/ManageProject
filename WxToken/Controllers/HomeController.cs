@@ -166,5 +166,10 @@ namespace WxToken.Controllers
         {
             return View();
         }
+        public ActionResult Log()
+        {
+            Log4net.LogHelper.WriteLog("测试Log", "测试" + DateTime.Now.ToString());
+            return Content("ok");
+        }
     }
 }
