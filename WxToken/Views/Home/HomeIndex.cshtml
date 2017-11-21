@@ -1,4 +1,4 @@
-﻿ 
+﻿
 @{
     Layout = null;
 }
@@ -6,67 +6,73 @@
 <!DOCTYPE html>
 @using WxToken.Models;
 @using WxToken.Common;
-@{ 
-   
+@{
+
     WxUserInfo User = Session["UserInfo"] != null ? (Session["UserInfo"] as WxUserInfo) : null;
-    WxModel wxModel =  WxHelper.GetWXJsapi();
+    WxModel wxModel = WxHelper.GetWXJsapi();
 }
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-
     @*<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">*@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no">*@
+    @*<meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">*@
     <title>主页</title>
     <style>
-        a{
-            margin-right:15px;
+        a {
+            margin-right: 15px;
         }
-        div{
-            margin:10px
+
+        .dcon {
+            margin: 10px;
         }
     </style>
+    <link href="~/Content/weui.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery-weui.min.css" rel="stylesheet" />
     <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/angular.min.js"></script>
+
 </head>
 <body>
- 
+
     @if (User != null)
     {
         <div>
-    <img  src="@User.headimgurl" width="30" height="30"  />
-    当前用户:@User.nickname </div>
-    @(User.country+"-"+ User.province+"-"+ User.city)  
+            <img src="@User.headimgurl" width="30" height="30" />
+            当前用户:@User.nickname
+        </div>
+        @(User.country + "-" + User.province + "-" + User.city)
     }
-    <div>
+    <div class="dcon">
+        <a href="" onclick="location.reload()">刷新页面</a>
         <a href="/Menu/Index">菜单生成</a>
 
     </div>
-    <div>
+    <div class="dcon">
         @*静默*@
         @*<a href="/Authorization/GetAuthorizeCode?state=snsapi_base">拿授权</a>*@
 
         <a href="/Authorization/GetAuthorizeCode?state=snsapi_userinfo">拿授权</a>
         <a href="/ScanCode/Index">扫一扫</a>
         <a href="/Message/MassTextingPram">推送信息</a>
-        <a href="" onclick="openAddress()">选择地址</a>
+        <a href="#" onclick="openAddress()">选择地址</a>
     </div>
-    <div id="content">
-<p>{"telNumber":"15010285178","userName":"嗯","nationalCode":"110114","errMsg":"openAddress:ok","postalCode":"102200","provinceName":"北京市","cityName":"北京市","countryName":"昌平区","detailInfo":"定福黄庄"}</p>    </div>
-    
+    <div id="content" class="dcon">
+        @*<p>{"telNumber":"15010285178","userName":"嗯","nationalCode":"110114","errMsg":"openAddress:ok","postalCode":"102200","provinceName":"北京市","cityName":"北京市","countryName":"昌平区","detailInfo":"定福黄庄"}</p>   *@
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-weui.min.js"></script>
+
 </body>
+
 </html>
 <script>
     $(function () {
+        $.showLoading();
+
         wx.config({
             debug: false,
             appId: "@wxModel.appId",
@@ -76,22 +82,29 @@
             jsApiList: ["chooseImage", "onMenuShareAppMessage", "onMenuShareTimeline", "onMenuShareQQ", "onMenuShareWeibo", "showMenuItems"]
         })
     })
+    wx.ready(function () {
+        $.hideLoading();
+    })
     $("img").click(function () {
-        var src=$(this).attr("src");
+        var src = $(this).attr("src");
         wx.previewImage({
-
             current: src, // 当前显示图片的http链接
-
             urls: [src] // 需要预览的图片http链接列表
-
         });
     })
     function openAddress() {
         wx.openAddress({
             success: function (res) {
+                $.alert({
+                    title: '标题',
+                    text: JSON.stringify(res),
+                    onOK: function () {
+                        //点击确认
+                    }
+                });
                 //" + JSON.stringify(res) + "
                 //alert(JSON.stringify(res));
-                $("#content").append("<p>" + JSON.stringify(res) + "</p>");
+                // $("#content").append("<p>" + JSON.stringify(res) + "</p>");
                 var userName = res.userName; // 收货人姓名
 
                 var postalCode = res.postalCode; // 邮编
