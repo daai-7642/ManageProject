@@ -136,6 +136,7 @@
     <Compile Include="Common\WxHelper.cs" />
     <Compile Include="Common\WxUrl.cs" />
     <Compile Include="Controllers\AuthorizationController.cs" />
+    <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\MessageController.cs" />
@@ -171,7 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\" />
     <Folder Include="Qrcode\" />
+    <Folder Include="Views\File\" />
     <Folder Include="Views\Menu\" />
     <Folder Include="Views\Message\" />
   </ItemGroup>
