@@ -37,6 +37,10 @@ namespace WxToken.Controllers
             //string result = WeiXinXML.CreateTextMsg(doc, "给你推送一条消息");
             return View();
         }
+        /// <summary>
+        /// 推送带参数信息
+        /// </summary>
+        /// <returns></returns>
         public ActionResult MassTextingPram()
         {
             string accessToken = WxHelper.GetWXAccessToken(WxConfig.AppId, WxConfig.Secret);
