@@ -105,6 +105,7 @@
     <Content Include="Scripts\DataOperate.js" />
     <Content Include="Scripts\echarts-all.js" />
     <Content Include="Scripts\echarts.min.js" />
+    <Content Include="Ashx\AliPay.ashx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -128,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Ashx\AliPay.ashx.cs">
+      <DependentUpon>AliPay.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Common\CacheHelper.cs" />
     <Compile Include="Common\LogHelper.cs" />
     <Compile Include="Common\OperateHelper.cs" />
@@ -135,6 +139,7 @@
     <Compile Include="Common\WeiXinXML.cs" />
     <Compile Include="Common\WxHelper.cs" />
     <Compile Include="Common\WxUrl.cs" />
+    <Compile Include="Controllers\AliPayController.cs" />
     <Compile Include="Controllers\AuthorizationController.cs" />
     <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -163,6 +168,7 @@
     <Content Include="Config\Redis.config" />
     <Content Include="Views\Home\HomeIndex.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\AliPay\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -171,6 +177,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AliPayKey\" />
     <Folder Include="App_Data\" />
     <Folder Include="Files\" />
     <Folder Include="Qrcode\" />
@@ -179,6 +186,10 @@
     <Folder Include="Views\Message\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\alipay-sdk-NET20170615110549\AopSdk.csproj">
+      <Project>{9c11cae5-5188-4e71-825b-68fc3135728a}</Project>
+      <Name>AopSdk</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{b5278e82-3efb-420d-8f5b-9935e9b102f2}</Project>
       <Name>Entity</Name>
