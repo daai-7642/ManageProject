@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Utility.AliPay;
 using Utility.Cache;
 
 namespace WxToken.Controllers
@@ -25,32 +26,35 @@ namespace WxToken.Controllers
             IAopClient client = new DefaultAopClient("https://openapi.alipaydev.com/gateway.do", "2016091300499167", privateKey,
                 "json", "1.0", "RSA2", publicKey, "utf-8", false);
             AlipayTradeWapPayRequest request = new AlipayTradeWapPayRequest();
+            //支付异步回调地址
+            request.SetNotifyUrl("http://1x687f9296.iok.la/AliPay/Receive_notify");
+            request.SetReturnUrl("http://www.baidu.com");
             request.BizContent = "{" +
-            "    \"body\":\"对一笔交易的具体描述信息。如果是多种商品，请将商品描述字符串累加传给body。\"," +
+            "    \"body\":\"这是一个大可乐，有2.5L，大不大\"," +
             "    \"subject\":\"大可乐\"," +
             "    \"out_trade_no\":\"" + out_trade_no + "\"," +
             "    \"timeout_express\":\"90m\"," +
             "    \"total_amount\":0.01," +
-            "    \"product_code\":\"QUICK_WAP_WAY\"" +
+            "    \"product_code\":\"QUICK_WAP_WAY\"" + 
             "  }";
             AlipayTradeWapPayResponse response = client.pageExecute(request);
             string form = response.Body;
-            Response.Write(form);
-             string key = "PayOrderList";
-            var list= CacheFactory.Cache.GetCache<List<string>>(key);
-            if(list==null)
-            {
-                list = new List<string>();
-            }
-            list.Add(out_trade_no);
-            CacheFactory.Cache.SetCache<List<string>>(key, list);
-            return View("Index");
+            return Content(form);
+            
          }
 
-         public ActionResult Receive_notify()
+         public ActionResult Receive_notify(AsynNotifyModel payResult)
         {
-            LogHelper.WriteLog("支付结果回调",Request.Url.AbsoluteUri);
-            return View();
+            //string key = "PayOrderList";
+            //var list = CacheFactory.Cache.GetCache<List<string>>(key);
+            //if (list == null)
+            //{
+            //    list = new List<string>();
+            //}
+            //list.Add(out_trade_no);
+            //CacheFactory.Cache.SetCache<List<string>>(key, list);
+            LogHelper.WriteLog("支付结果回调",Newtonsoft.Json.JsonConvert.SerializeObject(payResult));
+            return View("Index");
         }
         public ActionResult Index()
         {
@@ -65,7 +69,7 @@ namespace WxToken.Controllers
             "\"trade_no\":\"2014112611001004680073956707\"" +
             "}";
             AlipayTradeQueryResponse response = client.Execute(request);
-            Console.WriteLine(response.Body);
+           return Content(response.Body);
         }
     }
 }
