@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,6 +53,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.8.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -165,6 +169,8 @@
     <Content Include="Views\Home\HomeIndex.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\AliPay\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -177,14 +183,15 @@
     <Folder Include="App_Data\" />
     <Folder Include="Files\" />
     <Folder Include="Qrcode\" />
+    <Folder Include="Service\" />
     <Folder Include="Views\File\" />
     <Folder Include="Views\Menu\" />
     <Folder Include="Views\Message\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\alipay-sdk-NET20170615110549\AopSdk.csproj">
+    <ProjectReference Include="..\alipay-sdk-NET20170615110549\AliPaySdk.csproj">
       <Project>{9c11cae5-5188-4e71-825b-68fc3135728a}</Project>
-      <Name>AopSdk</Name>
+      <Name>AliPaySdk</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{b5278e82-3efb-420d-8f5b-9935e9b102f2}</Project>

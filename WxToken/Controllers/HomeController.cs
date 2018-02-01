@@ -11,6 +11,9 @@ using static WxToken.Models.EnumEntity;
 
 namespace WxToken.Controllers
 {
+    /// <summary>
+    /// 微信公众号首页 认证页
+    /// </summary>
     public class HomeController : Controller
     {
         // GET: Home

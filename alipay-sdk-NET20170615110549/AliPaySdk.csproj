@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -1265,8 +1265,8 @@
     <Compile Include="IAopClient.cs" />
     <Compile Include="IAopRequest.cs" />
     <Compile Include="IAopUploadRequest.cs" />
-	<Compile Include="AlipayMobilePublicMultiMediaClient.cs" />
-	<Compile Include="AlipayMobilePublicMultiMediaDownloadRequest.cs" />
+    <Compile Include="AlipayMobilePublicMultiMediaClient.cs" />
+    <Compile Include="AlipayMobilePublicMultiMediaDownloadRequest.cs" />
     <Compile Include="AlipayMobilePublicMultiMediaDownloadResponse.cs" />
     <Compile Include="Jayrock\Json\BooleanObject.cs" />
     <Compile Include="Jayrock\Json\Collections\KeyedCollection.cs" />
@@ -1351,8 +1351,8 @@
     <Compile Include="Parser\AopJsonReader.cs" />
     <Compile Include="Parser\AopModelParser.cs" />
     <Compile Include="Parser\AopXmlParser.cs" />
-	<Compile Include="Parser\EncryptParseItem.cs" />
-	<Compile Include="ResponseParseItem.cs" />
+    <Compile Include="Parser\EncryptParseItem.cs" />
+    <Compile Include="ResponseParseItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Request\ZhimaMerchantTestPracticeRequest.cs" />
     <Compile Include="Request\ZhimaMerchantSingleDataUploadRequest.cs" />
@@ -2476,13 +2476,15 @@
     <Compile Include="Util\AopUtils.cs" />
     <Compile Include="Util\WebUtils.cs" />
     <Compile Include="Util\AlipaySignature.cs" />
-    <Compile Include="Util\RSACryptoServiceProviderExtension.cs" />    
+    <Compile Include="Util\RSACryptoServiceProviderExtension.cs" />
     <Compile Include="Util\StringUtil.cs" />
-	<Compile Include="Util\AlipayEncrypt.cs" />
+    <Compile Include="Util\AlipayEncrypt.cs" />
     <Compile Include="SignItem.cs" />
     <Compile Include="AlipayConstants.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="alipay.trade.wap.pay-DoNet-UTF-8\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
