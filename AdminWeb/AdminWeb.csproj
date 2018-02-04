@@ -174,6 +174,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AddressController.cs" />
+    <Compile Include="Controllers\AliPay\AliPayController.cs" />
     <Compile Include="Controllers\DbOperateController.cs" />
     <Compile Include="Controllers\ExportExcelChartController.cs" />
     <Compile Include="Controllers\FunctionController.cs" />
@@ -2411,6 +2412,8 @@
     <Content Include="Views\Function\FunctionPage.cshtml" />
     <Content Include="Views\Function\CreateFunction.cshtml" />
     <Content Include="Views\ExportExcelChart\Index.cshtml" />
+    <Content Include="Views\AliPay\Index.cshtml" />
+    <Content Include="Views\AliPay\BillIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />
@@ -2426,6 +2429,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\alipay-sdk-NET20170615110549\AliPaySdk.csproj">
+      <Project>{9c11cae5-5188-4e71-825b-68fc3135728a}</Project>
+      <Name>AliPaySdk</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{b5278e82-3efb-420d-8f5b-9935e9b102f2}</Project>
       <Name>Entity</Name>

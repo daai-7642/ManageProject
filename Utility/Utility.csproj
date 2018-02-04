@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AliPay\AliPayConfig.cs" />
+    <Compile Include="AliPay\AliPayHelper.cs" />
     <Compile Include="AliPay\AsynNotifyModel.cs" />
     <Compile Include="Cache\BaseCache.cs" />
     <Compile Include="Cache\CacheFactory.cs" />
