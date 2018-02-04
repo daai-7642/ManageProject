@@ -193,6 +193,10 @@
     <Content Include="App_Data\20170821script.sql" />
     <Content Include="App_Data\dbo.sql" />
     <Content Include="App_Data\script.sql" />
+    <Content Include="App_Data\SuperDB.mdf" />
+    <Content Include="App_Data\SuperDB_log.ldf">
+      <DependentUpon>SuperDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Config\DataBaseSettings.config" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
