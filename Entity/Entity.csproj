@@ -84,9 +84,16 @@
     <Compile Include="Address_Village.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="AlipayTradeQueryResponse.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="C__MigrationHistory1.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBEntity.cs" />
     <Compile Include="Function.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
@@ -118,7 +125,19 @@
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pr_FunctionGroupGetList_Result.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="RoleFunction.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>ManageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UserClaim.cs">
