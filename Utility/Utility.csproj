@@ -95,6 +95,7 @@
     <Compile Include="Cache\CacheFactory.cs" />
     <Compile Include="Cache\CacheHelper.cs" />
     <Compile Include="Cache\RedisHelper.cs" />
+    <Compile Include="DataTransFormDataAccess.cs" />
     <Compile Include="DbOperate.cs" />
     <Compile Include="GenerateTwoCodeHelper.cs" />
     <Compile Include="HttpHelper.cs" />

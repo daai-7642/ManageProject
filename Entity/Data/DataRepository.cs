@@ -49,7 +49,7 @@ namespace DataAccess
                 DB.Set<T>().Add(t);
                 int result= DB.SaveChanges();
                
-                LogHelper.WriteLog("Add"+t.GetType(),result.ToString()+t.ObjectToJson());
+                LogHelper.WriteLog("Add:"+t.GetType(),"结果:"+result.ToString()+";"+t.ObjectToJson());
                 return result;
             }
             catch (Exception ex)

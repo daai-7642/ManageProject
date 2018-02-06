@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx", "WxToken\Wx.csproj", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliPaySdk", "alipay-sdk-NET20170615110549\AliPaySdk.csproj", "{9C11CAE5-5188-4E71-825B-68FC3135728A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewEntity", "ViewEntity\ViewEntity.csproj", "{8DD905FC-2CBF-42CF-A374-E69943C2C945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD905FC-2CBF-42CF-A374-E69943C2C945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD905FC-2CBF-42CF-A374-E69943C2C945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD905FC-2CBF-42CF-A374-E69943C2C945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD905FC-2CBF-42CF-A374-E69943C2C945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

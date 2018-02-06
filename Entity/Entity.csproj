@@ -93,7 +93,8 @@
     <Compile Include="C__MigrationHistory1.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DBEntity.cs" />
+    <Compile Include="Data\DataRepository.cs" />
+    <Compile Include="Data\EFContextFactory.cs" />
     <Compile Include="Function.cs">
       <DependentUpon>ManageModel.tt</DependentUpon>
     </Compile>
@@ -192,6 +193,12 @@
       <DependentUpon>ManageModel.edmx</DependentUpon>
       <LastGenOutput>ManageModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{3c424cb1-cd02-4a46-beed-c07b15ce72a9}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
