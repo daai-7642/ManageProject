@@ -1,0 +1,1415 @@
+记录时间：2017-07-28 11:08:46,887
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:47,203
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:47,402
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:47,609
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:47,806
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:47,996
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:48,222
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:48,444
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:48,637
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:48,826
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:49,016
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:49,236
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:49,443
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:49,646
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:49,832
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:50,022
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:50,214
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:50,411
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/1101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:50,630
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:50,816
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:50,995
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:51,192
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:51,404
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:51,596
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:51,812
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:52,005
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:52,195
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:52,385
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:52,572
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:52,757
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:52,984
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:53,182
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:53,365
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110102.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:53,546
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/1101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:53,768
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:53,957
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:54,154
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:54,351
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:54,544
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:54,734
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:54,928
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:55,151
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:55,356
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:55,564
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:55,769
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:55,973
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:56,181
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:56,395
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:56,593
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:56,815
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:57,013
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:57,229
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:57,434
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:57,622
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:57,843
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:58,057
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:58,260
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:58,458
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:58,651
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:58,854
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:59,047
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:59,321
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:59,516
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:59,700
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:08:59,878
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:00,079
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:00,299
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:00,643
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:00,840
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:01,038
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:01,226
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:01,402
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:01,597
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:01,794
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:01,987
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:02,183
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:02,373
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110105.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:02,559
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/1101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:02,790
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:02,985
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:03,182
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:03,386
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:03,596
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:03,967
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:04,274
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:04,469
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:04,653
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:04,848
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:05,049
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:05,238
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:05,433
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:05,678
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:05,892
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:06,131
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:06,329
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:06,548
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:06,851
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:07,169
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:07,406
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110106.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:07,679
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/1101.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-07-28 11:09:07,951
+ 线程ID:[8]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/11/01/110107.html;共计:0
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

@@ -1,0 +1,57 @@
+记录时间：2018-01-30 19:44:05,272
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：支付结果回调
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：http://1x687f9296.iok.la:16725/AliPay/Receive_notify
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-01-30 20:35:59,705
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：支付结果回调
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"notify_time":"2018-01-30 20:33:20","notify_type":"trade_status_sync","notify_id":"50c6dfd17167760fe4f41764598a673kv2","app_id":"2016091300499167","charset":"utf-8","version":"1.0","sign_type":"RSA2","sign":"lPZ25rcmrJop5SwtdXDVdmIKNTPIBsUMJT9VIDXWTq0BiBZPbPtqIGpid6G3Au5r9Zt9bZNgmUtCnzYAHzvhiGI4EggGVEdoiqzw0iLaGlovkJSv4DWe94oD7bSgZnSwGREcIhQKftrbi80mNP+hSQIvp6dWqRNQHWWPyPrpwzweCMGe6xdstB7CSfgxVruDwpRsFtkmcpgovGPq9sww8vs+ut5w8F6tHu5KxYGmcS+wSkDwaJX+U3yrrFfzq3nfYZMBCBXAZg3JdIrPSniQUbVjPq4sLWrdmXlxlnqDfbKlnC4ZKOZIcYw5VwtVFYCHXzulknL7VfXrjT22OSwb8w==","trade_no":"2018013021001004630200414472","out_trade_no":"20180130203313025","out_biz_no":null,"buyer_id":"2088102175288635","buyer_logon_id":"rpx***@sandbox.com","seller_id":"2088102175393991","seller_email":"jycsai2035@sandbox.com","trade_status":"TRADE_SUCCESS","total_amount":"0.01","receipt_amount":"0.01","invoice_amount":"0.01","buyer_pay_amount":"0.01","point_amount":"0.00","refund_fee":null,"subject":"大可乐","body":"这是一个大可乐，有2.5L，大不大","gmt_create":"2018-01-30 20:33:19","gmt_payment":"2018-01-30 20:33:19","gmt_refund":null,"gmt_close":null,"fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","passback_params":null,"voucher_detail_list":null}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-01-30 20:37:12,150
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：支付结果回调
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"notify_time":"2018-01-30 20:37:09","notify_type":"trade_status_sync","notify_id":"58198aeb733f98031d8e4e7c9447589kv2","app_id":"2016091300499167","charset":"utf-8","version":"1.0","sign_type":"RSA2","sign":"pfE3LxPBm5BdGiG8zmwlUi1UvxC7UTkHRGO4jLsqrbCh32fe4ISMztZly+12kUqbn7c8JY9Jjf/QRSw47NmGci0kKncyXnZ2E8Z/4TSx3p92zm7RUiOAMqhM+FHGwiMOD5+2P0UkcqYOy+P+qv7bYh+3EsDgmthz91WMRvyzUQjy92FYu3dBx8bin+d89fLa0sB9VGCYmAqmw5mTUabw4E+IUXtY8ZyIsIwRvJufsotae4TojW/86uypwEU1hzQv7PKDGi8Ft8lhPAfkPhxU9mYoKbu23Y4hBW7G5xWfIK1/Zn1IRdNmi2Ir9bEMvgllQr5aX8Z6sy/rdrh/ZkMFAQ==","trade_no":"2018013021001004630200414474","out_trade_no":"20180130203636784","out_biz_no":null,"buyer_id":"2088102175288635","buyer_logon_id":"rpx***@sandbox.com","seller_id":"2088102175393991","seller_email":"jycsai2035@sandbox.com","trade_status":"TRADE_SUCCESS","total_amount":"0.01","receipt_amount":"0.01","invoice_amount":"0.01","buyer_pay_amount":"0.01","point_amount":"0.00","refund_fee":null,"subject":"大可乐","body":"这是一个大可乐，有2.5L，大不大","gmt_create":"2018-01-30 20:37:07","gmt_payment":"2018-01-30 20:37:08","gmt_refund":null,"gmt_close":null,"fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","passback_params":null,"voucher_detail_list":null}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-01-30 20:39:47,433
+ 线程ID:[13]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：支付结果回调
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"notify_time":"2018-01-30 20:39:12","notify_type":"trade_status_sync","notify_id":"17b4bd2d17a598c09ab2bf4c233c9edkv2","app_id":"2016091300499167","charset":"utf-8","version":"1.0","sign_type":"RSA2","sign":"u7/17/xsXZWGxrLpT82UO2z7UAKigD3vRauZ15Nj9Zguw4sZJ4RmtuPsGlc1NGm/MNGZodDZI3TW6h1JS31rEVWP2GXjwP0bhOqTudOr9CnjIJWWRYbtGTnhzGnnYP1phS1xecQvX2VkvlYzJn9QsQzVllq0LoiZ5bn9gmfh6PC2Dvu/nNBxljDt0oxr7xQ6+Qj1lWnKEpUeFXtDwUVR/jojmh9pRAR7xPsX6FpxUiedovRTE14IZET9C2jlUu/d01DiYgXJUPjJzpl2VaKtO+BfS8qXahGFt/9O0H/6ZDBbj3c5G9C6BpYwn9C+izJu5qroBqUr5nDxLTZ5NeZN8Q==","trade_no":"2018013021001004630200414303","out_trade_no":"20180130203858952","out_biz_no":null,"buyer_id":"2088102175288635","buyer_logon_id":"rpx***@sandbox.com","seller_id":"2088102175393991","seller_email":"jycsai2035@sandbox.com","trade_status":"TRADE_SUCCESS","total_amount":"0.01","receipt_amount":"0.01","invoice_amount":"0.01","buyer_pay_amount":"0.01","point_amount":"0.00","refund_fee":null,"subject":"大可乐","body":"这是一个大可乐，有2.5L，大不大","gmt_create":"2018-01-30 20:39:11","gmt_payment":"2018-01-30 20:39:11","gmt_refund":null,"gmt_close":null,"fund_bill_list":"[{\"amount\":\"0.01\",\"fundChannel\":\"ALIPAYACCOUNT\"}]","passback_params":null,"voucher_detail_list":null}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

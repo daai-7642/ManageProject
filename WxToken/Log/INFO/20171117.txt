@@ -1,0 +1,43 @@
+记录时间：2017-11-17 17:00:26,360
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_V705uQq9EYO8uH3kqeq5lhGYR313Wl0BKltv5MEp_e-YVeS5jsZeDKALRKKL7vRoohITwyGxWycq7fJ-89MK4w","expires_in":7200,"refresh_token":"4_6US3HC3Pyoa00Ew-B4XyRsoXITxmjSDp-r8bEBxHoH3UM2q9q-ZRAeHfCwzlwvsc0Gp35ojfdYjHp2syZCEQQw","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-17 17:00:48,031
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-17 17:03:56,058
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_aP3pDnJUq9gcRNZwYv4P67wSlo2Wx8xYMgr4FIGtjZyEUWaUeLw2aBKI3sDXIsVTJoinplOnMNgpwTknc0hb1g","expires_in":7200,"refresh_token":"4_KNzq0U0nzw-I8u4iQL2NqAjgazPuIi18X-mNxBCnP1ZLgYpw9_S2zVFwjDyyT8jMJtlSfMnWwAfS4MaIU3DtCg","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

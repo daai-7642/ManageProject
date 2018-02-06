@@ -1,0 +1,35 @@
+记录时间：2018-02-06 13:37:43,961
+ 线程ID:[14]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 DataAccess.DataRepository.Add[T](T t) 位置 D:\文档\visual studio 2015\Projects\ManageProject\Entity\Data\DataRepository.cs:行号 50
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR记录时间：2018-02-06 13:39:01,753
+ 线程ID:[19]
+ 日志级别：ERROR
+ 记录类：errorLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.ErrorLogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\ErrorLogHelper.cs:15)
+ 消息描述：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 DataAccess.DataRepository.Add[T](T t) 位置 D:\文档\visual studio 2015\Projects\ManageProject\Entity\Data\DataRepository.cs:行号 50
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ ERROR

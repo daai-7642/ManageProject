@@ -1,0 +1,57 @@
+记录时间：2017-11-21 15:20:26,407
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：测试2017/11/21 15:20:26
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:37:40,774
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：测试2017/11/21 15:37:40
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:37:44,297
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：测试2017/11/21 15:37:44
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:37:57,310
+ 线程ID:[13]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：测试2017/11/21 15:37:57
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

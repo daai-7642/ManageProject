@@ -1,0 +1,1151 @@
+记录时间：2017-11-21 11:14:32,127
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_i01CcPUh7FOnSXPBtycz-M7dh5el5aKI5s5or7kvE0Wqc76Ujrw77_WjZ-_9VFKRxpYlfJumD9yVpm9P-7lDPfd4V2dKNOcXqExG_DsNz8g","expires_in":7200,"refresh_token":"4_28_BuUh9csJP244XsBEGkzISblHhD1L3zeBrDSs5cHKmhxAPrq946BByu-TdEAPfE6IcaPW0qcfTFysl8iKo7wyV_XkyPoxmYCpz0w1A5So","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:14:33,302
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:14:34,867
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_RSdHO7l75Tdas_bo2UFkB4E55WiDTeFtLy0xjPLjCPXt64-1Dpf5ncZHbRreSQbUqLgQhwO--TO6dCD3N6hfiNp57v0k0I68-llYoMI_rmk","expires_in":7200,"refresh_token":"4_PsK8oAlNQBLEzwWKFyidX_IFA6G4ghICyDz4hRNlX7GVSWNyhq0SF33rijJlfm-QMH3fSgm9g_A2nfv1ncUVdjXSaighmzwuQrLHy3GojSk","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:14:35,337
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:15:14,110
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_NvyhGd_NFfFXVs7Ti7lI81xMh2SXKl-D4RLHipmsB63xDXvxZQHNWYHYJLm5A3_5OKNlxfPA-zorUol8UqaNsEAeiuVLD4p1IpfxwJ_wlFo","expires_in":7200,"refresh_token":"4_yfwOIM8erqBO-cenHW3h1z6u-vckmFx0LN_13EKFXqJKuK_I24XZt-6_MtR2GDdSRnuxkm4GD9B6KqfJZaJFc9Norp6XhZkBuSgDvTIAz44","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:15:25,629
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"errcode":40163,"errmsg":"code been used, hints: [ req_id: sgQIWA0120th41 ]"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:15:32,126
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:15:54,540
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_EsQqlIgwoVTGxPqNjdVgB1kJ4v3v2gsqxO67B8SQxyPON9zIY5g4ZhRz7jnB9GsifHiHgU5INNwV1dz5RGQtS1m7Hqd0xgFmaRj867DyHx4","expires_in":7200,"refresh_token":"4_oBytpah8CiZ0oWsmnHWLgC9o5HS0wnOs5hewiokhf5Pizeyd1J6IKBty6Y8Daz4nGUiOsXx3UAChnX3jiPoJlz3wpYrWe_sJODDpHPRz_k8","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:15:56,139
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:30:53,881
+ 线程ID:[51]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_T89KKHob1sbxA8CO3qipWcWFXmqx0QXjwkEbL5eBfvwVbJ9pQ2g-GdkTcqBhGhx4iPM2WkIhvBRsQHG7q0uu92BbxICuPvyQ14t8HpAbNTs","expires_in":7200,"refresh_token":"4_2C0mErisGQxTSnCLDI5JZV7-JqdBJ4EX4BRRxyc9EfVAhAwTAlYhJJ8Kcgx4md3W4TNn5NSoR5R5P44bszecNmpJ-fcF8RpxuJryZ59ALSQ","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:31:38,180
+ 线程ID:[51]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:31:38,324
+ 线程ID:[27]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_bsLvh992Gi_5D_cfbrosTD24nUksZgbb8rzr8Wl7qUxrJsrJsBZWYyqMSCmMzjZZeXHbtmgL7V_x8Pqfzn47Ah963uuaMLy30mTGgDozK3w","expires_in":7200,"refresh_token":"4_TG3RrBbpRRKbuFh1_jDAy35UrzD6cTexiOx65B69n2jiKKR05NBXAWN38iLh4tNwj_NrOlqNsn_5AQgLHpZ4SXBVfPSlU5kErwGr6IrhYls","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:31:40,552
+ 线程ID:[27]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:33:16,451
+ 线程ID:[62]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_QSrSqhpL-MtPLNCpjWpTbs5LFc9htu7vOyIwpV3GSjTt6FWo8J9lt0C4oTrO6vK7uxY7d04pu8FGY8MoVgYxudkKaLpaeOzU_C7gKvYP9bc","expires_in":7200,"refresh_token":"4_ksoj8wVjbvOosv6o0mXJn0WJ6D0KyPfoKBU0IB-8E3icX1svulH7jwD8CacYCx9lDd6HzeMhUdAi5oyCR2p7e8j3fTnu98ka-SR-aCwHy-c","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:33:16,689
+ 线程ID:[62]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:33:27,179
+ 线程ID:[61]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"errcode":40163,"errmsg":"code been used, hints: [ req_id: YNeV30205th48 ]"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:33:48,060
+ 线程ID:[56]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_mWDuyjdDRXM7E2rGMDIUvhnrgrunpradrw3rcGqh5vjJmnbcz7uLBrPEw5XlWtPkKnYd0ThothX97vmQrvcPwMsaD-sfGhWHyk2-TyCigwM","expires_in":7200,"refresh_token":"4_dBSj12Eg-g_8Y5x5MhNolXP0Hi-Q24j58JvTidg-bO1AmzhD5WFa_xevKwTvlFnuVJ9P39fOQWgoqQHtMI3LdDaiujKJhkVOychfWq56MlI","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:33:48,241
+ 线程ID:[56]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:34:09,139
+ 线程ID:[62]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"errcode":40163,"errmsg":"code been used, hints: [ req_id: G349lA0247th56 ]"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:34:23,996
+ 线程ID:[55]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_LVyNmSA695o_pJptsOLQDktTv7Z1c3E9vosLKmt_k8YyH-xCwSONnUaFVRjuSRRcSRlRXzyi2MwZMOZUGD4SzSLqFyo0Fqn9XNLGlNNcoJw","expires_in":7200,"refresh_token":"4_l8S0jIhQHBxkPkMD0TM7PongswJOzSh0MfejAImRBBe_VmaTFKVlCdsnLR8WucrrBpOD6I8XpN-SojJmvLMsOrk7q4Uet3MNpz6KkwN0wPg","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:34:24,191
+ 线程ID:[55]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:34:49,451
+ 线程ID:[61]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"errcode":40163,"errmsg":"code been used, hints: [ req_id: m1.y7a0287th50 ]"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:34:53,922
+ 线程ID:[55]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_IbXm4MZasyFYZn6_Wg564MzT46AIedW2uykiWPI7I5YyALg2tihcX8X8baDumm12PR7DRhUXCN5CFAF66g1U5ZRpwXrUHd0mdDAq-EcinbM","expires_in":7200,"refresh_token":"4_QrXYW94T06WZLKhwGIS_vc1Cii5JQFemMbXnTiZGXQbza5jIFtLfUPzDdf8hw_nzL10aOW4TS9QX9Mb4i-bKLmB7Dac6BDBb4AU61I8iJ7E","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:34:54,103
+ 线程ID:[55]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:35:35,418
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"errcode":40163,"errmsg":"code been used, hints: [ req_id: .ZOCDa0333th56 ]"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:37:38,879
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_GYqgD7AMvoqa7smiYfyO_7BrYuTbmpM6ZTkEcUEhjJdYZ8TaushiRjJ3T7JD4hx8gd1A4FkuftfRu0Mr6Af-dgQbog0tAb-zjykEuQGG1kU","expires_in":7200,"refresh_token":"4_a7yBlYksnZHXk8Ebnvsu8-1HMimXfPJJ0ixIO85m9c4ZwRi-IbY_uVI6BaOiH6hnpwTThWo_ff8LrOUoG5ExwNCF9lE_IQ_0w-U8JsoHrv8","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:37:39,029
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:37:51,658
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_IIc-PLSjTBYekPjXguBRAvbgtRYdeak_X4Qrw2-7ThAAwfPIsK0DC6IXLuPUf7mJbWYYwtqRmVRERlPEEU29IW4A_nGrhBguBVeJuLizxpc","expires_in":7200,"refresh_token":"4_pWf4qvJRBgiK4bZTYRSvZOhwOjYTeAxoJr-9VIISPleFoh7F3GDJW3eq5yE9mj1noGCInEJiftdXppFyXSVm4Po5Uc5Cxb8czvC24-hiapI","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:37:51,847
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:38:57,697
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_gI1PPT8wKiBf-z7X2vpppnEXhKCZxD0gVhHx5HdpMXWWK_RMqRzXHKUpeb8RvClCrA6SJ3hzCT_bHsBSQG9SAP8Wt0c-mi65WuUEKETojUc","expires_in":7200,"refresh_token":"4_Ygw6DiiBIG5nQSrZOae8xlXDIOwMLTxoOHAu2og5ycP4Vz3vozl1_xwRcLo1cN7BFfk8jhFPEOrQ4VyFpqqy_AFtxkEDvlbFsemDC0qMeJ4","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:11,891
+ 线程ID:[14]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_lbYwEcRA9Rdr0Zk6Al-qfTeG82hxRohxLe86TtZO4Zxe-5mv7TN8PQU4uV4lXqf-teWb1fZRjmbqGVp8UpAnowNw8YqfBOQUwS_UDjQkOdc","expires_in":7200,"refresh_token":"4_CAosyNsLHSo8Iccy-mOdfTZWfIIiSDq2pD52uou86OK-onuOIx5l_XPNAU26rQPTOuzLMQ8l4M6m8gLEmbBJ37t6H8zgULoibtrVOAHJR78","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:12,302
+ 线程ID:[14]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:18,219
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:19,459
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_ElwAgKsSVIsyfzjOSbfI_CfMxo3ym7-ROKGJ_DOvSMBnnElwRgVZD2afoi6Ne-u2e4ha1YlZNIdlKuUKWmCvleA4e4l-slu0U9bmqc4z1do","expires_in":7200,"refresh_token":"4_o5AaKElzECEKJIrglfna_4T4gL9E0IOZwmGMRWVffmMbcLwxSHA8xrrbcvSJLFFDyM6S1ET4q3I-6n-B1M4mPSbsE4P4qqCatNQcGOOQsiM","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:20,568
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:29,020
+ 线程ID:[22]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_TUkcex3gAFSOE4VWjwTRjLLUAmjLs0jxvlINwPgxLMltkfWUktrbuVofCLbL0PEaTQIP_HGNORNa58fprmnNFWtuwZtKcEFHOQ_0i_mc4_8","expires_in":7200,"refresh_token":"4_oTZkVRggsmLkxLIbdvY9xsiMkjmZMkBccd5tDK5OotbhqJwxtVKd5h2c3dhl81YjQFCv2YVGMxmPY-3fQCPzttQKX5KK1F02rHGX8CP1J4M","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:29,330
+ 线程ID:[22]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:49,502
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_6BaQMrsHWIAgrOlxt871Ds9qYlDqsb6W44jEwgHijT14USaeBcflJK-FSjnALroz538QyWjGd2ffoMfyNH-7M0er-Zpv_t6SaxjizxcrBC0","expires_in":7200,"refresh_token":"4_FxUJjz0NG2QWb-9IS1VFO_i_FZsLdDKsSPS5S_g3O9bUB0GjM5H8DQzE4xmeZh145NBPCSFhimU-Y2ojTPdhBEJcQQa4VFxvp5O9gbaE7DI","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:39:49,720
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:40:36,322
+ 线程ID:[16]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_czdZyMivJFlQohirZlt6922dZNV-76CVXUQIc411dD-ddaGRlkpsFFz7cjef0i0vzTPWTIS3eo0LDlbjteROv7lJI5oua2H7gYK_yDDn1jE","expires_in":7200,"refresh_token":"4_Ckfcy5JJLs4L3eMMQVB7B3MC9IaExDXXTQlqpqyLuASEk5ITKqLQewgCGqj9SxYlIdOx9FdqVqKytxxKhu7fX8OmtIkkFnSTxh0db2fZwdg","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:40:36,496
+ 线程ID:[16]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 11:40:49,645
+ 线程ID:[20]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"errcode":40163,"errmsg":"code been used, hints: [ req_id: lGBGda0648th48 ]"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 12:18:58,904
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_RNX_qFzhC0Y0iRj2i433uLFIgQVmmC8QlX4ehyoy2Ms8nTbry_NqzbWIUfSQPnvHamYPwZAKyILEfa10Dp33I027pkNgtLICc2HUhv1GckM","expires_in":7200,"refresh_token":"4_-9FHSFO28PWSPgGbXGTx5EBw1NePGsB5uI7ico8VoCsBQHrv-ZvOeD7Hf_eqRYMAZyDPV5fuxFKEzYKJwT66e4anb31sBZoJm_qPuBs7AXM","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 12:19:17,825
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 12:20:03,677
+ 线程ID:[14]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_eVTa0tsusH1OyYAWPaJTsr4izb7lCFKFzzbCxM1D-7t4Pj2qb14FYt0M9JdOmO4OA_uT4yRXNVBS4HeU0KSwWrSQANted1kW04CxCbBoKtI","expires_in":7200,"refresh_token":"4_i39mI9s4qDocfzSOQHbEdpV1NYCsNE32EfxpNN4wkFpNqPiK30_DHjVZi7ZefufWtP9oupYHU7ZgYo8IP8Q3xdL2XcZwexVFrjIj9q0YojQ","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 12:20:03,898
+ 线程ID:[14]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 13:42:04,755
+ 线程ID:[65]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_2KsSEi2i3Q4QZjlrZ7fTus55h07T1xkqF-NeoxNlS7gpp21YWhgvDk5Bybvu4Ln42C4lBH_Y0s8z0vl5cBqeYuL7xaReaLJDYol0OQT46BU","expires_in":7200,"refresh_token":"4_QNM-Rjdj_TsAHHfJS9HWfyWLAcl5T9rpULziIEC0WmPZYlQEjpIx2eJsBhLZAUxY63iWF6e-5eBkScr7YMp_An4-R7U8VdOtzh9uyxzIZ9M","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 13:42:08,832
+ 线程ID:[65]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:01:55,852
+ 线程ID:[13]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_eHD8Ku5j2XLRRmG3kNORPGJxHYwywglimc3vdH_8aaOQLc1VX4m16ksHsUg-K0zB5JKDgk9i1UKdUkshfaWlb944G5sb732Taw-816W_pfE","expires_in":7200,"refresh_token":"4_KGmXERfMbJUA0Ez3pFJyzyP7i7UvpfLfoAFSWgYKLOXX5-jU52U-__wDhG3TTcyMDm9PP21kKiTq9FNIzAJVyVe3TI9sEajgHmZPxLTHVic","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:01:56,076
+ 线程ID:[13]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:03:31,703
+ 线程ID:[15]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"access_token":"4_4vIIb9KFOxmhekDYZNNPIym3_cN84ZNT00NdSJzxpejimv3A9zLTg1oAzQsvJI0MUW8SSBqyfynOne9KsVr8FqhnmhV6lYju3r97VAKq1qo","expires_in":7200,"refresh_token":"4_CWi9Zm77ypg45MKhqE3Cc3jseTRa7lzX577fJJoAJLqDbkdsGTy50L5X0PFWY6gihJk0zRTuHlhHhlNq6uOL5sXFfJe-1k33uiJNPviW-AI","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:03:31,898
+ 线程ID:[15]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:21:16,528
+ 线程ID:[15]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:75)
+ 消息描述：测试2017/11/21 15:21:16
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:48:35,525
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：测试2017/11/21 15:47:26
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:49:03,145
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：测试2017/11/21 15:47:26
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:49:13,540
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：测试2017/11/21 15:49:05
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:57:24,489
+ 线程ID:[10]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：测试2017/11/21 15:56:56
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:57:24,507
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：测试2017/11/21 15:56:59
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:59:52,882
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"access_token":"4_H3JiNIKTYT4lVb7LMuJW-l2yS6AZE1xEVOFF1EwUrb_byv66Pt6cUGLozN6zdc8I6slSkFclhha_8eJ8ut8RrCjCGrltUqj2tbUnq_FiX7o","expires_in":7200,"refresh_token":"4_UwDw2jej1mhL7k1wlEOow8eTA8fMNvo2ks0rdE-fqIhsj0ryIXjpLeL_ngRnIxreXKqmNoU-EjpcByEEyHU4icK9fDyKET3h0pKMWTeJYD0","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 15:59:54,549
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:01:39,616
+ 线程ID:[17]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：获取access_token
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"access_token":"4_cFTvDIg_CfxshzC9oYpbbuwtTb8b-Phx_tgyKd2F2VuWYFLiGNTJHPCZ9LjvQzU1BkIHQCgVFf29H4fPlFHFH0phqfYFhMxAGiyo_60VtXg","expires_in":7200,"refresh_token":"4_TyEqb7O5L72xzzlBod7PZ9XJs74yfnhHQQow6FqChnwI4NUcsvPvKZ4-WWs-RBE-XG1IdKgurBKyIwkOFe0lBd8R5OS1Icb4oztWaT_3hP8","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:01:39,765
+ 线程ID:[17]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：获取用户信息
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:07:45,338
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：测试Log
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：测试2017/11/21 16:07:45
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:07:58,556
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:40)
+ 消息描述：
+ 异常：
+ 消息：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=q9zjKAFbP_wmG1cmqE4OmB9WzK-3gJM9f9KboqCtTRRMWG_sisZwggKXDIsIXcen5soEVhn2tYctsUpATNgfKz2zVbs3tffEMXnDKFXv1K9j7FityQOIhTrlpM064lZTQDYaABACPK    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":27840215544528900}
+
+
+ 记录时间：2017-11-21 16:09:25,931
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:40)
+ 消息描述：
+ 异常：
+ 消息：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=k3CZsLfpyKpoK7k9hJg2IoJWqNs03r9YrNJ1dZaxcTBZLeHeK73Giwa1LBWpzRlkf8hxRifzRCqpXq1KkGmh5viTs3mwMSeoj17RDkqcvuJYx-lRMO1rgbHZGlbzbczHXWLhAIAKJY    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":27841681151787010}
+
+
+ 记录时间：2017-11-21 16:10:12,975
+ 线程ID:[12]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:40)
+ 消息描述：
+ 异常：
+ 消息：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=k3CZsLfpyKpoK7k9hJg2IoJWqNs03r9YrNJ1dZaxcTBZLeHeK73Giwa1LBWpzRlkf8hxRifzRCqpXq1KkGmh5viTs3mwMSeoj17RDkqcvuJYx-lRMO1rgbHZGlbzbczHXWLhAIAKJY    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":27842260385169408}
+
+
+ 记录时间：2017-11-21 16:15:04,822
+ 线程ID:[9]
+ 日志级别：ERROR
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:97)
+ 消息描述：
+ 异常：System.InvalidOperationException: 未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Home/Index.aspx
+~/Views/Home/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Home/Index.cshtml
+~/Views/Home/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 消息：错误
+
+
+ 记录时间：2017-11-21 16:15:38,942
+ 线程ID:[9]
+ 日志级别：ERROR
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:97)
+ 消息描述：
+ 异常：System.InvalidOperationException: 未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Home/Index.aspx
+~/Views/Home/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Home/Index.cshtml
+~/Views/Home/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 消息：错误
+
+
+ 记录时间：2017-11-21 16:16:58,181
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：POST提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=h3p2Ew0psmTaWaKdJwaZyD6d8iPwI7OkowHJL53MYNpuOe8OW0GeyL9iss2OIxPLS0bHXDaUA3owuYhuwab92q44-c3k6PAhjTfHnjgq7Rd-PE13oA3zQuTgAAi7pxFHCRKfAIAIXQ    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":27849232039837698}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:17:10,534
+ 线程ID:[9]
+ 日志级别：ERROR
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:97)
+ 消息描述：
+ 异常：System.InvalidOperationException: 未找到视图“Index”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: 
+~/Views/Home/Index.aspx
+~/Views/Home/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Home/Index.cshtml
+~/Views/Home/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 消息：错误
+
+
+ 记录时间：2017-11-21 16:19:59,545
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：GET提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx3ff579452e992b33&secret=7a1b04667d20503478042b7de7515e0c&code=021P3acK1K0s460UyG9K1Y7XbK1P3aco&grant_type=authorization_code ;
+ 返回:{"access_token":"4_hm74HReQPTVrsdw2pZB-ATxojUIMQhLgJlYAAs3eg9C3T5ZOXr_vOZTMI6rINfBUwKEuRonzzE6MgA6NtJzFZt9QVBKxo9dDtrBBcTtSFis","expires_in":7200,"refresh_token":"4_jO13ThTV4hwZsXPwpMwKpruIAhM8kPNletO9-TefGNbWUk3mwotDk1_1orJD9-7miLUAQvQZ7pZKR5ygFKxT24oYHtGB6nyp7WlR6C-VB7Y","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:19:59,876
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：获取access_token
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"access_token":"4_hm74HReQPTVrsdw2pZB-ATxojUIMQhLgJlYAAs3eg9C3T5ZOXr_vOZTMI6rINfBUwKEuRonzzE6MgA6NtJzFZt9QVBKxo9dDtrBBcTtSFis","expires_in":7200,"refresh_token":"4_jO13ThTV4hwZsXPwpMwKpruIAhM8kPNletO9-TefGNbWUk3mwotDk1_1orJD9-7miLUAQvQZ7pZKR5ygFKxT24oYHtGB6nyp7WlR6C-VB7Y","openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","scope":"snsapi_userinfo","unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:20:00,069
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：GET提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/sns/userinfo?access_token=4_hm74HReQPTVrsdw2pZB-ATxojUIMQhLgJlYAAs3eg9C3T5ZOXr_vOZTMI6rINfBUwKEuRonzzE6MgA6NtJzFZt9QVBKxo9dDtrBBcTtSFis&openid=oQSqlxIdxzhOrxtxKI9z-KYGRAec&lang=zh_CN ;
+ 返回:{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2017-11-21 16:20:00,180
+ 线程ID:[11]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：获取用户信息
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：{"openid":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","nickname":"未来","sex":1,"language":"zh_CN","city":"海淀","province":"北京","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaEKic06Y7mHrVcuwz3nficmnok6YR5Tzupl6ox6sVJ7gKcQszLRKCf4XTib6R9CUFDaywzyjzP4Rzmxcw\/0","privilege":[],"unionid":"o-ASzt7oDpjVYYDI7KFGNz-M27-0"}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

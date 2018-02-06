@@ -1,0 +1,29 @@
+记录时间：2018-01-19 15:48:08,543
+ 线程ID:[14]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：支付结果回调
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：http://1x687f9296.iok.la:16725/AliPay/Receive_notify
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-01-19 16:12:15,890
+ 线程ID:[9]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：支付结果回调
+ 当前机器名:{log4net:Identity=, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\visual studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：http://1x687f9296.iok.la:16725/AliPay/Receive_notify
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO
