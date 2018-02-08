@@ -21,7 +21,22 @@ namespace Utility.AliPay
               client = new DefaultAopClient(AliPayConfig.serverUrl, AliPayConfig.app_id, AliPayConfig.merchant_private_key, AliPayConfig.format, AliPayConfig.version, AliPayConfig.sginType
             , AliPayConfig.alipay_public_key, AliPayConfig.charset, AliPayConfig.keyFromsFile);
         }
-
+        public   IAopClient Client()
+        {
+            return client;
+        } 
+        public AlipayTradePayResponse PayData (AlipayTradePayRequest request) 
+        { 
+            var resp = client.SdkExecute(request);
+            string resultData = HttpHelper.Post(AliPayConfig.serverUrl, resp.Body);
+            LogHelper.WriteLog("支付统一支付", resultData);
+            string str = JObject.Parse(resultData)["alipay_trade_query_response"].ToString();
+            XmlDocument doc1 = Newtonsoft.Json.JsonConvert.DeserializeXmlNode("{\"AlipayTradeQueryResponse\":" + str + "}");
+            System.IO.StringReader strread = new System.IO.StringReader(doc1.OuterXml);
+            AlipayTradePayResponse response1 = new System.Xml.Serialization.XmlSerializer(typeof(AlipayTradePayResponse)).Deserialize(strread) as AlipayTradePayResponse;
+            LogHelper.WriteLog("支付结果model", JsonConvert.SerializeObject(response1));
+            return response1; 
+        }
         public AlipayTradeQueryResponse QueryData(AlipayTradeQueryRequest request)
         { 
              var resp = client.SdkExecute(request);
