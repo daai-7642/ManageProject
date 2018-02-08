@@ -1,0 +1,46 @@
+记录时间：2018-02-07 14:01:55,096
+ 线程ID:[17]
+ 日志级别：INFO 
+ property{Source}
+   记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(:0)
+ 消息描述：{"alipay_trade_precreate_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.INVALID_PARAMETER","sub_msg":"??????Ч"},"sign":"OSW84ekfjqxv4L8XocaPY+RnvZedf5/sGsfusjbP3q7aPILT1ndJMeDL43NUcJ3qGLrnRpgU1Cm6rvpu/lbM6xt1ecGytXUivZ73tEDxTvi71KWRI2r8NAw3khTJiNxajNur33CHem8LPuUqjOCKXDdnALTwU885d8Zdf7kDkSpQ5QqtcvIofMZPkeGrq2L/l33OIFMfCDhIzEICQmWEqHZGIO0xOregwaahkvSy1Y0CpSxlCYkGU86Jm+m/qDtS623Bh/STVfl4jBjVflUpfpVyU42swzbtD4VlJw6Clac1U+T80yLKQIzO3Y6uy9prmIvJJ6ekPQKJ3wuzSLw9hg=="}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-02-07 14:04:20,925
+ 线程ID:[12]
+ 日志级别：INFO 
+ property{Source}
+   记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(:0)
+ 消息描述：err
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-02-07 14:06:25,748
+ 线程ID:[26]
+ 日志级别：INFO 
+ property{Source}
+   记录类：myLogger
+ 操作者ID：
+ 操作类型：
+ 当前机器名:{log4net:Identity=764297968@qq.com, log4net:UserName=DESKTOP-580218K\ylyato, log4net:HostName=DESKTOP-580218K}
+ 当前机器名及登录用户：DESKTOP-580218K\ylyato
+ 记录位置：Log4net.LogHelper.WriteLog(:0)
+ 消息描述：{"alipay_trade_precreate_response":{"code":"40004","msg":"Business Failed","sub_code":"ACQ.INVALID_PARAMETER","sub_msg":"??????Ч"},"sign":"OSW84ekfjqxv4L8XocaPY+RnvZedf5/sGsfusjbP3q7aPILT1ndJMeDL43NUcJ3qGLrnRpgU1Cm6rvpu/lbM6xt1ecGytXUivZ73tEDxTvi71KWRI2r8NAw3khTJiNxajNur33CHem8LPuUqjOCKXDdnALTwU885d8Zdf7kDkSpQ5QqtcvIofMZPkeGrq2L/l33OIFMfCDhIzEICQmWEqHZGIO0xOregwaahkvSy1Y0CpSxlCYkGU86Jm+m/qDtS623Bh/STVfl4jBjVflUpfpVyU42swzbtD4VlJw6Clac1U+T80yLKQIzO3Y6uy9prmIvJJ6ekPQKJ3wuzSLw9hg=="}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

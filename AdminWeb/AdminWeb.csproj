@@ -2115,9 +2115,18 @@
     <Content Include="Config\AppSettings.config" />
     <Content Include="Config\log4net.config" />
     <Content Include="Config\Redis.config" />
+    <Content Include="wkhtmltoX\images\9270fe25-f3e5-453d-969e-a85a931cc8ed.jpg" />
+    <Content Include="wkhtmltoX\images\a7eb068a-cd0e-459a-8c0d-c19bf09ac9e1.jpg" />
+    <Content Include="wkhtmltoX\images\b5b40335-b640-45a8-b7e0-9c7b5d797939.jpg" />
+    <Content Include="wkhtmltoX\images\eb7f990a-1e3b-4047-80cd-3ae3c9a52d5e.jpg" />
     <Content Include="wkhtmltoX\wkhtmltoimage.exe" />
     <Content Include="wkhtmltoX\wkhtmltopdf.exe" />
     <Content Include="wkhtmltoX\wkhtmltox.dll" />
+    <Content Include="FileContent\20170904113745.xls" />
+    <Content Include="FileContent\20170904114356.xls" />
+    <Content Include="FileContent\20170904114431.xls" />
+    <Content Include="FileContent\20170907091110.xls" />
+    <Content Include="FileContent\20170907091220.xls" />
     <None Include="Properties\PublishProfiles\ManageProject.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataOperate.js" />
@@ -2417,10 +2426,11 @@
     <Content Include="Views\ExportExcelChart\Index.cshtml" />
     <Content Include="Views\AliPay\Index.cshtml" />
     <Content Include="Views\AliPay\BillIndex.cshtml" />
+    <Content Include="wkhtmltoX\Pdfs\679d0701-5db7-4e79-a379-f28f8ff48c6a.pdf" />
+    <Content Include="wkhtmltoX\Pdfs\af69d10c-3051-4a0a-b4da-7f0d66c1cc34.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />
-    <Folder Include="FileContent\" />
     <Folder Include="Views\DbOperate\" />
   </ItemGroup>
   <ItemGroup>
