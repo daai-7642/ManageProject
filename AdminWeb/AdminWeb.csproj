@@ -2115,6 +2115,9 @@
     <Content Include="Config\AppSettings.config" />
     <Content Include="Config\log4net.config" />
     <Content Include="Config\Redis.config" />
+    <Content Include="wkhtmltoX\wkhtmltoimage.exe" />
+    <Content Include="wkhtmltoX\wkhtmltopdf.exe" />
+    <Content Include="wkhtmltoX\wkhtmltox.dll" />
     <None Include="Properties\PublishProfiles\ManageProject.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataOperate.js" />
