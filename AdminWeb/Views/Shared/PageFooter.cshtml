@@ -1,0 +1,8 @@
+﻿@using Webdiyer.WebControls.Mvc;
+@using Entity;
+
+
+
+
+<div class="dataTables_info" role="status" aria-live="polite">显示 @((Model.CurrentPageIndex-1) * Model.PageSize+1) 到 @((Model.CurrentPageIndex) * Model.PageSize) ，共 @Model.TotalItemCount 条</div>
+

@@ -1,0 +1,62 @@
+﻿
+@using Webdiyer.WebControls.Mvc;
+@using Entity;
+@model PagedList<MyLogger>
+
+<table class="table table-border table-bordered table-hover table-bg">
+    <thead>
+        <tr>
+            <th scope="col" colspan="6">@ViewBag.Title</th>
+        </tr>
+        <tr class="text-c">
+            <th >ID</th>
+            <th  >用户名</th>
+            <th>类型</th>
+            <th>来源</th>
+            <th  >信息</th>
+            <th >时间</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="text-c">
+                <td>@item.LogId</td>
+                <td>@item.UserName</td>
+                <td>@item.EventCategory</td>
+                <td><a href="#">@item.SourceUrl</a></td>
+                <td>@item.Source</td>
+                <td>
+                    @item.CollectDate
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+
+</table>
+
+
+
+@Html.Partial("PageFooter", Model)
+
+<div class="pageDiv">
+    @Ajax.Pager(Model, new PagerOptions
+{
+    CssClass = "page",
+    FirstPageText = "首页",
+    LastPageText = "尾页",
+    NextPageText = "下一页",
+    PrevPageText = "上一页",
+    PageIndexParameterName = "pageIndex",
+    NumericPagerItemCount = 5,
+    ContainerTagName = "ul",
+    CurrentPagerItemTemplate = "<a href=\"#\"><li class=\"active\">{0}</li></a>",
+    DisabledPagerItemTemplate = "<li class=\"disabled\"><a>{0}</a></li>",
+    PagerItemTemplate = "<li>{0}</li>",
+    PageIndexBoxId = "pageIndexBox",
+}, new MvcAjaxOptions { UpdateTargetId = "content", HttpMethod = "get", DataFormId = "searchForm", EnableHistorySupport = false })
+
+
+</div>

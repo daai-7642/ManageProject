@@ -20,6 +20,18 @@ namespace DataAccess
                 return EFContextFactory.GetCurrentDbContext();
             }
         }
+        /// <summary>
+        /// 分页
+        /// </summary>
+        /// <typeparam name="T">实体类型</typeparam>
+        /// <typeparam name="S">排序字段的类型</typeparam>
+        /// <param name="pageIndex">页码</param>
+        /// <param name="pageSize">页数</param>
+        /// <param name="sort">排序</param>
+        /// <param name="IsAsc">是否倒序</param>
+        /// <param name="predicate">条件</param>
+        /// <param name="totalCount">总页数</param>
+        /// <returns></returns>
         public static List<T> PageList<T, S>(int pageIndex, int pageSize, Expression<Func<T, S>> sort, bool IsAsc, Expression<Func<T, bool>> predicate, out int totalCount) where T : class
         {
 
@@ -42,6 +54,7 @@ namespace DataAccess
             totalCount = data.Count();
             return data.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
         }
+
         public static int Add<T>(T t) where T : class
         {
             try

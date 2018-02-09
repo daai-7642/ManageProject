@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="AddressLogic.cs" />
     <Compile Include="FunctionLogic.cs" />
+    <Compile Include="LogLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoleLogic.cs" />
   </ItemGroup>
