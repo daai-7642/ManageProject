@@ -16,6 +16,7 @@ namespace AdminWeb.Controllers
 {
     public class AliPayController : Controller
     {
+        private IAopClient client = new AliPayHelper().Client();
         // GET: AliPay
         public ActionResult Index()
         {
@@ -35,7 +36,10 @@ namespace AdminWeb.Controllers
 
             return View();
         }
-
+        /// <summary>
+        /// 预支付，提供码，扫完付款
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Precreate()
         {
             string out_trade_no = DateTime.Now.ToString("yyyyMMddHHmmssfff");
@@ -55,11 +59,38 @@ namespace AdminWeb.Controllers
             //LogHelper.WriteLog("扫码支付", resultData);
             return Content(response.Body);
         }
+        /// <summary>
+        /// 当面付扫码
+        /// </summary>
+        /// <param name="code"></param>
+        /// <returns></returns>
+        public ActionResult BarCodePay(string code)
+        {
+            string out_trade_no = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+
+            AlipayTradePayRequest request = new AlipayTradePayRequest(); //创建API对应的request类
+            request.BizContent="{" +
+            "    \"out_trade_no\":\""+ out_trade_no + "\"," +
+            "    \"scene\":\"bar_code\"," +
+            "    \"auth_code\":\""+ code + "\"," +
+            "    \"subject\":\"Iphone6 16G\"," +
+            "    \"store_id\":\"NJ_001\"," +
+            "    \"timeout_express\":\"2m\"," +
+            "    \"total_amount\":\"88.88\"" +
+            "  }"; //设置业务参数
+            AlipayTradePayResponse response = client.pageExecute(request); //通过alipayClient调用API，获得对应的response类
+            
+            return Content(response.Body);
+        }
         //支付回调
         public ActionResult Receive_notify(AsynNotifyModel payResult)
         { 
             LogHelper.WriteLog("支付结果回调", Newtonsoft.Json.JsonConvert.SerializeObject(payResult));
             return View("Index");
+        }
+        public ActionResult Scan()
+        {
+            return View();
         }
     }
 }

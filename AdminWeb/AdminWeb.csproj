@@ -2428,6 +2428,7 @@
     <Content Include="Views\AliPay\BillIndex.cshtml" />
     <Content Include="wkhtmltoX\Pdfs\679d0701-5db7-4e79-a379-f28f8ff48c6a.pdf" />
     <Content Include="wkhtmltoX\Pdfs\af69d10c-3051-4a0a-b4da-7f0d66c1cc34.pdf" />
+    <Content Include="Views\AliPay\Scan.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />

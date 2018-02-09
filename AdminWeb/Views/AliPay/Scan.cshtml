@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+<script src="https://a.alipayobjects.com/g/h5-lib/alipayjsapi/3.0.6/alipayjsapi.min.js"></script>
+<h1>点击扫码后输出码对应的信息</h1>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="author" content="lsl">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="generator" content="webstorm">
+<!--移动端响应式-->
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<!--支持IE的兼容模式-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--让部分国产浏览器默认采用高速模式渲染页面-->
+<meta name="renderer" content="webkit">
+
+<a href="#" class="btn read">开始扫码</a>
+
+<script>
+    function ready(callback) {
+        // 如果jsbridge已经注入则直接调用
+        if (window.AlipayJSBridge) {
+            callback && callback();
+        } else {
+            // 如果没有注入则监听注入的事件
+            document.addEventListener('AlipayJSBridgeReady', callback, false);
+        }
+    }
+
+    ready(function () {
+        document.querySelector('.read').addEventListener('click', function () {
+            AlipayJSBridge.call('scan', {
+                type: 'qr'
+            }, function (result) {
+                //alert(JSON.stringify(result));
+                //alert(result.qrCode);
+                if (result.qrCode != null && result.qrCode != undefined)
+                {
+                    location.href = "/AliPay/BarCodePay?code=" + result.qrCode
+                }
+            });
+        });
+    });
+</script>
