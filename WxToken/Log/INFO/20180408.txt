@@ -1,0 +1,61 @@
+记录时间：2018-04-08 18:04:06,934
+ 线程ID:[28]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：POST提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=WANG\wang, log4net:HostName=Wang}
+ 当前机器名及登录用户：WANG\wang
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=8_Bj4m3ciyl58f7mylOxUyYZEcfHYCRxazSLysZGs3O5Eei971evsAac9eiN6uyW1BRodxNBPlqqFsugcVieHcTim5jIZVd2YxGcl7VYQYsSs8Jm65KySjyWClqCt_U7EtwOcwNYKbf_Jho4XwZNPdACAJXZ{"touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec","template_id":"BUG2myxVPYR04fxztBHazsCze7fNWAqNbBHHTNvBRkY", "url":"www.baidu.com"};
+ 返回:{"errcode":0,"errmsg":"ok","msgid":227993376929120256}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-04-08 18:05:43,481
+ 线程ID:[25]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：POST提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=WANG\wang, log4net:HostName=Wang}
+ 当前机器名及登录用户：WANG\wang
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=8_FbX7wtCuraUMdWKwOxUyYZEcfHYCRxazSLysZGs3O5Eei971evsAac9eiN7jB2buOeNc60SfBmRBeC5luawPshnPGJ8GPgMgFsf4E9l4HkudSgYmuyG4kKE_BjMiedIi0Gr8McYGpbNXeHKMFCFdACAROR    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":227996518429261831}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-04-08 18:05:52,041
+ 线程ID:[17]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：POST提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=WANG\wang, log4net:HostName=Wang}
+ 当前机器名及登录用户：WANG\wang
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=8_FbX7wtCuraUMdWKwOxUyYZEcfHYCRxazSLysZGs3O5Eei971evsAac9eiN7jB2buOeNc60SfBmRBeC5luawPshnPGJ8GPgMgFsf4E9l4HkudSgYmuyG4kKE_BjMiedIi0Gr8McYGpbNXeHKMFCFdACAROR    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":227996674658697217}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO记录时间：2018-04-08 18:06:03,079
+ 线程ID:[16]
+ 日志级别：INFO 
+ 记录类：myLogger
+ 操作者ID：
+ 操作类型：POST提交
+ 当前机器名:{log4net:Identity=, log4net:UserName=WANG\wang, log4net:HostName=Wang}
+ 当前机器名及登录用户：WANG\wang
+ 记录位置：Log4net.LogHelper.WriteLog(D:\文档\Visual Studio 2015\Projects\ManageProject\Utility\Log\LogHelper.cs:79)
+ 消息描述：提交参数:https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=8_FbX7wtCuraUMdWKwOxUyYZEcfHYCRxazSLysZGs3O5Eei971evsAac9eiN7jB2buOeNc60SfBmRBeC5luawPshnPGJ8GPgMgFsf4E9l4HkudSgYmuyG4kKE_BjMiedIi0Gr8McYGpbNXeHKMFCFdACAROR    {    "touser":"oQSqlxIdxzhOrxtxKI9z-KYGRAec",    "template_id":"_FLp3UdrEpNak3ij-brIjDTJCSQPGwGuBtJYDLEWv30",    "url":"http://weixin.qq.com/download",    "topcolor":"#FF0000",    "data":{    "User": {    "value":"黄先生",    "color":"#173177"    },    "Date":{    "value":"06月07日 19时24分",    "color":"#173177"    },    "CardNumber": {    "value":"0426",    "color":"#173177"    },    "Type":{    "value":"消费",    "color":"#173177"    },    "Money":{    "value":"人民币260.00元",    "color":"#173177"    },    "DeadTime":{    "value":"06月07日19时24分",    "color":"#173177"    },    "Left":{    "value":"6504.09",    "color":"#173177"    }    }    }  ;
+ 返回:{"errcode":0,"errmsg":"ok","msgid":227996676353196033}
+ 异常：
+ 消息：Log4net.LogContent
+
+
+ INFO

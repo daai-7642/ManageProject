@@ -15,7 +15,38 @@ namespace WxToken.Controllers
     /// 微信公众号首页 认证页
     /// </summary>
     public class HomeController : Controller
-    {
+    { /// <summary>  
+      /// 普通文本消息  
+      /// </summary>  
+        public static string Message_Text
+        {
+            get
+            {
+                return @"<xml><ToUserName><![CDATA[{0}]]></ToUserName><FromUserName><![CDATA[{1}]]></FromUserName><CreateTime>{2}</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[{3}]]></Content></xml>";
+            }
+        }
+
+        /// <summary>
+        /// 图文消息主体
+        /// </summary>
+        public static string Message_News_Main
+        {
+            get
+            {
+                return @"<xml><ToUserName><![CDATA[{0}]]></ToUserName><FromUserName><![CDATA[{1}]]></FromUserName><CreateTime>{2}</CreateTime><MsgType><![CDATA[news]]></MsgType><ArticleCount>{3}</ArticleCount><Articles>{4}</Articles></xml> ";
+            }
+        }
+        /// <summary>
+        /// 图文消息项
+        /// </summary>
+        public static string Message_News_Item
+        {
+            get
+            {
+                return @"<item><Title><![CDATA[{0}]]></Title> <Description><![CDATA[{1}]]></Description><PicUrl><![CDATA[{2}]]></PicUrl><Url><![CDATA[{3}]]></Url></item>";
+            }
+        }
+
         // GET: Home
         public ActionResult Index()
         {
@@ -26,6 +57,9 @@ namespace WxToken.Controllers
             string postXmlStr = System.Text.Encoding.UTF8.GetString(byteArray);
 
             LogHelper.WriteFile(Server.MapPath("~/Logs/"+DateTime.Now.ToString("yyyyMMdd")+".txt"), postXmlStr);
+
+            //return Content(echoStr);
+
             if (!string.IsNullOrEmpty(postXmlStr))
             {
                 XmlDocument doc = new XmlDocument();
@@ -67,7 +101,20 @@ namespace WxToken.Controllers
                             result = WeiXinXML.CreateTextMsg(xmlDoc, msg);
                             break;
                         case "subscribe": //订阅
-                            result = WeiXinXML.CreateTextMsg(xmlDoc, "欢迎关注我们");
+                            string accessToken = WxHelper.GetWXAccessToken(WxConfig.AppId, WxConfig.Secret);
+                            string msgUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" + accessToken;
+                            
+                            XmlNode ToUserName = xmlDoc.SelectSingleNode("/xml/ToUserName");
+                            XmlNode FromUserName = xmlDoc.SelectSingleNode("/xml/FromUserName");
+                            result = string.Format(Message_News_Main,
+                                FromUserName.InnerText,
+                                ToUserName.InnerText,
+                                DateTime.Now.Ticks,
+                                "1",
+                                    string.Format(Message_News_Item, "欢迎关注公众号", "这是一个xxx公众号",
+                                 "http://1x687f9296.iok.la:45539/Qrcode/20170707134824.jpg",
+                                 "http://1x687f9296.iok.la:45539"));
+                            //result = WeiXinXML.CreateTextMsg(xmlDoc, "欢迎关注我们");
                             break;
                         case "unsubscribe": //取消订阅
                             result = WeiXinXML.CreateTextMsg(xmlDoc, "你居然取消关注我们了");
